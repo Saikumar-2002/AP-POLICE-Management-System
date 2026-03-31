@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://ap-police-management-system-1.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
