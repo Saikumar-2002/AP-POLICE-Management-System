@@ -4,7 +4,7 @@ import { useAuth } from '../../hooks/useAuth';
 import useUiStore from '../../store/uiStore';
 import useAuthStore from '../../store/authStore';
 import { useNavigate } from 'react-router-dom';
-import api from '../../services/api';
+import api, { BASE_URL } from '../../services/api';
 
 export default function TopNavbar() {
   const { user, logout } = useAuth();
@@ -51,7 +51,7 @@ export default function TopNavbar() {
   };
 
   // Base URL for images
-  const API_BASE_URL = 'http://localhost:3001'; // Fallback for local dev
+  const API_BASE_URL = BASE_URL;
 
   return (
     <header className="top-navbar">

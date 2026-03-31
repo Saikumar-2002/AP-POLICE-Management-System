@@ -3,8 +3,8 @@ import api from '../services/api';
 
 const useAuthStore = create((set, get) => ({
   user: JSON.parse(localStorage.getItem('user') || 'null'),
-  token: localStorage.getItem('token') || null,
-  isAuthenticated: !!localStorage.getItem('token'),
+  token: (localStorage.getItem('token') === 'null' || localStorage.getItem('token') === 'undefined') ? null : localStorage.getItem('token'),
+  isAuthenticated: !!localStorage.getItem('token') && localStorage.getItem('token') !== 'null' && localStorage.getItem('token') !== 'undefined',
   loading: false,
   error: null,
 

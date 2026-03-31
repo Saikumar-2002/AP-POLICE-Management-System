@@ -1,11 +1,15 @@
 import axios from 'axios';
 
+const BASE_URL = 'https://ap-police-management-system-1.onrender.com';
+
 const api = axios.create({
-  baseURL: 'https://ap-police-management-system-1.onrender.com/api',
+  baseURL: `${BASE_URL}/api`,
   headers: {
     'Content-Type': 'application/json',
   },
 });
+
+export { BASE_URL };
 
 // Request interceptor: attach token
 api.interceptors.request.use((config) => {
