@@ -1,0 +1,1408 @@
+ministry,unitCode,legacyReference,name,parentUnitCode,unitType,department,isVirtual
+HOME,DGP(HOPF),1,AP Director General of Police,,,L&O,FALSE
+HOME,VSP Range,2000700,Visakhapatnam Range,DGP(HOPF),Range,L&O,FALSE
+HOME,Eluru Range,2000701,Eluru Range,DGP(HOPF),Range,L&O,FALSE
+HOME,Guntur Range,2000804,Guntur Range,DGP(HOPF),Range,L&O,FALSE
+HOME,Kurnool Range,2000703,Kurnool Range,DGP(HOPF),Range,L&O,FALSE
+HOME,Ananthapur Range,2000704,Ananthapur Range,DGP(HOPF),Range,L&O,FALSE
+HOME,Bapatla Dist,2019,Bapatla District,DGP(HOPF),District,L&O,FALSE
+HOME,Guntur Dist,2043,Guntur District,Guntur Range,District,L&O,FALSE
+HOME,Palnadu Dist,2063,Palnadu District,Guntur Range,District,L&O,FALSE
+HOME,Prakasam Dist,2033,Prakasam District,Guntur Range,District,L&O,FALSE
+HOME,Sri Potti Sriramulu Nellore DIst,2031,Sri Potti Sriramulu Nellore District,Guntur Range,District,L&O,FALSE
+HOME,Alluri Sitharama Raju Dist,2057,Alluri Sitharama Raju District,Guntur Range,District,L&O,FALSE
+HOME,Anakapalli Dist,2035,Anakapalli District,VSP Range,District,L&O,FALSE
+HOME,Parvathipuram Manyam Dist,2061,Parvathipuram Manyam District,VSP Range,District,L&O,FALSE
+HOME,Srikakulam Dist,2034,Srikakulam District,VSP Range,District,L&O,FALSE
+HOME,Vizianagaram Dist,2037,Vizianagaram District,VSP Range,District,L&O,FALSE
+HOME,Dr. B R Ambedkar Konaseema Dist,2060,Dr. B R Ambedkar Konaseema District,VSP Range,District,L&O,FALSE
+HOME,East Godavari Dist,2042,East Godavari District,Eluru Range,District,L&O,FALSE
+HOME,Eluru Dist,2059,Eluru District,Eluru Range,District,L&O,FALSE
+HOME,Kakinada Dist,2017,Kakinada District,Eluru Range,District,L&O,FALSE
+HOME,Krishna Dist,2026,Krishna District,Eluru Range,District,L&O,FALSE
+HOME,West Godavari Dist,2018,West Godavari District,Eluru Range,District,L&O,FALSE
+HOME,Annamayya Dist,2058,Annamayya District,Eluru Range,District,L&O,FALSE
+HOME,Kurnool Dist,2027,Kurnool District,Kurnool Range,District,L&O,FALSE
+HOME,Nandyal Dist,2062,Nandyal District,Kurnool Range,District,L&O,FALSE
+HOME,YSR Kadapa Dist,2016,YSR Kadapa District,Kurnool Range,District,L&O,FALSE
+HOME,Ananthapuram Dist,2012,Ananthapuram District,Kurnool Range,District,L&O,FALSE
+HOME,Chittoor Dist,2014,Chittoor District,Ananthapur Range,District,L&O,FALSE
+HOME,Sri Sathya Sai Dist,2064,Sri Sathya Sai District,Ananthapur Range,District,L&O,FALSE
+HOME,Tirupathi Dist,2045,Tirupathi District,Ananthapur Range,District,L&O,FALSE
+HOME,Chintapalli SDPO,2035401,Chintapalli SDPO,Ananthapur Range,SDPO,L&O,FALSE
+HOME,Chinturu SDPO,2017406,Chinturu SDPO,Alluri Sitharama Raju Dist,SDPO,L&O,FALSE
+HOME,Paderu SDPO,2035402,Paderu SDPO,Polavaram Dist,SDPO,L&O,FALSE
+HOME,Rampachodavaram SDPO,2017405,Rampachodavaram SDPO,Alluri Sitharama Raju Dist,SDPO,L&O,FALSE
+HOME,Anakapalli SDPO,2035400,Anakapalli SDPO,Polavaram Dist,SDPO,L&O,FALSE
+HOME,Narsipatnam SDPO,2035403,Narsipatnam SDPO,Anakapalli Dist,SDPO,L&O,FALSE
+HOME,Parawada SDPO,2035404,Parawada SDPO,Anakapalli Dist,SDPO,L&O,FALSE
+HOME,Anantapuram Town SDPO,2012400,Anantapuram Town SDPO,Anakapalli Dist,SDPO,L&O,FALSE
+HOME,Anantapuram Rural SDPO,2012408,Anantapuram Rural SDPO,Ananthapuram Dist,SDPO,L&O,FALSE
+HOME,Guntakal SDPO,2012402,Guntakal SDPO,Ananthapuram Dist,SDPO,L&O,FALSE
+HOME,Kalyanadurg SDPO,2012407,Kalyanadurg SDPO,Ananthapuram Dist,SDPO,L&O,FALSE
+HOME,Tadipatri SDPO,2012406,Tadipatri SDPO,Ananthapuram Dist,SDPO,L&O,FALSE
+HOME,Madanapalle SDPO,2014402,Madanapalle SDPO,Ananthapuram Dist,SDPO,L&O,FALSE
+HOME,Rajampet SDPO,2016405,Rajampet SDPO,Annamayya Dist,SDPO,L&O,FALSE
+HOME,Rayachoty SDPO,2016406,Rayachoty SDPO,YSR Kadapa Dist,SDPO,L&O,FALSE
+HOME,Bapatla SDPO,2019400,Bapatla SDPO,Annamayya Dist,SDPO,L&O,FALSE
+HOME,Chirala SDPO,2033400,Chirala SDPO,Bapatla Dist,SDPO,L&O,FALSE
+HOME,Repalle SDPO,2019409,Repalle SDPO,Bapatla Dist,SDPO,L&O,FALSE
+HOME,Kuppam SDPO,2014413,Kuppam SDPO,Bapatla Dist,SDPO,L&O,FALSE
+HOME,Palamaner SDPO,2014401,Palamaner SDPO,Chittoor Dist,SDPO,L&O,FALSE
+HOME,CCS Chittoor Urban SDPO,2014412,CCS Chittoor Urban SDPO,Chittoor Dist,SDPO,L&O,FALSE
+HOME,Chittoor Traffic Urban SDPO,2014410,Chittoor Traffic Urban SDPO,Chittoor Dist,SDPO,L&O,FALSE
+HOME,Chittoor Mahila Urban SDPO,2014411,Chittoor Mahila Urban SDPO,Chittoor Dist,SDPO,L&O,FALSE
+HOME,Chittoor SDPO,2014400,Chittoor SDPO,Chittoor Dist,SDPO,L&O,FALSE
+HOME,Nagari SDPO,2014409,Nagari SDPO,Chittoor Dist,SDPO,L&O,FALSE
+HOME,Amalapuram SDPO,2017401,Amalapuram SDPO,Chittoor Dist,SDPO,L&O,FALSE
+HOME,Kothapeta SDPO,2060401,Kothapeta SDPO,Dr. B R Ambedkar Konaseema Dist,SDPO,L&O,FALSE
+HOME,Ramachandrapuram SDPO,2017404,Ramachandrapuram SDPO,Dr. B R Ambedkar Konaseema Dist,SDPO,L&O,FALSE
+HOME,Central Zone,2042412,Central Zone,Dr. B R Ambedkar Konaseema Dist,SDPO,L&O,FALSE
+HOME,East Zone,2042409,East Zone,East Godavari Dist,SDPO,L&O,FALSE
+HOME,Kovvur SDPO,2018402,Kovvur SDPO,East Godavari Dist,SDPO,L&O,FALSE
+HOME,North Zone,2042411,North Zone,East Godavari Dist,SDPO,L&O,FALSE
+HOME,Rajahmundry Crimes,2042407,Rajahmundry Crimes,East Godavari Dist,SDPO,L&O,FALSE
+HOME,South Zone,2042410,South Zone,East Godavari Dist,SDPO,L&O,FALSE
+HOME,Eluru SDPO,2018400,Eluru SDPO,East Godavari Dist,SDPO,L&O,FALSE
+HOME,Jangareddygudem SDPO,2018401,Jangareddygudem SDPO,Eluru Dist,SDPO,L&O,FALSE
+HOME,Nuzvid SDPO,2026404,Nuzvid SDPO,Eluru Dist,SDPO,L&O,FALSE
+HOME,Polavaram SDPO,2018404,Polavaram SDPO,Eluru Dist,SDPO,L&O,FALSE
+HOME,East Sub Division,2043401,East Sub Division,Eluru Dist,SDPO,L&O,FALSE
+HOME,North Sub Division,2043403,North Sub Division,Guntur Dist,SDPO,L&O,FALSE
+HOME,South Sub Division,2043404,South Sub Division,Guntur Dist,SDPO,L&O,FALSE
+HOME,Tenali SDPO,2019406,Tenali SDPO,Guntur Dist,SDPO,L&O,FALSE
+HOME,Thulluru SDPO,2019407,Thulluru SDPO,Guntur Dist,SDPO,L&O,FALSE
+HOME,West Sub Division,2043402,West Sub Division,Guntur Dist,SDPO,L&O,FALSE
+HOME,Kakinada Crimes,2017411,Kakinada Crimes,Guntur Dist,SDPO,L&O,FALSE
+HOME,Kakinada SDPO,2017400,Kakinada SDPO,Kakinada Dist,SDPO,L&O,FALSE
+HOME,Peddapuram SDPO,2017402,Peddapuram SDPO,Kakinada Dist,SDPO,L&O,FALSE
+HOME,Avanigadda SDPO,2026400,Avanigadda SDPO,Kakinada Dist,SDPO,L&O,FALSE
+HOME,Bandar SDPO,2026401,Bandar SDPO,Krishna Dist,SDPO,L&O,FALSE
+HOME,Gannavaram SDPO,2026406,Gannavaram SDPO,Krishna Dist,SDPO,L&O,FALSE
+HOME,Gudivada SDPO,2026402,Gudivada SDPO,Krishna Dist,SDPO,L&O,FALSE
+HOME,Adoni SDPO,2027401,Adoni SDPO,Krishna Dist,SDPO,L&O,FALSE
+HOME,Kurnool SDPO,2027400,Kurnool SDPO,Kurnool Dist,SDPO,L&O,FALSE
+HOME,Pathikonda SDPO,2027406,Pathikonda SDPO,Kurnool Dist,SDPO,L&O,FALSE
+HOME,Yemmiganur SDPO,2027407,Yemmiganur SDPO,Kurnool Dist,SDPO,L&O,FALSE
+HOME,Allagadda SDPO,2027402,Allagadda SDPO,Kurnool Dist,SDPO,L&O,FALSE
+HOME,Atmakur SDPO(NDL),2027404,Atmakur SDPO(NDL),Nandyal Dist,SDPO,L&O,FALSE
+HOME,Dhone SDPO,2027405,Dhone SDPO,Nandyal Dist,SDPO,L&O,FALSE
+HOME,Nandyal SDPO,2027403,Nandyal SDPO,Nandyal Dist,SDPO,L&O,FALSE
+HOME,Gurazala SDPO,2019403,Gurazala SDPO,Nandyal Dist,SDPO,L&O,FALSE
+HOME,Narsaraopet SDPO,2019404,Narsaraopet SDPO,Palnadu Dist,SDPO,L&O,FALSE
+HOME,Sattenapalli SDPO,2019405,Sattenapalli SDPO,Palnadu Dist,SDPO,L&O,FALSE
+HOME,Palakonda SDPO,2034402,Palakonda SDPO,Palnadu Dist,SDPO,L&O,FALSE
+HOME,Parvathipuram SDPO,2037401,Parvathipuram SDPO,Parvathipuram Manyam Dist,SDPO,L&O,FALSE
+HOME,Darsi SDPO,2033401,Darsi SDPO,Parvathipuram Manyam Dist,SDPO,L&O,FALSE
+HOME,Kanigiri SDPO,2033405,Kanigiri SDPO,Prakasam Dist,SDPO,L&O,FALSE
+HOME,Markapur SDPO,2033403,Markapur SDPO,Markapuram Dist,SDPO,L&O,FALSE
+HOME,Ongole SDPO,2033404,Ongole SDPO,Markapuram Dist,SDPO,L&O,FALSE
+HOME,Kandukur SDPO,2033402,Kandukur SDPO,Prakasam Dist,SDPO,L&O,FALSE
+HOME,Kavali SDPO,2031403,Kavali SDPO,Prakasam Dist,SDPO,L&O,FALSE
+HOME,Nellore Rural SDPO,2031401,Nellore Rural SDPO,Sri Potti Sriramulu Nellore DIst,SDPO,L&O,FALSE
+HOME,Nellore Town SDPO,2031400,Nellore Town SDPO,Sri Potti Sriramulu Nellore DIst,SDPO,L&O,FALSE
+HOME,Dharmavaram SDPO,2012401,Dharmavaram SDPO,Sri Potti Sriramulu Nellore DIst,SDPO,L&O,FALSE
+HOME,Hindupur SDPO,2064400,Hindupur SDPO,Sri Sathya Sai Dist,SDPO,L&O,FALSE
+HOME,Kadiri SDPO,2012403,Kadiri SDPO,Sri Sathya Sai Dist,SDPO,L&O,FALSE
+HOME,Penukonda SDPO,2012404,Penukonda SDPO,Sri Sathya Sai Dist,SDPO,L&O,FALSE
+HOME,Puttaparthi SDPO,2012405,Puttaparthi SDPO,Sri Sathya Sai Dist,SDPO,L&O,FALSE
+HOME,Kasibugga SDPO,2034401,Kasibugga SDPO,Sri Sathya Sai Dist,SDPO,L&O,FALSE
+HOME,Srikakulam SDPO,2034400,Srikakulam SDPO,Srikakulam Dist,SDPO,L&O,FALSE
+HOME,Tekkali SDPO,2034403,Tekkali SDPO,Srikakulam Dist,SDPO,L&O,FALSE
+HOME,Naidupet SDPO,2045411,Naidupet SDPO,Srikakulam Dist,SDPO,L&O,FALSE
+HOME,Gudur SDPO,2031402,Gudur SDPO,Tirupathi Dist,SDPO,L&O,FALSE
+HOME,Puttur SDPO,2045413,Puttur SDPO,Sri Potti Sriramulu Nellore DIst,SDPO,L&O,FALSE
+HOME,Renigunta SDPO,2045408,Renigunta SDPO,Tirupathi Dist,SDPO,L&O,FALSE
+HOME,Sri City SDPO,2045412,Sri City SDPO,Tirupathi Dist,SDPO,L&O,FALSE
+HOME,Srikalahasti SDPO,2045404,Srikalahasti SDPO,Tirupathi Dist,SDPO,L&O,FALSE
+HOME,Tirumala SDPO,2045405,Tirumala SDPO,Tirupathi Dist,SDPO,L&O,FALSE
+HOME,Tirupati SDPO,2045403,Tirupati SDPO,Tirupathi Dist,SDPO,L&O,FALSE
+HOME,Chandragiri SDPO,2045406,Chandragiri SDPO,Tirupathi Dist,SDPO,L&O,FALSE
+HOME,Bobbili SDPO,2037402,Bobbili SDPO,Tirupathi Dist,SDPO,L&O,FALSE
+HOME,Cheepurupalli SDPO,2037404,Cheepurupalli SDPO,Vizianagaram Dist,SDPO,L&O,FALSE
+HOME,Vizianagaram SDPO,2037400,Vizianagaram SDPO,Vizianagaram Dist,SDPO,L&O,FALSE
+HOME,Bhimavaram SDPO,2018405,Bhimavaram SDPO,Vizianagaram Dist,SDPO,L&O,FALSE
+HOME,Tadepalligudem SDPO,2018407,Tadepalligudem SDPO,West Godavari Dist,SDPO,L&O,FALSE
+HOME,Narasapuram SDPO,2018403,Narasapuram SDPO,West Godavari Dist,SDPO,L&O,FALSE
+HOME,Jammalamadugu SDPO,2016401,Jammalamadugu SDPO,West Godavari Dist,SDPO,L&O,FALSE
+HOME,Kadapa SDPO,2016400,Kadapa SDPO,YSR Kadapa Dist,SDPO,L&O,FALSE
+HOME,Mydukur SDPO,2016402,Mydukur SDPO,YSR Kadapa Dist,SDPO,L&O,FALSE
+HOME,Proddatur SDPO,2016403,Proddatur SDPO,YSR Kadapa Dist,SDPO,L&O,FALSE
+HOME,Pulivendula SDPO,2016404,Pulivendula SDPO,YSR Kadapa Dist,SDPO,L&O,FALSE
+HOME,Atmakur SDPO(NLR),2031404,Atmakur SDPO,YSR Kadapa Dist,SDPO,L&O,FALSE
+HOME,Chintapalli Circle,2035203,Chintapalli Circle,Sri Potti Sriramulu Nellore DIst,Circle,L&O,FALSE
+HOME,G. K. Veedhi Circle,2035204,G. K. Veedhi Circle,Chintapalli SDPO,Circle,L&O,FALSE
+HOME,Koyyuru Circle,2035211,Koyyuru Circle,Chintapalli SDPO,Circle,L&O,FALSE
+HOME,Chintoor Circle,2017226,Chintoor Circle,Chintapalli SDPO,Circle,L&O,FALSE
+HOME,Yetapaka Circle,2017225,Yetapaka Circle,Chinturu SDPO,Circle,L&O,FALSE
+HOME,Araku Circle,2035205,Araku Circle,Chinturu SDPO,Circle,L&O,FALSE
+HOME,G. Madugula Circle,2035206,G. Madugula Circle,Paderu SDPO,Circle,L&O,FALSE
+HOME,Paderu Circle,2035207,Paderu Circle,Paderu SDPO,Circle,L&O,FALSE
+HOME,Addateegala Circle,2017217,Addateegala Circle,Paderu SDPO,Circle,L&O,FALSE
+HOME,Maredumilli Circle,2017219,Maredumilli Circle,Rampachodavaram SDPO,Circle,L&O,FALSE
+HOME,Rajavommangi Circle,2017218,Rajavommangi Circle,Rampachodavaram SDPO,Circle,L&O,FALSE
+HOME,Rampachodavaram Circle,2017216,Rampachodavaram Circle,Rampachodavaram SDPO,Circle,L&O,FALSE
+HOME,Anakapalli Rural Circle,2035200,Anakapalli Rural Circle,Rampachodavaram SDPO,Circle,L&O,FALSE
+HOME,Anakapalli Town UPS Circle,2035213,Anakapalli Town UPS Circle,Anakapalli SDPO,Circle,L&O,FALSE
+HOME,K.Kotapadu Circle,2035202,K.Kotapadu Circle,Anakapalli SDPO,Circle,L&O,FALSE
+HOME,Kothakota Circle,2035208,Kothakota Circle,Anakapalli SDPO,Circle,L&O,FALSE
+HOME,Nakkapalli Circle,2035212,Nakkapalli Circle,Anakapalli SDPO,Circle,L&O,FALSE
+HOME,Narsipatnam Rural Circle,2035209,Narsipatnam Rural Circle,Narsipatnam SDPO,Circle,L&O,FALSE
+HOME,Yellamanchili Circle,2035210,Yellamanchili Circle,Narsipatnam SDPO,Circle,L&O,FALSE
+HOME,Itukalapalli Circle,2012201,Itukalapalli Circle,Parawada SDPO,Circle,L&O,FALSE
+HOME,Singanamala Circle,2012226,Singanamala Circle,Anantapuram Rural SDPO,Circle,L&O,FALSE
+HOME,Guntakal Rural  Circle,2012205,Guntakal Rural  Circle,Anantapuram Rural SDPO,Circle,L&O,FALSE
+HOME,Uravakonda Rural Circle,2012208,Uravakonda Rural Circle,Guntakal SDPO,Circle,L&O,FALSE
+HOME,Kalyandurg Rural Circle,2012202,Kalyandurg Rural Circle,Guntakal SDPO,Circle,L&O,FALSE
+HOME,Rayadurg Rural Circle,2012207,Rayadurg Rural Circle,Kalyanadurg SDPO,Circle,L&O,FALSE
+HOME,Peddavadugur Circle,2012228,Peddavadugur Circle,Kalyanadurg SDPO,Circle,L&O,FALSE
+HOME,Yadiki Rural Circle,2012225,Yadiki Rural Circle,Tadipatri SDPO,Circle,L&O,FALSE
+HOME,Putlur Circle,2012217,Putlur Circle,Tadipatri SDPO,Circle,L&O,FALSE
+HOME,Madanapalle Rural Circle,2014211,Madanapalle Rural Circle,Anantapuram Rural SDPO,Circle,L&O,FALSE
+HOME,Molakalacheruvu Circle,2014214,Molakalacheruvu Circle,Madanapalle SDPO,Circle,L&O,FALSE
+HOME,Railway Kodur Rural Circle,2016214,Railway Kodur Rural Circle,Madanapalle SDPO,Circle,L&O,FALSE
+HOME,Rajampet Rural Circle,2016215,Rajampet Rural Circle,Renigunta SDPO,Circle,L&O,FALSE
+HOME,Voyalpadu Circle,2014213,Voyalpadu Circle,Rajampet SDPO,Circle,L&O,FALSE
+HOME,Kalakada Circle,2016226,Kalakada Circle,Rayachoty SDPO,Circle,L&O,FALSE
+HOME,Lakkireddipalli Circle,2016211,Lakkireddipalli Circle,Rayachoty SDPO,Circle,L&O,FALSE
+HOME,Rayachoty Rural Circle,2016213,Rayachoty Rural Circle,Rayachoty SDPO,Circle,L&O,FALSE
+HOME,Bapatla Rural Circle,2019200,Bapatla Rural Circle,Rayachoty SDPO,Circle,L&O,FALSE
+HOME,Martur Circle,2019221,Martur Circle,Bapatla SDPO,Circle,L&O,FALSE
+HOME,Santhamagulur Circle,2019224,Santhamagulur Circle,Bapatla SDPO,Circle,L&O,FALSE
+HOME,Addanki Rural Circle,2019222,Addanki Rural Circle,Darsi SDPO,Circle,L&O,FALSE
+HOME,Chirala Rural Circle,2033221,Chirala Rural Circle,Darsi SDPO,Circle,L&O,FALSE
+HOME,Inkollu Circle,2033201,Inkollu Circle,Chirala SDPO,Circle,L&O,FALSE
+HOME,Repalle Rural Circle,2019202,Repalle Rural Circle,Chirala SDPO,Circle,L&O,FALSE
+HOME,Tsunduru Circle,2019217,Tsunduru Circle,Repalle SDPO,Circle,L&O,FALSE
+HOME,Vemuru Circle,2019225,Vemuru Circle,Repalle SDPO,Circle,L&O,FALSE
+HOME,Kuppam Urban Circle,2014241,Kuppam Urban Circle,Repalle SDPO,Circle,L&O,FALSE
+HOME,Palamaner Urban Circle,2014243,Palamaner Urban Circle,Kuppam SDPO,Circle,L&O,FALSE
+HOME,Punganur Urban Circle,2014242,Punganur Urban Circle,Palamaner SDPO,Circle,L&O,FALSE
+HOME,V.Kota Urban Circle,2014244,V.Kota Urban Circle,Palamaner SDPO,Circle,L&O,FALSE
+HOME,Kuppam Rural Circle,2014209,Kuppam Rural Circle,Palamaner SDPO,Circle,L&O,FALSE
+HOME,Palamaner Rural Cricle Circle,2014207,Palamaner Rural Cricle Circle,Kuppam SDPO,Circle,L&O,FALSE
+HOME,Gangavaram Urban Circle,2014253,Gangavaram Urban Circle,Palamaner SDPO,Circle,L&O,FALSE
+HOME,Punganur Rural Circle,2014208,Punganur Rural Circle,Palamaner SDPO,Circle,L&O,FALSE
+HOME,CCS Chittoor Urban Circle,2014247,CCS Chittoor Urban Circle,Palamaner SDPO,Circle,L&O,FALSE
+HOME,Chittoor Traffic Urban Circle,2014248,Chittoor Traffic Urban Circle,CCS Chittoor Urban SDPO,Circle,L&O,FALSE
+HOME,Chittoor Mahila Urban Circle,2014249,Chittoor Mahila Urban Circle,Chittoor Traffic Urban SDPO,Circle,L&O,FALSE
+HOME,Chittoor I Town Urban Circle,2014246,Chittoor I Town Urban Circle,Chittoor Mahila Urban SDPO,Circle,L&O,FALSE
+HOME,Chittoor II Town Urban Circle,2014245,Chittoor II Town Urban Circle,Chittoor SDPO,Circle,L&O,FALSE
+HOME,Chittoor Rural East Circle,2014201,Chittoor Rural East Circle,Chittoor SDPO,Circle,L&O,FALSE
+HOME,G.D.Nellore Urban Circle,2014251,G.D.Nellore Urban Circle,Chittoor SDPO,Circle,L&O,FALSE
+HOME,Chittoor Rural West Circle,2014202,Chittoor Rural West Circle,Chittoor SDPO,Circle,L&O,FALSE
+HOME,Kallur Circle,2014239,Kallur Circle,Chittoor SDPO,Circle,L&O,FALSE
+HOME,Puthalapattu Urban Circle,2014252,Puthalapattu Urban Circle,Chittoor SDPO,Circle,L&O,FALSE
+HOME,Nagari Urban Circle,2014250,Nagari Urban Circle,Chittoor SDPO,Circle,L&O,FALSE
+HOME,K.Nagar Circle,2014205,K.Nagar Circle,Nagari SDPO,Circle,L&O,FALSE
+HOME,Nagari Rural Circle,2014206,Nagari Rural Circle,Nagari SDPO,Circle,L&O,FALSE
+HOME,Bangarupalem Urban Circle,2014240,Bangarupalem Urban Circle,Nagari SDPO,Circle,L&O,FALSE
+HOME,Amalapuram Rural Circle,2017203,Amalapuram Rural Circle,Palamaner SDPO,Circle,L&O,FALSE
+HOME,Mummidivaram Circle,2017204,Mummidivaram Circle,Amalapuram SDPO,Circle,L&O,FALSE
+HOME,P.Gannavaram Circle,2060201,P.Gannavaram Circle,Amalapuram SDPO,Circle,L&O,FALSE
+HOME,Ravulapalem Circle,2017206,Ravulapalem Circle,Kothapeta SDPO,Circle,L&O,FALSE
+HOME,Razole Circle,2017205,Razole Circle,Kothapeta SDPO,Circle,L&O,FALSE
+HOME,Mandapeta Rural Circle,2017215,Mandapeta Rural Circle,Kothapeta SDPO,Circle,L&O,FALSE
+HOME,Ramachandrapuram Circle,2017213,Ramachandrapuram Circle,East Zone,Circle,L&O,FALSE
+HOME,Anaparthi Circle,2017214,Anaparthi Circle,Ramachandrapuram SDPO,Circle,L&O,FALSE
+HOME,Devarapalli Circle,2017227,Devarapalli Circle,East Zone,Circle,L&O,FALSE
+HOME,Kovvur Rural Circle,2017228,Kovvur Rural Circle,Kovvur SDPO,Circle,L&O,FALSE
+HOME,Nidadavole Circle,2018210,Nidadavole Circle,Kovvur SDPO,Circle,L&O,FALSE
+HOME,Korukonda Circle,2042212,Korukonda Circle,Kovvur SDPO,Circle,L&O,FALSE
+HOME,Bhimadole Circle,2018202,Bhimadole Circle,North Zone,Circle,L&O,FALSE
+HOME,Eluru I Town UPS Circle,2059204,Eluru I Town UPS Circle,Eluru SDPO,Circle,L&O,FALSE
+HOME,Nidamarru Circle,2018203,Nidamarru Circle,Eluru SDPO,Circle,L&O,FALSE
+HOME,Kaikaluru Rural Circle,2059201,Kaikaluru Rural Circle,Eluru SDPO,Circle,L&O,FALSE
+HOME,Chintalapudi Circle,2018206,Chintalapudi Circle,Eluru SDPO,Circle,L&O,FALSE
+HOME,Jangareddygudem Circle,2018204,Jangareddygudem Circle,Jangareddygudem SDPO,Circle,L&O,FALSE
+HOME,Nuzvid Rural Circle,2026212,Nuzvid Rural Circle,Jangareddygudem SDPO,Circle,L&O,FALSE
+HOME,Pedavegi Circle,2059203,Pedavegi Circle,Nuzvid SDPO,Circle,L&O,FALSE
+HOME,Jeelugumilli Circle,2059202,Jeelugumilli Circle,Nuzvid SDPO,Circle,L&O,FALSE
+HOME,Kukunoor Circle,2018216,Kukunoor Circle,Polavaram SDPO,Circle,L&O,FALSE
+HOME,Polavaram Circle,2018205,Polavaram Circle,Polavaram SDPO,Circle,L&O,FALSE
+HOME,Mangalagiri Rural Circle,2043220,Mangalagiri Rural Circle,Polavaram SDPO,Circle,L&O,FALSE
+HOME,Prathipadu(GNT) Circle,2043224,Prathipadu Circle,North Sub Division,Circle,L&O,FALSE
+HOME,Ponnur Rural Circle,2019201,Ponnur Rural Circle,South Sub Division,Circle,L&O,FALSE
+HOME,Tenali Rural Circle,2019215,Tenali Rural Circle,Tenali SDPO,Circle,L&O,FALSE
+HOME,Kakinada Rural Circle,2017201,Kakinada Rural Circle,Tenali SDPO,Circle,L&O,FALSE
+HOME,Pithapuram Circle,2017202,Pithapuram Circle,Kakinada SDPO,Circle,L&O,FALSE
+HOME,Jaggampeta Circle,2017208,Jaggampeta Circle,Kakinada SDPO,Circle,L&O,FALSE
+HOME,Peddapuram Circle,2017207,Peddapuram Circle,Peddapuram SDPO,Circle,L&O,FALSE
+HOME,Tuni Rural Circle,2017220,Tuni Rural Circle,Peddapuram SDPO,Circle,L&O,FALSE
+HOME,Avanigadda Circle,2026200,Avanigadda Circle,Peddapuram SDPO,Circle,L&O,FALSE
+HOME,Challapalli Circle,2026201,Challapalli Circle,Avanigadda SDPO,Circle,L&O,FALSE
+HOME,Bandar Rural Circle,2026203,Bandar Rural Circle,Avanigadda SDPO,Circle,L&O,FALSE
+HOME,Robertsonpet UPS Circle,2026218,Robertsonpet UPS Circle,Bandar SDPO,Circle,L&O,FALSE
+HOME,Gannavaram UPS Circle,2026215,Gannavaram UPS Circle,Bandar SDPO,Circle,L&O,FALSE
+HOME,Hanuman Junction Circle,2026210,Hanuman Junction Circle,Gannavaram SDPO,Circle,L&O,FALSE
+HOME,Kankipadu Circle,2039200,Kankipadu Circle,Gannavaram SDPO,Circle,L&O,FALSE
+HOME,Gudivada I Town UPS Circle,2026217,Gudivada I Town UPS Circle,Gannavaram SDPO,Circle,L&O,FALSE
+HOME,Gudivada Rural Circle,2026204,Gudivada Rural Circle,Gudivada SDPO,Circle,L&O,FALSE
+HOME,Pamarru Circle,2026207,Pamarru Circle,Gudivada SDPO,Circle,L&O,FALSE
+HOME,Pamidimukkala Circle,2026216,Pamidimukkala Circle,Gudivada SDPO,Circle,L&O,FALSE
+HOME,Adoni Rural Circle,2027207,Adoni Rural Circle,Gudivada SDPO,Circle,L&O,FALSE
+HOME,Kodumur Circle,2027204,Kodumur Circle,Adoni SDPO,Circle,L&O,FALSE
+HOME,Kurnool Rural Circle,2027203,Kurnool Rural Circle,Kurnool SDPO,Circle,L&O,FALSE
+HOME,Alur Circle,2027209,Alur Circle,Kurnool SDPO,Circle,L&O,FALSE
+HOME,Pathikonda Rural Circle,2027223,Pathikonda Rural Circle,Pathikonda SDPO,Circle,L&O,FALSE
+HOME,Veldurthy Circle,2027229,Veldurthy Circle,Pathikonda SDPO,Circle,L&O,FALSE
+HOME,Kosigi Circle,2027210,Kosigi Circle,Pathikonda SDPO,Circle,L&O,FALSE
+HOME,Mantralayam Circle,2027228,Mantralayam Circle,Yemmiganur SDPO,Circle,L&O,FALSE
+HOME,Yemmiganur Rural Circle,2027208,Yemmiganur Rural Circle,Yemmiganur SDPO,Circle,L&O,FALSE
+HOME,Yemmiganur Town UPS Circle,2027230,Yemmiganur Town UPS Circle,Yemmiganur SDPO,Circle,L&O,FALSE
+HOME,Allagadda Rural Circle,2027211,Allagadda Rural Circle,Yemmiganur SDPO,Circle,L&O,FALSE
+HOME,Koilakuntla Circle,2027213,Koilakuntla Circle,Allagadda SDPO,Circle,L&O,FALSE
+HOME,Sirivella Circle,2027212,Sirivella Circle,Allagadda SDPO,Circle,L&O,FALSE
+HOME,Atmakur Circle(NDL),2027218,Atmakur Circle,Allagadda SDPO,Circle,L&O,FALSE
+HOME,Nandikotkur Rural Circle,2027219,Nandikotkur Rural Circle,Atmakur SDPO(NDL),Circle,L&O,FALSE
+HOME,Srisailam Circle,2027220,Srisailam Circle,Atmakur SDPO(NDL),Circle,L&O,FALSE
+HOME,Banaganapalli Circle,2027224,Banaganapalli Circle,Atmakur SDPO(NDL),Circle,L&O,FALSE
+HOME,Peapully Circle,2027222,Peapully Circle,Dhone SDPO,Circle,L&O,FALSE
+HOME,Nandyal Rural Circle,2027216,Nandyal Rural Circle,Dhone SDPO,Circle,L&O,FALSE
+HOME,Panyam Circle,2027217,Panyam Circle,Nandyal SDPO,Circle,L&O,FALSE
+HOME,Dachepalli UPS Circle,2063205,Dachepalli UPS Circle,Nandyal SDPO,Circle,L&O,FALSE
+HOME,Karempudi Circle,2063204,Karempudi Circle,Gurazala SDPO,Circle,L&O,FALSE
+HOME,Macherla Rural Circle,2019209,Macherla Rural Circle,Gurazala SDPO,Circle,L&O,FALSE
+HOME,Chilakaluripet Rural Circle,2019210,Chilakaluripet Rural Circle,Gurazala SDPO,Circle,L&O,FALSE
+HOME,Narsaraopet I Town UPS Circle,2063206,Narsaraopet I Town UPS Circle,Narsaraopet SDPO,Circle,L&O,FALSE
+HOME,Narsaraopet Rural  Circle,2019211,Narsaraopet Rural  Circle,Narsaraopet SDPO,Circle,L&O,FALSE
+HOME,Vinukonda Rural Circle,2019212,Vinukonda Rural Circle,Narsaraopet SDPO,Circle,L&O,FALSE
+HOME,Pedakurapadu Circle,2063201,Pedakurapadu Circle,Narsaraopet SDPO,Circle,L&O,FALSE
+HOME,Sattenapalli Rural Circle,2019214,Sattenapalli Rural Circle,Sattenapalli SDPO,Circle,L&O,FALSE
+HOME,Chinamerangi Circle,2061203,Chinamerangi Circle,Sattenapalli SDPO,Circle,L&O,FALSE
+HOME,Elwinpeta Circle,2037209,Elwinpeta Circle,Palakonda SDPO,Circle,L&O,FALSE
+HOME,Palakonda Circle,2034208,Palakonda Circle,Palakonda SDPO,Circle,L&O,FALSE
+HOME,Parvathipuram Rural Circle,2037208,Parvathipuram Rural Circle,Palakonda SDPO,Circle,L&O,FALSE
+HOME,Parvathipuram Town UPS Circle,2061204,Parvathipuram Town UPS Circle,Parvathipuram SDPO,Circle,L&O,FALSE
+HOME,Salur Rural Circle,2061201,Salur Rural Circle,Parvathipuram SDPO,Circle,L&O,FALSE
+HOME,Tripuranthakam Circle,2033223,Tripuranthakam Circle,Parvathipuram SDPO,Circle,L&O,FALSE
+HOME,Kanigiri Circle,2033206,Kanigiri Circle,Markapur SDPO,Circle,L&O,FALSE
+HOME,Kondepi Circle,2033222,Kondepi Circle,Kanigiri SDPO,Circle,L&O,FALSE
+HOME,Pamur Circle,2033207,Pamur Circle,Kandukur SDPO,Circle,L&O,FALSE
+HOME,Cumbum Circle,2033224,Cumbum Circle,Kanigiri SDPO,Circle,L&O,FALSE
+HOME,Giddalur Circle,2033209,Giddalur Circle,Markapur SDPO,Circle,L&O,FALSE
+HOME,Markapur Circle,2033208,Markapur Circle,Markapur SDPO,Circle,L&O,FALSE
+HOME,Yerragondapalem Circle,2033210,Yerragondapalem Circle,Markapur SDPO,Circle,L&O,FALSE
+HOME,Ongole II Town UPS Circle,2033225,Ongole II Town UPS Circle,Markapur SDPO,Circle,L&O,FALSE
+HOME,Ongole Rural Circle,2033212,Ongole Rural Circle,Ongole SDPO,Circle,L&O,FALSE
+HOME,Singarayakonda Circle,2033213,Singarayakonda Circle,Ongole SDPO,Circle,L&O,FALSE
+HOME,Darsi Circle,2033202,Darsi Circle,Ongole SDPO,Circle,L&O,FALSE
+HOME,Podili Circle,2033203,Podili Circle,Darsi SDPO,Circle,L&O,FALSE
+HOME,Sangam Circle,2031225,Sangam Circle,Kanigiri SDPO,Circle,L&O,FALSE
+HOME,Atmakur Circle(NLR),2031215,Atmakur Circle,Atmakur SDPO(NLR),Circle,L&O,FALSE
+HOME,Rapur Circle,2031224,Rapur Circle,Atmakur SDPO(NLR),Circle,L&O,FALSE
+HOME,Gudlur Circle,2031219,Gudlur Circle,Atmakur SDPO(NLR),Circle,L&O,FALSE
+HOME,Kandukur Circle,2033205,Kandukur Circle,Kandukur SDPO,Circle,L&O,FALSE
+HOME,Kaligiri Circle,2031213,Kaligiri Circle,Kandukur SDPO,Circle,L&O,FALSE
+HOME,Kavali Rural Circle,2031212,Kavali Rural Circle,Kavali SDPO,Circle,L&O,FALSE
+HOME,Udayagiri Circle,2031214,Udayagiri Circle,Kavali SDPO,Circle,L&O,FALSE
+HOME,B. Palem Circle,2031206,B. Palem Circle,Kavali SDPO,Circle,L&O,FALSE
+HOME,Kovur Circle,2031205,Kovur Circle,Nellore Rural SDPO,Circle,L&O,FALSE
+HOME,Krishnapatnam Port Circle,2031204,Krishnapatnam Port Circle,Nellore Rural SDPO,Circle,L&O,FALSE
+HOME,Podalakur Circle,2031216,Podalakur Circle,Nellore Rural SDPO,Circle,L&O,FALSE
+HOME,Dharmavaram Rural Circle,2012203,Dharmavaram Rural Circle,Nellore Rural SDPO,Circle,L&O,FALSE
+HOME,Mudigubba Circle,2012220,Mudigubba Circle,Dharmavaram SDPO,Circle,L&O,FALSE
+HOME,Ramagiri Circle,2012204,Ramagiri Circle,Dharmavaram SDPO,Circle,L&O,FALSE
+HOME,Hindupur Rural Circle,2012211,Hindupur Rural Circle,Dharmavaram SDPO,Circle,L&O,FALSE
+HOME,Kadiri Rural Circle,2012209,Kadiri Rural Circle,Hindupur SDPO,Circle,L&O,FALSE
+HOME,Madakasira Circle,2012213,Madakasira Circle,Kadiri SDPO,Circle,L&O,FALSE
+HOME,Penukonda Circle,2012214,Penukonda Circle,Penukonda SDPO,Circle,L&O,FALSE
+HOME,Nallamada Circle,2012210,Nallamada Circle,Penukonda SDPO,Circle,L&O,FALSE
+HOME,Puttaparthi Rural Circle,2012216,Puttaparthi Rural Circle,Puttaparthi SDPO,Circle,L&O,FALSE
+HOME,Itchapuram Circle,2034203,Itchapuram Circle,Puttaparthi SDPO,Circle,L&O,FALSE
+HOME,Kasibugga Rural Circle,2034204,Kasibugga Rural Circle,Kasibugga SDPO,Circle,L&O,FALSE
+HOME,Sompeta Circle,2034205,Sompeta Circle,Kasibugga SDPO,Circle,L&O,FALSE
+HOME,Amadalavalasa Circle,2034212,Amadalavalasa Circle,Kasibugga SDPO,Circle,L&O,FALSE
+HOME,J.R.Puram Circle,2034200,J.R.Puram Circle,Srikakulam SDPO,Circle,L&O,FALSE
+HOME,Srikakulam Rural Circle,2034202,Srikakulam Rural Circle,Srikakulam SDPO,Circle,L&O,FALSE
+HOME,Kothuru Circle,2034207,Kothuru Circle,Srikakulam SDPO,Circle,L&O,FALSE
+HOME,Narasannapeta Circle,2034201,Narasannapeta Circle,Tekkali SDPO,Circle,L&O,FALSE
+HOME,Pathapatnam Circle,2034209,Pathapatnam Circle,Tekkali SDPO,Circle,L&O,FALSE
+HOME,Tekkali Circle,2034206,Tekkali Circle,Tekkali SDPO,Circle,L&O,FALSE
+HOME,Naidupet Rural Circle,2031209,Naidupet Rural Circle,Tekkali SDPO,Circle,L&O,FALSE
+HOME,Sullurpet Circle,2031210,Sullurpet Circle,Naidupet SDPO,Circle,L&O,FALSE
+HOME,Gudur Rural Circle,2031207,Gudur Rural Circle,Naidupet SDPO,Circle,L&O,FALSE
+HOME,Vakadu Circle,2031211,Vakadu Circle,Gudur SDPO,Circle,L&O,FALSE
+HOME,Venkatagiri Circle,2031208,Venkatagiri Circle,Naidupet SDPO,Circle,L&O,FALSE
+HOME,Renigunta  Rural Circle,2045221,Renigunta  Rural Circle,Naidupet SDPO,Circle,L&O,FALSE
+HOME,Puttur Rural Circle,2045229,Puttur Rural Circle,Renigunta SDPO,Circle,L&O,FALSE
+HOME,Bn Kandriga Circle,2045225,Bn Kandriga Circle,Puttur SDPO,Circle,L&O,FALSE
+HOME,Satyavedu Circle,2014220,Satyavedu Circle,Srikalahasti SDPO,Circle,L&O,FALSE
+HOME,Chandragiri UPS,2045228,Chandragiri UPS,Puttur SDPO,Circle,L&O,FALSE
+HOME,Bhakrapet Circle,2045227,Bhakrapet Circle,Chandragiri SDPO,Circle,L&O,FALSE
+HOME,Bobbili Rural Circle,2037205,Bobbili Rural Circle,Chandragiri SDPO,Circle,L&O,FALSE
+HOME,Bobbili Town UPS Circle,2037215,Bobbili Town UPS Circle,Bobbili SDPO,Circle,L&O,FALSE
+HOME,Gajapathinagaram Circle,2037207,Gajapathinagaram Circle,Bobbili SDPO,Circle,L&O,FALSE
+HOME,Cheepurupalli Circle,2037206,Cheepurupalli Circle,Bobbili SDPO,Circle,L&O,FALSE
+HOME,Rajam Rural Circle,2034210,Rajam Rural Circle,Cheepurupalli SDPO,Circle,L&O,FALSE
+HOME,Bhogapuram Circle,2037203,Bhogapuram Circle,Cheepurupalli SDPO,Circle,L&O,FALSE
+HOME,S.Kota Circle,2037204,S.Kota Circle,Vizianagaram SDPO,Circle,L&O,FALSE
+HOME,Vizianagaram Rural  Circle,2037202,Vizianagaram Rural  Circle,Vizianagaram SDPO,Circle,L&O,FALSE
+HOME,Akivedu Circle,2018220,Akivedu Circle,Vizianagaram SDPO,Circle,L&O,FALSE
+HOME,Bhimavaram Rural Circle,2018214,Bhimavaram Rural Circle,Bhimavaram SDPO,Circle,L&O,FALSE
+HOME,Tadepalligudem Rural Circle,2018219,Tadepalligudem Rural Circle,Bhimavaram SDPO,Circle,L&O,FALSE
+HOME,Tadepalligudem Town UPS Circle,2018223,Tadepalligudem Town UPS Circle,Tadepalligudem SDPO,Circle,L&O,FALSE
+HOME,Narasapuram Rural Circle,2018222,Narasapuram Rural Circle,Tadepalligudem SDPO,Circle,L&O,FALSE
+HOME,Palakollu Rural Circle,2018217,Palakollu Rural Circle,Narasapuram SDPO,Circle,L&O,FALSE
+HOME,Penugonda Circle,2018215,Penugonda Circle,Narasapuram SDPO,Circle,L&O,FALSE
+HOME,Tanuku Rural Circle,2018221,Tanuku Rural Circle,Narasapuram SDPO,Circle,L&O,FALSE
+HOME,Tanuku Town UPS Circle,2018224,Tanuku Town UPS Circle,Tadepalligudem SDPO,Circle,L&O,FALSE
+HOME,Jammalamadugu Rural Circle,2016204,Jammalamadugu Rural Circle,Tadepalligudem SDPO,Circle,L&O,FALSE
+HOME,Kondapuram Circle,2016205,Kondapuram Circle,Jammalamadugu SDPO,Circle,L&O,FALSE
+HOME,Kadapa Rural Circle,2016202,Kadapa Rural Circle,Jammalamadugu SDPO,Circle,L&O,FALSE
+HOME,Kamalapuram Circle,2016228,Kamalapuram Circle,Kadapa SDPO,Circle,L&O,FALSE
+HOME,Vontimitta Circle,2016216,Vontimitta Circle,Kadapa SDPO,Circle,L&O,FALSE
+HOME,Badvel Rural Circle,2016206,Badvel Rural Circle,Rajampet SDPO,Circle,L&O,FALSE
+HOME,Mydukur Rural Circle,2016207,Mydukur Rural Circle,Mydukur SDPO,Circle,L&O,FALSE
+HOME,Porumamilla Circle,2016208,Porumamilla Circle,Mydukur SDPO,Circle,L&O,FALSE
+HOME,Proddatur Rural Circle,2016209,Proddatur Rural Circle,Mydukur SDPO,Circle,L&O,FALSE
+HOME,Pulivendula Rural Circle,2016222,Pulivendula Rural Circle,Proddatur SDPO,Circle,L&O,FALSE
+HOME,RK Valley Circle,2016223,RK Valley Circle,Pulivendula SDPO,Circle,L&O,FALSE
+HOME,Prathipadu Circle,2017209,Prathipadu Circle,Pulivendula SDPO,Circle,L&O,FALSE
+HOME,Annavaram PS,2035071,Annavaram PS,Peddapuram SDPO,PS,L&O,FALSE
+HOME,Chinthapalli PS,2035007,Chinthapalli PS,Chintapalli Circle,PS,L&O,FALSE
+HOME,Gudemkothaveedi (G.K.Veedhi) PS,2035019,Gudemkothaveedi (G.K.Veedhi) PS,Chintapalli Circle,PS,L&O,FALSE
+HOME,Sileru PS,2035047,Sileru PS,G. K. Veedhi Circle,PS,L&O,FALSE
+HOME,Koyyuru PS,2035033,Koyyuru PS,G. K. Veedhi Circle,PS,L&O,FALSE
+HOME,Mampa PS,2035050,Mampa PS,Koyyuru Circle,PS,L&O,FALSE
+HOME,Chintoor PS,2017100,Chintoor PS,Koyyuru Circle,PS,L&O,FALSE
+HOME,Donkarai PS,2017019,Donkarai PS,Chintoor Circle,PS,L&O,FALSE
+HOME,Moothugudem PS,2017102,Moothugudem PS,Chintoor Circle,PS,L&O,FALSE
+HOME,Kunavaram PS,2017099,Kunavaram PS,Chintoor Circle,PS,L&O,FALSE
+HOME,Vara Ramachandrapuram PS,2017101,Vara Ramachandrapuram PS,Yetapaka Circle,PS,L&O,FALSE
+HOME,Yetapaka PS,2017098,Yetapaka PS,Yetapaka Circle,PS,L&O,FALSE
+HOME,Anantagiri PS,2035066,Anantagiri PS,Yetapaka Circle,PS,L&O,FALSE
+HOME,Araku PS,2035002,Araku PS,Araku Circle,PS,L&O,FALSE
+HOME,Dumbriguda PS,2035011,Dumbriguda PS,Araku Circle,PS,L&O,FALSE
+HOME,Gangaraju Madugula(G.Madugula) PS,2035017,Gangaraju Madugula(G.Madugula) PS,Araku Circle,PS,L&O,FALSE
+HOME,Munchingiput PS,2035049,Munchingiput PS,G. Madugula Circle,PS,L&O,FALSE
+HOME,Pedabayalu PS,2035043,Pedabayalu PS,G. Madugula Circle,PS,L&O,FALSE
+HOME,Hukumpeta PS,2035021,Hukumpeta PS,G. Madugula Circle,PS,L&O,FALSE
+HOME,Paderu UPS,2035039,Paderu UPS,Paderu Circle,PS,L&O,FALSE
+HOME,Addateegala PS,2017001,Addateegala PS,Paderu SDPO,PS,L&O,FALSE
+HOME,Dutcherthi PS,2017022,Dutcherthi PS,Addateegala Circle,PS,L&O,FALSE
+HOME,Gangavaram PS,2017028,Gangavaram PS,Addateegala Circle,PS,L&O,FALSE
+HOME,Y. Ramavaram PS,2017079,Y. Ramavaram PS,Addateegala Circle,PS,L&O,FALSE
+HOME,Gurthedu PS,2017092,Gurthedu PS,Addateegala Circle,PS,L&O,FALSE
+HOME,Maredumilli PS,2017043,Maredumilli PS,Maredumilli Circle,PS,L&O,FALSE
+HOME,Jaddangi PS,2017090,Jaddangi PS,Maredumilli Circle,PS,L&O,FALSE
+HOME,Rajavommangi PS,2017056,Rajavommangi PS,Rajavommangi Circle,PS,L&O,FALSE
+HOME,Devipatnam PS,2017018,Devipatnam PS,Rajavommangi Circle,PS,L&O,FALSE
+HOME,Rampachodavaram PS,2017058,Rampachodavaram PS,Rampachodavaram Circle,PS,L&O,FALSE
+HOME,Anakapalli Rural PS,2035070,Anakapalli Rural PS,Rampachodavaram Circle,PS,L&O,FALSE
+HOME,Anakapalli Traffic PS,2035022,Anakapalli Traffic PS,Anakapalli Rural Circle,PS,L&O,FALSE
+HOME,A.Koduru PS,2035029,A.Koduru PS,Anakapalli Town UPS Circle,PS,L&O,FALSE
+HOME,Cheedikada PS,2035009,Cheedikada PS,K.Kotapadu Circle,PS,L&O,FALSE
+HOME,Devarapalli PS,2035010,Devarapalli PS,K.Kotapadu Circle,PS,L&O,FALSE
+HOME,K.Kotapadu PS,2035031,K.Kotapadu PS,K.Kotapadu Circle,PS,L&O,FALSE
+HOME,V.Madugula PS,2035054,V.Madugula PS,K.Kotapadu Circle,PS,L&O,FALSE
+HOME,Butchiyyapeta PS,2035005,Butchiyyapeta PS,K.Kotapadu Circle,PS,L&O,FALSE
+HOME,Kothakota PS,2035030,Kothakota PS,Kothakota Circle,PS,L&O,FALSE
+HOME,Ravikamatham PS,2035045,Ravikamatham PS,Kothakota Circle,PS,L&O,FALSE
+HOME,Rolugunta PS,2035046,Rolugunta PS,Kothakota Circle,PS,L&O,FALSE
+HOME,Kotavurtla PS,2035032,Kotavurtla PS,Kothakota Circle,PS,L&O,FALSE
+HOME,S.Rayavaram PS,2035052,S.Rayavaram PS,Nakkapalli Circle,PS,L&O,FALSE
+HOME,Golugonda PS,2035051,Golugonda PS,Nakkapalli Circle,PS,L&O,FALSE
+HOME,K.D.Peta PS,2035028,K.D.Peta PS,Narsipatnam Rural Circle,PS,L&O,FALSE
+HOME,Makavarapalem PS,2035053,Makavarapalem PS,Narsipatnam Rural Circle,PS,L&O,FALSE
+HOME,Narsipatnam Rural PS,2035038,Narsipatnam Rural PS,Narsipatnam Rural Circle,PS,L&O,FALSE
+HOME,Nathavaram PS,2035023,Nathavaram PS,Narsipatnam Rural Circle,PS,L&O,FALSE
+HOME,Munagapaka PS,2035068,Munagapaka PS,Narsipatnam Rural Circle,PS,L&O,FALSE
+HOME,Yelamanchili Rural PS,2035064,Yelamanchili Rural PS,Yellamanchili Circle,PS,L&O,FALSE
+HOME,Yelamanchili Town PS,2035065,Yelamanchili Town PS,Yellamanchili Circle,PS,L&O,FALSE
+HOME,Yelamanchili Traffic PS,2035003,Yelamanchili Traffic PS,Yellamanchili Circle,PS,L&O,FALSE
+HOME,Atmakur PS,2012005,Atmakur PS,Yellamanchili Circle,PS,L&O,FALSE
+HOME,Itukalapalli PS,2012028,Itukalapalli PS,Itukalapalli Circle,PS,L&O,FALSE
+HOME,Rapthadu PS,2012061,Rapthadu PS,Itukalapalli Circle,PS,L&O,FALSE
+HOME,Garladinne PS,2012016,Garladinne PS,Itukalapalli Circle,PS,L&O,FALSE
+HOME,Narpala PS,2012063,Narpala PS,Singanamala Circle,PS,L&O,FALSE
+HOME,Singanamala PS,2012064,Singanamala PS,Singanamala Circle,PS,L&O,FALSE
+HOME,Guntakal Rural PS,2012034,Guntakal Rural PS,Singanamala Circle,PS,L&O,FALSE
+HOME,Kasapuram PS,2012035,Kasapuram PS,Guntakal Rural  Circle,PS,L&O,FALSE
+HOME,Kuderu PS,2012087,Kuderu PS,Guntakal Rural  Circle,PS,L&O,FALSE
+HOME,Palthur PS,2012049,Palthur PS,Uravakonda Rural Circle,PS,L&O,FALSE
+HOME,Vajrakarur PS,2012078,Vajrakarur PS,Uravakonda Rural Circle,PS,L&O,FALSE
+HOME,Vidapanakal PS,2012079,Vidapanakal PS,Uravakonda Rural Circle,PS,L&O,FALSE
+HOME,Beluguppa PS,2012008,Beluguppa PS,Uravakonda Rural Circle,PS,L&O,FALSE
+HOME,Brahamasamudram PS,2012084,Brahamasamudram PS,Uravakonda Rural Circle,PS,L&O,FALSE
+HOME,Kalyandurg Rural PS,2012047,Kalyandurg Rural PS,Kalyandurg Rural Circle,PS,L&O,FALSE
+HOME,Kambadur PS,2012032,Kambadur PS,Kalyandurg Rural Circle,PS,L&O,FALSE
+HOME,Kundurpi PS,2012088,Kundurpi PS,Kalyandurg Rural Circle,PS,L&O,FALSE
+HOME,Settur PS,2012062,Settur PS,Kalyandurg Rural Circle,PS,L&O,FALSE
+HOME,Bommanahal PS,2012009,Bommanahal PS,Kalyandurg Rural Circle,PS,L&O,FALSE
+HOME,D.Hirehal PS,2012026,D.Hirehal PS,Rayadurg Rural Circle,PS,L&O,FALSE
+HOME,Gummagatta PS,2012023,Gummagatta PS,Rayadurg Rural Circle,PS,L&O,FALSE
+HOME,Kanekal PS,2012033,Kanekal PS,Rayadurg Rural Circle,PS,L&O,FALSE
+HOME,Peddapappur PS,2012092,Peddapappur PS,Rayadurg Rural Circle,PS,L&O,FALSE
+HOME,Peddavadugur PS,2012070,Peddavadugur PS,Peddavadugur Circle,PS,L&O,FALSE
+HOME,Yadiki PS,2012082,Yadiki PS,Peddavadugur Circle,PS,L&O,FALSE
+HOME,Putlur PS,2012056,Putlur PS,Yadiki Rural Circle,PS,L&O,FALSE
+HOME,Yellanur PS,2012083,Yellanur PS,Putlur Circle,PS,L&O,FALSE
+HOME,Mudiveedu PS,2014027,Mudiveedu PS,Putlur Circle,PS,L&O,FALSE
+HOME,Nimmanapalle PS,2014032,Nimmanapalle PS,Madanapalle Rural Circle,PS,L&O,FALSE
+HOME,Ramasamudram PS,2014075,Ramasamudram PS,Madanapalle Rural Circle,PS,L&O,FALSE
+HOME,Mulakalacheruvu PS,2014028,Mulakalacheruvu PS,Madanapalle Rural Circle,PS,L&O,FALSE
+HOME,P.T.Samudram (PTM) PS,2014040,P.T.Samudram (PTM) PS,Molakalacheruvu Circle,PS,L&O,FALSE
+HOME,Peddamandayam PS,2014071,Peddamandayam PS,Molakalacheruvu Circle,PS,L&O,FALSE
+HOME,Thamballapalli PS,2014055,Thamballapalli PS,Molakalacheruvu Circle,PS,L&O,FALSE
+HOME,Chitvel PS,2016008,Chitvel PS,Molakalacheruvu Circle,PS,L&O,FALSE
+HOME,Obulavaripalli PS,2016036,Obulavaripalli PS,Railway Kodur Rural Circle,PS,L&O,FALSE
+HOME,Nandalur PS,2016034,Nandalur PS,Railway Kodur Rural Circle,PS,L&O,FALSE
+HOME,Penagalur PS,2016046,Penagalur PS,Vontimitta Circle,PS,L&O,FALSE
+HOME,Pullampeta PS,2016045,Pullampeta PS,Railway Kodur Rural Circle,PS,L&O,FALSE
+HOME,Gurramkonda PS,2014014,Gurramkonda PS,Railway Kodur Rural Circle,PS,L&O,FALSE
+HOME,K.V.Palli PS,2014019,K.V.Palli PS,Voyalpadu Circle,PS,L&O,FALSE
+HOME,Kalakada PS,2014017,Kalakada PS,Kalakada Circle,PS,L&O,FALSE
+HOME,Galiveedu PS,2016015,Galiveedu PS,Kalakada Circle,PS,L&O,FALSE
+HOME,Lakkireddipalli PS,2016028,Lakkireddipalli PS,Lakkireddipalli Circle,PS,L&O,FALSE
+HOME,Ramapuram PS,2016051,Ramapuram PS,Lakkireddipalli Circle,PS,L&O,FALSE
+HOME,Chinnamandem PS,2016007,Chinnamandem PS,Lakkireddipalli Circle,PS,L&O,FALSE
+HOME,Sambepalli PS,2016054,Sambepalli PS,Rayachoty Rural Circle,PS,L&O,FALSE
+HOME,Voyalpad PS,2014065,Voyalpad PS,Rayachoty Rural Circle,PS,L&O,FALSE
+HOME,T. Sundupalli PS,2016058,T. Sundupalli PS,Voyalpadu Circle,PS,L&O,FALSE
+HOME,Veeraballi PS,2016062,Veeraballi PS,T.Sundupalli Circle,PS,L&O,FALSE
+HOME,Karlapalem PS,2019079,Karlapalem PS,T.Sundupalli Circle,PS,L&O,FALSE
+HOME,T. Sandole PS,2019069,T. Sandole PS,Bapatla Rural Circle,PS,L&O,FALSE
+HOME,Vedullapalli PS,2019073,Vedullapalli PS,Bapatla Rural Circle,PS,L&O,FALSE
+HOME,Parchur PS,2033062,Parchur PS,Bapatla Rural Circle,PS,L&O,FALSE
+HOME,Yaddanapudi PS,2033096,Yaddanapudi PS,Martur Circle,PS,L&O,FALSE
+HOME,Ballikurava PS,2033004,Ballikurava PS,Martur Circle,PS,L&O,FALSE
+HOME,Santhamagulur PS,2033076,Santhamagulur PS,Santhamagulur Circle,PS,L&O,FALSE
+HOME,J.Pangulur PS,2033030,J.Pangulur PS,Santhamagulur Circle,PS,L&O,FALSE
+HOME,Korisapadu PS,2033038,Korisapadu PS,Addanki Rural Circle,PS,L&O,FALSE
+HOME,Medarametla PS,2033046,Medarametla PS,Addanki Rural Circle,PS,L&O,FALSE
+HOME,Chirala Rural PS,2033012,Chirala Rural PS,Addanki Rural Circle,PS,L&O,FALSE
+HOME,Vetapalem PS,2033089,Vetapalem PS,Chirala Rural Circle,PS,L&O,FALSE
+HOME,Chinaganjam PS,2033013,Chinaganjam PS,Chirala Rural Circle,PS,L&O,FALSE
+HOME,Inkollu PS,2033027,Inkollu PS,Inkollu Circle,PS,L&O,FALSE
+HOME,Karamchedu PS,2033031,Karamchedu PS,Inkollu Circle,PS,L&O,FALSE
+HOME,Adavuladeevi PS,2019001,Adavuladeevi PS,Inkollu Circle,PS,L&O,FALSE
+HOME,Cherukupalli PS,2019012,Cherukupalli PS,Repalle Rural Circle,PS,L&O,FALSE
+HOME,Nagaram PS,2019082,Nagaram PS,Repalle Rural Circle,PS,L&O,FALSE
+HOME,Nizampatnam PS,2019083,Nizampatnam PS,Repalle Rural Circle,PS,L&O,FALSE
+HOME,T. Sodayapalem PS,2019070,T. Sodayapalem PS,Repalle Rural Circle,PS,L&O,FALSE
+HOME,Amruthalur PS,2019005,Amruthalur PS,Repalle Rural Circle,PS,L&O,FALSE
+HOME,Bhattiprole PS,2019008,Bhattiprole PS,Tsunduru Circle,PS,L&O,FALSE
+HOME,Kolluru PS,2019029,Kolluru PS,Vemuru Circle,PS,L&O,FALSE
+HOME,T. Sundur PS,2019071,T. Sundur PS,Vemuru Circle,PS,L&O,FALSE
+HOME,Vemuru PS,2019085,Vemuru PS,Tsunduru Circle,PS,L&O,FALSE
+HOME,Kuppam UPS,2014021,Kuppam UPS,Vemuru Circle,PS,L&O,FALSE
+HOME,Palamaner UPS,2014036,Palamaner UPS,Kuppam Urban Circle,PS,L&O,FALSE
+HOME,Punganur UPS,2014042,Punganur UPS,Palamaner Urban Circle,PS,L&O,FALSE
+HOME,V.Kota UPS,2014064,V.Kota UPS,Madanapalle SDPO,PS,L&O,FALSE
+HOME,Gudipalli PS,2014069,Gudipalli PS,V.Kota Urban Circle,PS,L&O,FALSE
+HOME,Rallabudugur PS,2014046,Rallabudugur PS,Kuppam Rural Circle,PS,L&O,FALSE
+HOME,Ramakuppam PS,2014048,Ramakuppam PS,Kuppam Rural Circle,PS,L&O,FALSE
+HOME,Baireddypalle PS,2014007,Baireddypalle PS,Kuppam Rural Circle,PS,L&O,FALSE
+HOME,Gangavaram UPS,2014067,Gangavaram UPS,Palamaner Rural Cricle Circle,PS,L&O,FALSE
+HOME,Panjani PS,2014039,Panjani PS,Gangavaram Urban Circle,PS,L&O,FALSE
+HOME,Chowdepalli PS,2014066,Chowdepalli PS,Palamaner Rural Cricle Circle,PS,L&O,FALSE
+HOME,Sodam PS,2014051,Sodam PS,Chowdepalli Circle,PS,L&O,FALSE
+HOME,Somala PS,2014052,Somala PS,Chowdepalli Circle,PS,L&O,FALSE
+HOME,CCS Chittoor UPS,2014094,CCS Chittoor UPS,Chowdepalli Circle,PS,L&O,FALSE
+HOME,Chittoor Traffic UPS,2014084,Chittoor Traffic UPS,CCS Chittoor Urban Circle,PS,L&O,FALSE
+HOME,"Mahila UPS, Chittoor PS",2014093,"Mahila UPS, Chittoor PS",Chittoor Traffic Urban Circle,PS,L&O,FALSE
+HOME,Chittoor I Town UPS,2014012,Chittoor I Town UPS,Chittoor Mahila Urban Circle,PS,L&O,FALSE
+HOME,Chittoor II Town UPS,2014013,Chittoor II Town UPS,Chittoor I Town Urban Circle,PS,L&O,FALSE
+HOME,Chittoor Taluk PS,2014011,Chittoor Taluk PS,Chittoor II Town Urban Circle,PS,L&O,FALSE
+HOME,G.D.Nellore UPS,2014087,G.D.Nellore UPS,Chittoor Rural East Circle,PS,L&O,FALSE
+HOME,Narsingarayanipet(N.R.Pet) PS,2014031,Narsingarayanipet(N.R.Pet) PS,G.D.Nellore Urban Circle,PS,L&O,FALSE
+HOME,Penumur PS,2014072,Penumur PS,Chittoor Rural East Circle,PS,L&O,FALSE
+HOME,Gudipala PS,2014068,Gudipala PS,Chittoor Rural East Circle,PS,L&O,FALSE
+HOME,Kanipakam PS,2014097,Kanipakam PS,Chittoor Rural West Circle,PS,L&O,FALSE
+HOME,Thavanampalle PS,2014078,Thavanampalle PS,Chittoor Rural West Circle,PS,L&O,FALSE
+HOME,Yadamari PS,2014082,Yadamari PS,Chittoor Rural West Circle,PS,L&O,FALSE
+HOME,Irala PS,2014070,Irala PS,Chittoor Rural West Circle,PS,L&O,FALSE
+HOME,Kallur PS,2014050,Kallur PS,Kallur Circle,PS,L&O,FALSE
+HOME,Puthalapattu UPS,2014043,Puthalapattu UPS,Kallur Circle,PS,L&O,FALSE
+HOME,Rompicherla PS,2014076,Rompicherla PS,Puthalapattu Urban Circle,PS,L&O,FALSE
+HOME,Nagari UPS,2014030,Nagari UPS,Kallur Circle,PS,L&O,FALSE
+HOME,K. Nagar PS,2014020,K. Nagar PS,Nagari Urban Circle,PS,L&O,FALSE
+HOME,Palasamudram PS,2014045,Palasamudram PS,K.Nagar Circle,PS,L&O,FALSE
+HOME,S.R.Puram PS,2014077,S.R.Puram PS,K.Nagar Circle,PS,L&O,FALSE
+HOME,Vedurukuppam PS,2014080,Vedurukuppam PS,K.Nagar Circle,PS,L&O,FALSE
+HOME,Nindra PS,2014033,Nindra PS,K.Nagar Circle,PS,L&O,FALSE
+HOME,Vijayapuram PS,2014081,Vijayapuram PS,Nagari Rural Circle,PS,L&O,FALSE
+HOME,Bangarupalem UPS,2014026,Bangarupalem UPS,Nagari Rural Circle,PS,L&O,FALSE
+HOME,Allavaram PS,2017009,Allavaram PS,Bangarupalem Urban Circle,PS,L&O,FALSE
+HOME,Amalapuram Rural PS,2017003,Amalapuram Rural PS,Amalapuram Rural Circle,PS,L&O,FALSE
+HOME,Uppalaguptam PS,2017072,Uppalaguptam PS,Amalapuram Rural Circle,PS,L&O,FALSE
+HOME,I. Polavaram PS,2017080,I. Polavaram PS,Amalapuram Rural Circle,PS,L&O,FALSE
+HOME,Katrenikona PS,2017036,Katrenikona PS,Mummidivaram Circle,PS,L&O,FALSE
+HOME,Mummidivaram PS,2017042,Mummidivaram PS,Mummidivaram Circle,PS,L&O,FALSE
+HOME,Ambajipeta PS,2017005,Ambajipeta PS,Mummidivaram Circle,PS,L&O,FALSE
+HOME,Inavilli PS,2017011,Inavilli PS,P.Gannavaram Circle,PS,L&O,FALSE
+HOME,P.Gannavaram PS,2017050,P.Gannavaram PS,P.Gannavaram Circle,PS,L&O,FALSE
+HOME,Alamuru PS,2017002,Alamuru PS,P.Gannavaram Circle,PS,L&O,FALSE
+HOME,Athreyapuram PS,2017010,Athreyapuram PS,Ravulapalem Circle,PS,L&O,FALSE
+HOME,Kothapeta PS,2017037,Kothapeta PS,Ravulapalem Circle,PS,L&O,FALSE
+HOME,Ravulapalem PS,2017059,Ravulapalem PS,Ravulapalem Circle,PS,L&O,FALSE
+HOME,Malkipuram PS,2017040,Malkipuram PS,Ravulapalem Circle,PS,L&O,FALSE
+HOME,Razole PS,2017060,Razole PS,Razole Circle,PS,L&O,FALSE
+HOME,Sakhinetipalli PS,2017066,Sakhinetipalli PS,Razole Circle,PS,L&O,FALSE
+HOME,Angara PS,2017007,Angara PS,Razole Circle,PS,L&O,FALSE
+HOME,Mandapeta Rural PS,2017097,Mandapeta Rural PS,Mandapeta Rural Circle,PS,L&O,FALSE
+HOME,Rayavaram PS,2017063,Rayavaram PS,Mandapeta Rural Circle,PS,L&O,FALSE
+HOME,Draksharama PS,2017021,Draksharama PS,Mandapeta Rural Circle,PS,L&O,FALSE
+HOME,Pamarru PS,2017051,Pamarru PS,Ramachandrapuram Circle,PS,L&O,FALSE
+HOME,Ramachandrapuram PS,2017057,Ramachandrapuram PS,Ramachandrapuram Circle,PS,L&O,FALSE
+HOME,Anaparthi PS,2017006,Anaparthi PS,Ramachandrapuram Circle,PS,L&O,FALSE
+HOME,Biccavole PS,2017012,Biccavole PS,Anaparthi Circle,PS,L&O,FALSE
+HOME,Rangampeta PS,2017062,Rangampeta PS,Anaparthi Circle,PS,L&O,FALSE
+HOME,Gopalapuram PS,2018021,Gopalapuram PS,Anaparthi Circle,PS,L&O,FALSE
+HOME,Chagallu PS,2018050,Chagallu PS,Devarapalli Circle,PS,L&O,FALSE
+HOME,Kovvur Rural PS,2018062,Kovvur Rural PS,Kovvur Rural Circle,PS,L&O,FALSE
+HOME,Tallapudi PS,2018046,Tallapudi PS,Kovvur Rural Circle,PS,L&O,FALSE
+HOME,Nidadavole Town PS,2018032,Nidadavole Town PS,Kovvur Rural Circle,PS,L&O,FALSE
+HOME,Peravalli PS,2018057,Peravalli PS,Nidadavole Circle,PS,L&O,FALSE
+HOME,Samisrigudem PS,2018063,Samisrigudem PS,Nidadavole Circle,PS,L&O,FALSE
+HOME,Undrajavaram PS,2018060,Undrajavaram PS,Nidadavole Circle,PS,L&O,FALSE
+HOME,Airport PS,2042098,Airport PS,Nidadavole Circle,PS,L&O,FALSE
+HOME,Gokavaram PS,2042026,Gokavaram PS,Korukonda Circle,PS,L&O,FALSE
+HOME,Korukonda PS,2042083,Korukonda PS,Korukonda Circle,PS,L&O,FALSE
+HOME,Seethanagaram PS,2042067,Seethanagaram PS,Korukonda Circle,PS,L&O,FALSE
+HOME,Bhimadole PS,2018006,Bhimadole PS,Korukonda Circle,PS,L&O,FALSE
+HOME,Dwaraka Tirumala PS,2018052,Dwaraka Tirumala PS,Bhimadole Circle,PS,L&O,FALSE
+HOME,Eluru Rural PS,2018015,Eluru Rural PS,Bhimadole Circle,PS,L&O,FALSE
+HOME,Chebrole PS,2018010,Chebrole PS,Eluru I Town UPS Circle,PS,L&O,FALSE
+HOME,Ganapavaram PS,2018020,Ganapavaram PS,Nidamarru Circle,PS,L&O,FALSE
+HOME,Nidamarru PS,2018054,Nidamarru PS,Nidamarru Circle,PS,L&O,FALSE
+HOME,Kaikaluru Rural PS,2026019,Kaikaluru Rural PS,Nidamarru Circle,PS,L&O,FALSE
+HOME,Kalidindi PS,2026021,Kalidindi PS,Kaikaluru Rural Circle,PS,L&O,FALSE
+HOME,Mandavalli PS,2026065,Mandavalli PS,Kaikaluru Rural Circle,PS,L&O,FALSE
+HOME,Mudinepalli PS,2026030,Mudinepalli PS,Kaikaluru Rural Circle,PS,L&O,FALSE
+HOME,Chintalapudi PS,2018011,Chintalapudi PS,Kaikaluru Rural Circle,PS,L&O,FALSE
+HOME,Dharmajigudem PS,2018013,Dharmajigudem PS,Chintalapudi Circle,PS,L&O,FALSE
+HOME,Jangareddygudem PS,2018022,Jangareddygudem PS,Chintalapudi Circle,PS,L&O,FALSE
+HOME,Jangareddygudem Traffic PS,2018073,Jangareddygudem Traffic PS,Jangareddygudem Circle,PS,L&O,FALSE
+HOME,Lakkavaram PS,2018027,Lakkavaram PS,Jangareddygudem Circle,PS,L&O,FALSE
+HOME,Tadikalapudi PS,2018042,Tadikalapudi PS,Jangareddygudem Circle,PS,L&O,FALSE
+HOME,Agiripalli PS,2026003,Agiripalli PS,Jangareddygudem Circle,PS,L&O,FALSE
+HOME,Chatrai PS,2026009,Chatrai PS,Nuzvid Rural Circle,PS,L&O,FALSE
+HOME,Musunuru PS,2026028,Musunuru PS,Nuzvid Rural Circle,PS,L&O,FALSE
+HOME,Nuzvid Rural PS,2026035,Nuzvid Rural PS,Nuzvid Rural Circle,PS,L&O,FALSE
+HOME,Denduluru PS,2018014,Denduluru PS,Nuzvid Rural Circle,PS,L&O,FALSE
+HOME,Pedavegi PS,2018055,Pedavegi PS,Pedavegi Circle,PS,L&O,FALSE
+HOME,Pedapadu PS,2018036,Pedapadu PS,Pedavegi Circle,PS,L&O,FALSE
+HOME,Buttaigudem PS,2018049,Buttaigudem PS,Pedavegi Circle,PS,L&O,FALSE
+HOME,Jeelugumilli PS,2018023,Jeelugumilli PS,Jeelugumilli Circle,PS,L&O,FALSE
+HOME,T.Narasapuram PS,2018045,T.Narasapuram PS,Jeelugumilli Circle,PS,L&O,FALSE
+HOME,Kukunoor PS,2018069,Kukunoor PS,Jeelugumilli Circle,PS,L&O,FALSE
+HOME,Velerupadu PS,2018068,Velerupadu PS,Kukunoor Circle,PS,L&O,FALSE
+HOME,Koyyalagudem PS,2018025,Koyyalagudem PS,Kukunoor Circle,PS,L&O,FALSE
+HOME,Polavaram PS,2018038,Polavaram PS,Polavaram Circle,PS,L&O,FALSE
+HOME,Duggirala PS,2019018,Duggirala PS,Polavaram Circle,PS,L&O,FALSE
+HOME,Mangalagiri Rural PS,2043086,Mangalagiri Rural PS,Mangalagiri Rural Circle,PS,L&O,FALSE
+HOME,Kakumanu PS,2019031,Kakumanu PS,Mangalagiri Rural Circle,PS,L&O,FALSE
+HOME,Pedanandipadu PS,2019050,Pedanandipadu PS,Prathipadu(GNT) Circle,PS,L&O,FALSE
+HOME,Prathipadu PS,2043054,Prathipadu PS,Prathipadu(GNT) Circle,PS,L&O,FALSE
+HOME,Chebrolu PS,2043011,Chebrolu PS,Prathipadu(GNT) Circle,PS,L&O,FALSE
+HOME,Ponnur Rural PS,2019047,Ponnur Rural PS,Ponnur Rural Circle,PS,L&O,FALSE
+HOME,Kollipara PS,2019028,Kollipara PS,Ponnur Rural Circle,PS,L&O,FALSE
+HOME,Tenali Rural PS,2019066,Tenali Rural PS,Tenali Rural Circle,PS,L&O,FALSE
+HOME,Coringa PS,2017016,Coringa PS,Tenali Rural Circle,PS,L&O,FALSE
+HOME,Gollapalem PS,2017025,Gollapalem PS,Kakinada Rural Circle,PS,L&O,FALSE
+HOME,Indrapalem PS,2017091,Indrapalem PS,Kakinada Rural Circle,PS,L&O,FALSE
+HOME,Karapa PS,2017039,Karapa PS,Kakinada Rural Circle,PS,L&O,FALSE
+HOME,Pedapudi PS,2017086,Pedapudi PS,Kakinada Rural Circle,PS,L&O,FALSE
+HOME,Thimmapuram PS,2017089,Thimmapuram PS,Kakinada Rural Circle,PS,L&O,FALSE
+HOME,Gollaprole PS,2017029,Gollaprole PS,Kakinada Rural Circle,PS,L&O,FALSE
+HOME,Pithapuram Rural PS,2017048,Pithapuram Rural PS,Pithapuram Circle,PS,L&O,FALSE
+HOME,Pithapuram Town PS,2017047,Pithapuram Town PS,Pithapuram Circle,PS,L&O,FALSE
+HOME,U. Kothapalli PS,2017085,U. Kothapalli PS,Pithapuram Circle,PS,L&O,FALSE
+HOME,Gandepalli PS,2017027,Gandepalli PS,Pithapuram Circle,PS,L&O,FALSE
+HOME,Jaggampeta PS,2017030,Jaggampeta PS,Jaggampeta Circle,PS,L&O,FALSE
+HOME,Kirlampudi PS,2017082,Kirlampudi PS,Jaggampeta Circle,PS,L&O,FALSE
+HOME,Peddapuram PS,2017046,Peddapuram PS,Jaggampeta Circle,PS,L&O,FALSE
+HOME,Yeleswaram PS,2017087,Yeleswaram PS,Peddapuram Circle,PS,L&O,FALSE
+HOME,Kotananduru PS,2017084,Kotananduru PS,Prathipadu Circle,PS,L&O,FALSE
+HOME,Thondangi PS,2017071,Thondangi PS,Tuni Rural Circle,PS,L&O,FALSE
+HOME,Tuni Rural PS,2017069,Tuni Rural PS,Tuni Rural Circle,PS,L&O,FALSE
+HOME,Rowthulapudi PS,2017095,Rowthulapudi PS,Tuni Rural Circle,PS,L&O,FALSE
+HOME,Avanigadda PS,2026001,Avanigadda PS,Prathipadu Circle,PS,L&O,FALSE
+HOME,Koduru PS,2026025,Koduru PS,Avanigadda Circle,PS,L&O,FALSE
+HOME,Nagayalanka PS,2026032,Nagayalanka PS,Avanigadda Circle,PS,L&O,FALSE
+HOME,Challapalli PS,2026007,Challapalli PS,Avanigadda Circle,PS,L&O,FALSE
+HOME,Ghantasala PS,2026063,Ghantasala PS,Challapalli Circle,PS,L&O,FALSE
+HOME,Bantumilli PS,2026005,Bantumilli PS,Challapalli Circle,PS,L&O,FALSE
+HOME,Guduru PS,2026064,Guduru PS,Bandar Rural Circle,PS,L&O,FALSE
+HOME,Kruthivennu PS,2026027,Kruthivennu PS,Bandar Rural Circle,PS,L&O,FALSE
+HOME,Pedana PS,2026037,Pedana PS,Bandar Rural Circle,PS,L&O,FALSE
+HOME,Bandar Taluk PS,2026004,Bandar Taluk PS,Bandar Rural Circle,PS,L&O,FALSE
+HOME,Machilipatnam Town PS,2026073,Machilipatnam Town PS,Robertsonpet UPS Circle,PS,L&O,FALSE
+HOME,Unguturu PS,2039047,Unguturu PS,Robertsonpet UPS Circle,PS,L&O,FALSE
+HOME,Atkuru PS,2039091,Atkuru PS,Gannavaram UPS Circle,PS,L&O,FALSE
+HOME,Hanuman Junction PS,2026016,Hanuman Junction PS,Hanuman Junction Circle,PS,L&O,FALSE
+HOME,Veeravalli PS,2026048,Veeravalli PS,Hanuman Junction Circle,PS,L&O,FALSE
+HOME,Kankipadu PS,2039023,Kankipadu PS,Hanuman Junction Circle,PS,L&O,FALSE
+HOME,Vuyyuru Rural PS,2039068,Vuyyuru Rural PS,Kankipadu Circle,PS,L&O,FALSE
+HOME,Gudivada Traffic PS,2026062,Gudivada Traffic PS,Kankipadu Circle,PS,L&O,FALSE
+HOME,Gudivada Rural PS,2026011,Gudivada Rural PS,Gudivada I Town UPS Circle,PS,L&O,FALSE
+HOME,Gudlavalleru PS,2026013,Gudlavalleru PS,Gudivada Rural Circle,PS,L&O,FALSE
+HOME,Nandivada PS,2026066,Nandivada PS,Gudivada Rural Circle,PS,L&O,FALSE
+HOME,Kuchipudi PS,2026024,Kuchipudi PS,Gudivada Rural Circle,PS,L&O,FALSE
+HOME,Pedaparupudi PS,2026039,Pedaparupudi PS,Pamarru Circle,PS,L&O,FALSE
+HOME,Pamidimukkala PS,2039039,Pamidimukkala PS,Pamarru Circle,PS,L&O,FALSE
+HOME,Thotlavalluru PS,2039043,Thotlavalluru PS,Pamidimukkala Circle,PS,L&O,FALSE
+HOME,Adoni Rural PS,2027001,Adoni Rural PS,Pamidimukkala Circle,PS,L&O,FALSE
+HOME,Isvi PS,2027027,Isvi PS,Adoni Rural Circle,PS,L&O,FALSE
+HOME,Peddathumbalam PS,2027063,Peddathumbalam PS,Adoni Rural Circle,PS,L&O,FALSE
+HOME,C.Belgal PS,2027012,C.Belgal PS,Adoni Rural Circle,PS,L&O,FALSE
+HOME,Gudur PS,2027024,Gudur PS,Kodumur Circle,PS,L&O,FALSE
+HOME,Kodumur PS,2027031,Kodumur PS,Kodumur Circle,PS,L&O,FALSE
+HOME,K.Nagalapuram PS,2027050,K.Nagalapuram PS,Kodumur Circle,PS,L&O,FALSE
+HOME,Oravakal PS,2027082,Oravakal PS,Kurnool Rural Circle,PS,L&O,FALSE
+HOME,Ulindakonda PS,2027076,Ulindakonda PS,Kurnool Rural Circle,PS,L&O,FALSE
+HOME,Alur PS,2027005,Alur PS,Kurnool Rural Circle,PS,L&O,FALSE
+HOME,Chippagiri PS,2027015,Chippagiri PS,Alur Circle,PS,L&O,FALSE
+HOME,Halaharvi PS,2027074,Halaharvi PS,Alur Circle,PS,L&O,FALSE
+HOME,Holagunda PS,2027026,Holagunda PS,Alur Circle,PS,L&O,FALSE
+HOME,Jonnagiri PS,2027025,Jonnagiri PS,Alur Circle,PS,L&O,FALSE
+HOME,Maddikera PS,2027045,Maddikera PS,Pathikonda Rural Circle,PS,L&O,FALSE
+HOME,Tuggali PS,2027073,Tuggali PS,Pathikonda Rural Circle,PS,L&O,FALSE
+HOME,Krishnagiri PS,2027037,Krishnagiri PS,Pathikonda Rural Circle,PS,L&O,FALSE
+HOME,Veldurthi PS,2027080,Veldurthi PS,Veldurthy Circle,PS,L&O,FALSE
+HOME,Kosigi PS,2027035,Kosigi PS,Veldurthy Circle,PS,L&O,FALSE
+HOME,Peddakadubur PS,2027065,Peddakadubur PS,Kosigi Circle,PS,L&O,FALSE
+HOME,Madhavaram PS,2027046,Madhavaram PS,Kosigi Circle,PS,L&O,FALSE
+HOME,Manthralayam PS,2027090,Manthralayam PS,Mantralayam Circle,PS,L&O,FALSE
+HOME,Nandavaram PS,2027056,Nandavaram PS,Mantralayam Circle,PS,L&O,FALSE
+HOME,Yemmiganur Rural PS,2027087,Yemmiganur Rural PS,Yemmiganur Rural Circle,PS,L&O,FALSE
+HOME,Yemmiganur Traffic PS,2027095,Yemmiganur Traffic PS,Yemmiganur Rural Circle,PS,L&O,FALSE
+HOME,Allagadda Rural PS,2027008,Allagadda Rural PS,Yemmiganur Town UPS Circle,PS,L&O,FALSE
+HOME,Chagalamarri PS,2027014,Chagalamarri PS,Allagadda Rural Circle,PS,L&O,FALSE
+HOME,Dornipadu PS,2027020,Dornipadu PS,Allagadda Rural Circle,PS,L&O,FALSE
+HOME,Uyyalawada PS,2027075,Uyyalawada PS,Allagadda Rural Circle,PS,L&O,FALSE
+HOME,Koilakuntla PS,2027032,Koilakuntla PS,Allagadda Rural Circle,PS,L&O,FALSE
+HOME,Kolimigundla PS,2027033,Kolimigundla PS,Koilakuntla Circle,PS,L&O,FALSE
+HOME,Revanur PS,2027067,Revanur PS,Koilakuntla Circle,PS,L&O,FALSE
+HOME,Sanjamala PS,2027069,Sanjamala PS,Koilakuntla Circle,PS,L&O,FALSE
+HOME,Rudravaram PS,2027068,Rudravaram PS,Koilakuntla Circle,PS,L&O,FALSE
+HOME,Sirivella PS,2027070,Sirivella PS,Sirivella Circle,PS,L&O,FALSE
+HOME,Kothapalli PS,2027044,Kothapalli PS,Sirivella Circle,PS,L&O,FALSE
+HOME,Pamulapadu PS,2027064,Pamulapadu PS,Atmakur Circle(NDL),PS,L&O,FALSE
+HOME,Velugodu PS,2027081,Velugodu PS,Atmakur Circle(NDL),PS,L&O,FALSE
+HOME,Brahamanakotkur PS,2027016,Brahamanakotkur PS,Atmakur Circle(NDL),PS,L&O,FALSE
+HOME,Jupadu Bangalow PS,2027030,Jupadu Bangalow PS,Nandikotkur Rural Circle,PS,L&O,FALSE
+HOME,Midthur PS,2027048,Midthur PS,Nandikotkur Rural Circle,PS,L&O,FALSE
+HOME,Muchumarri PS,2027059,Muchumarri PS,Nandikotkur Rural Circle,PS,L&O,FALSE
+HOME,Srisailam I Town PS,2027071,Srisailam I Town PS,Nandikotkur Rural Circle,PS,L&O,FALSE
+HOME,Srisailam II Town PS,2027072,Srisailam II Town PS,Srisailam Circle,PS,L&O,FALSE
+HOME,Banaganapalli PS,2027010,Banaganapalli PS,Srisailam Circle,PS,L&O,FALSE
+HOME,Nandivargam PS,2027052,Nandivargam PS,Banaganapalli Circle,PS,L&O,FALSE
+HOME,Owk PS,2027058,Owk PS,Banaganapalli Circle,PS,L&O,FALSE
+HOME,Jaladurgam PS,2027028,Jaladurgam PS,Banaganapalli Circle,PS,L&O,FALSE
+HOME,N.Racherla PS,2027057,N.Racherla PS,Peapully Circle,PS,L&O,FALSE
+HOME,Peapully PS,2027062,Peapully PS,Peapully Circle,PS,L&O,FALSE
+HOME,B.Atmakur PS,2027009,B.Atmakur PS,Peapully Circle,PS,L&O,FALSE
+HOME,Gospadu PS,2027088,Gospadu PS,Nandyal Rural Circle,PS,L&O,FALSE
+HOME,Mahanandi PS,2027089,Mahanandi PS,Nandyal Rural Circle,PS,L&O,FALSE
+HOME,Gadivemula PS,2027022,Gadivemula PS,Nandyal Rural Circle,PS,L&O,FALSE
+HOME,Panyam PS,2027060,Panyam PS,Panyam Circle,PS,L&O,FALSE
+HOME,Machavaram PS,2019036,Machavaram PS,Panyam Circle,PS,L&O,FALSE
+HOME,Durgi PS,2019019,Durgi PS,Dachepalli UPS Circle,PS,L&O,FALSE
+HOME,Karempudi PS,2019027,Karempudi PS,Karempudi Circle,PS,L&O,FALSE
+HOME,Rentachinthala PS,2019060,Rentachinthala PS,Karempudi Circle,PS,L&O,FALSE
+HOME,Macherla Rural PS,2019033,Macherla Rural PS,Karempudi Circle,PS,L&O,FALSE
+HOME,Nagarjunasagar PS,2019039,Nagarjunasagar PS,Macherla Rural Circle,PS,L&O,FALSE
+HOME,Veldurthy PS,2019074,Veldurthy PS,Macherla Rural Circle,PS,L&O,FALSE
+HOME,Chilakaluripet Rural PS,2019014,Chilakaluripet Rural PS,Macherla Rural Circle,PS,L&O,FALSE
+HOME,Edlapadu PS,2019078,Edlapadu PS,Chilakaluripet Rural Circle,PS,L&O,FALSE
+HOME,Nadendla PS,2019043,Nadendla PS,Chilakaluripet Rural Circle,PS,L&O,FALSE
+HOME,Narasaraopet Trafic PS,2019095,Narasaraopet Trafic PS,Chilakaluripet Rural Circle,PS,L&O,FALSE
+HOME,Narasaraopet Rural PS,2019041,Narasaraopet Rural PS,Narsaraopet I Town UPS Circle,PS,L&O,FALSE
+HOME,Bandlamotu PS,2019077,Bandlamotu PS,Narsaraopet Rural  Circle,PS,L&O,FALSE
+HOME,Inavole PS,2019024,Inavole PS,Vinukonda Rural Circle,PS,L&O,FALSE
+HOME,Ipur PS,2019025,Ipur PS,Vinukonda Rural Circle,PS,L&O,FALSE
+HOME,Savalyapuram PS,2019062,Savalyapuram PS,Vinukonda Rural Circle,PS,L&O,FALSE
+HOME,Atchampet PS,2019004,Atchampet PS,Vinukonda Rural Circle,PS,L&O,FALSE
+HOME,Bellamkonda PS,2019076,Bellamkonda PS,Pedakurapadu Circle,PS,L&O,FALSE
+HOME,Krosuru PS,2019080,Krosuru PS,Pedakurapadu Circle,PS,L&O,FALSE
+HOME,Pedakurapadu PS,2019049,Pedakurapadu PS,Pedakurapadu Circle,PS,L&O,FALSE
+HOME,Muppalla PS,2019081,Muppalla PS,Pedakurapadu Circle,PS,L&O,FALSE
+HOME,Nekarekal PS,2019040,Nekarekal PS,Sattenapalli Rural Circle,PS,L&O,FALSE
+HOME,Rajupalem PS,2019056,Rajupalem PS,Sattenapalli Rural Circle,PS,L&O,FALSE
+HOME,Sattenapalli Rural PS,2019063,Sattenapalli Rural PS,Sattenapalli Rural Circle,PS,L&O,FALSE
+HOME,Chinamerangi PS,2037012,Chinamerangi PS,Sattenapalli Rural Circle,PS,L&O,FALSE
+HOME,Garugubilli PS,2037023,Garugubilli PS,Chinamerangi Circle,PS,L&O,FALSE
+HOME,Jiyyammavalasa PS,2037024,Jiyyammavalasa PS,Chinamerangi Circle,PS,L&O,FALSE
+HOME,Elwinpeta PS,2037013,Elwinpeta PS,Chinamerangi Circle,PS,L&O,FALSE
+HOME,Kurupam PS,2037027,Kurupam PS,Elwinpeta Circle,PS,L&O,FALSE
+HOME,Neelakantapuram PS,2037032,Neelakantapuram PS,Elwinpeta Circle,PS,L&O,FALSE
+HOME,Bathili PS,2034005,Bathili PS,Elwinpeta Circle,PS,L&O,FALSE
+HOME,Donubhai PS,2034011,Donubhai PS,Palakonda Circle,PS,L&O,FALSE
+HOME,Palakonda PS,2034036,Palakonda PS,Palakonda Circle,PS,L&O,FALSE
+HOME,Seethampeta PS,2034046,Seethampeta PS,Palakonda Circle,PS,L&O,FALSE
+HOME,Veeraghattam PS,2034056,Veeraghattam PS,Palakonda Circle,PS,L&O,FALSE
+HOME,Balijipeta PS,2037066,Balijipeta PS,Palakonda Circle,PS,L&O,FALSE
+HOME,Komarada PS,2037068,Komarada PS,Parvathipuram Rural Circle,PS,L&O,FALSE
+HOME,Parvathipuram Rural PS,2037037,Parvathipuram Rural PS,Parvathipuram Rural Circle,PS,L&O,FALSE
+HOME,Parvathipuram Traffic PS,2061001,Parvathipuram Traffic PS,Parvathipuram Rural Circle,PS,L&O,FALSE
+HOME,Makkuva PS,2037028,Makkuva PS,Parvathipuram Town UPS Circle,PS,L&O,FALSE
+HOME,Pachipenta PS,2037069,Pachipenta PS,Salur Rural Circle,PS,L&O,FALSE
+HOME,Salur Rural PS,2037046,Salur Rural PS,Salur Rural Circle,PS,L&O,FALSE
+HOME,Kurichedu PS,2033036,Kurichedu PS,Salur Rural Circle,PS,L&O,FALSE
+HOME,Tripuranthakam PS,2033085,Tripuranthakam PS,Darsi Circle,PS,L&O,FALSE
+HOME,Hanumanthunipadu PS,2033024,Hanumanthunipadu PS,Tripuranthakam Circle,PS,L&O,FALSE
+HOME,Kanigiri PS,2033033,Kanigiri PS,Kanigiri Circle,PS,L&O,FALSE
+HOME,Peddacherlo Palli PS,2033067,Peddacherlo Palli PS,Kanigiri Circle,PS,L&O,FALSE
+HOME,Kondepi PS,2033035,Kondepi PS,Kanigiri Circle,PS,L&O,FALSE
+HOME,Marripudi PS,2033044,Marripudi PS,Kondepi Circle,PS,L&O,FALSE
+HOME,Ponnalur PS,2033064,Ponnalur PS,Kondepi Circle,PS,L&O,FALSE
+HOME,C.S.Puram PS,2033007,C.S.Puram PS,Kondepi Circle,PS,L&O,FALSE
+HOME,Pamur PS,2033061,Pamur PS,Pamur Circle,PS,L&O,FALSE
+HOME,Veligandla PS,2033088,Veligandla PS,Pamur Circle,PS,L&O,FALSE
+HOME,Ardhaveedu PS,2033002,Ardhaveedu PS,Pamur Circle,PS,L&O,FALSE
+HOME,Besthavaripeta PS,2033005,Besthavaripeta PS,Cumbum Circle,PS,L&O,FALSE
+HOME,Cumbum PS,2033011,Cumbum PS,Cumbum Circle,PS,L&O,FALSE
+HOME,Komarolu PS,2033034,Komarolu PS,Cumbum Circle,PS,L&O,FALSE
+HOME,Racherla PS,2033070,Racherla PS,Giddalur Circle,PS,L&O,FALSE
+HOME,Markapur Rural PS,2033047,Markapur Rural PS,Giddalur Circle,PS,L&O,FALSE
+HOME,Markapur Town PS,2033041,Markapur Town PS,Markapur Circle,PS,L&O,FALSE
+HOME,Dornala PS,2033018,Dornala PS,Markapur Circle,PS,L&O,FALSE
+HOME,Peddaraveedu PS,2033066,Peddaraveedu PS,Yerragondapalem Circle,PS,L&O,FALSE
+HOME,Pullala Cheruvu PS,2033065,Pullala Cheruvu PS,Tripuranthakam Circle,PS,L&O,FALSE
+HOME,Yerragonda Palem PS,2033095,Yerragonda Palem PS,Yerragondapalem Circle,PS,L&O,FALSE
+HOME,Kothapatnam PS,2033039,Kothapatnam PS,Yerragondapalem Circle,PS,L&O,FALSE
+HOME,Maddipadu PS,2033043,Maddipadu PS,Ongole II Town UPS Circle,PS,L&O,FALSE
+HOME,N.G. Padu PS,2033048,N.G. Padu PS,Ongole Rural Circle,PS,L&O,FALSE
+HOME,Santhanuthalapadu PS,2033078,Santhanuthalapadu PS,Ongole Rural Circle,PS,L&O,FALSE
+HOME,Jarugumalli PS,2033097,Jarugumalli PS,Ongole Rural Circle,PS,L&O,FALSE
+HOME,Singarayakonda PS,2033077,Singarayakonda PS,Singarayakonda Circle,PS,L&O,FALSE
+HOME,Tangutur PS,2033083,Tangutur PS,Singarayakonda Circle,PS,L&O,FALSE
+HOME,Darsi PS,2033016,Darsi PS,Singarayakonda Circle,PS,L&O,FALSE
+HOME,Mundlamur PS,2033045,Mundlamur PS,Darsi Circle,PS,L&O,FALSE
+HOME,Thallur PS,2033084,Thallur PS,Darsi Circle,PS,L&O,FALSE
+HOME,Konakanamitla PS,2033037,Konakanamitla PS,Darsi Circle,PS,L&O,FALSE
+HOME,Podili PS,2033063,Podili PS,Podili Circle,PS,L&O,FALSE
+HOME,Tarlupadu (Tadivaripalli) PS,2033082,Tarlupadu (Tadivaripalli) PS,Podili Circle,PS,L&O,FALSE
+HOME,Donakonda PS,2033017,Donakonda PS,Podili Circle,PS,L&O,FALSE
+HOME,A.S.Pet PS,2031003,A.S.Pet PS,Darsi Circle,PS,L&O,FALSE
+HOME,Ananthasagaram PS,2031077,Ananthasagaram PS,Sangam Circle,PS,L&O,FALSE
+HOME,Marripadu (D.C.Palli) PS,2031014,Marripadu (D.C.Palli) PS,Atmakur Circle(NLR),PS,L&O,FALSE
+HOME,Sangam PS,2031074,Sangam PS,Atmakur Circle(NLR),PS,L&O,FALSE
+HOME,Somasila PS,2031063,Somasila PS,Sangam Circle,PS,L&O,FALSE
+HOME,Kaluvoy PS,2031029,Kaluvoy PS,Atmakur Circle(NLR),PS,L&O,FALSE
+HOME,Kandaleru PS,2031036,Kandaleru PS,Rapur Circle,PS,L&O,FALSE
+HOME,Rapur PS,2031057,Rapur PS,Rapur Circle,PS,L&O,FALSE
+HOME,Sydapuram PS,2031062,Sydapuram PS,Rapur Circle,PS,L&O,FALSE
+HOME,Gudlur PS,2033023,Gudlur PS,Rapur Circle,PS,L&O,FALSE
+HOME,Lingasamudram PS,2033040,Lingasamudram PS,Gudlur Circle,PS,L&O,FALSE
+HOME,Voletivaripalem PS,2033010,Voletivaripalem PS,Gudlur Circle,PS,L&O,FALSE
+HOME,Kandukur Town PS,2033032,Kandukur Town PS,Gudlur Circle,PS,L&O,FALSE
+HOME,Kandukuru Rural PS,2033098,Kandukuru Rural PS,Kandukur Circle,PS,L&O,FALSE
+HOME,Ulavapadu PS,2033086,Ulavapadu PS,Kandukur Circle,PS,L&O,FALSE
+HOME,Jaladanki PS,2031027,Jaladanki PS,Kandukur Circle,PS,L&O,FALSE
+HOME,Kaligiri PS,2031028,Kaligiri PS,Kaligiri Circle,PS,L&O,FALSE
+HOME,Kondapuram PS,2031035,Kondapuram PS,Kaligiri Circle,PS,L&O,FALSE
+HOME,Vinjamur PS,2031073,Vinjamur PS,Kaligiri Circle,PS,L&O,FALSE
+HOME,Allur PS,2031001,Allur PS,Kaligiri Circle,PS,L&O,FALSE
+HOME,Bitragunta PS,2031005,Bitragunta PS,Kavali Rural Circle,PS,L&O,FALSE
+HOME,Dagadarthi PS,2031017,Dagadarthi PS,Kavali Rural Circle,PS,L&O,FALSE
+HOME,Duttaluru PS,2031019,Duttaluru PS,Kavali Rural Circle,PS,L&O,FALSE
+HOME,Udayagiri PS,2031067,Udayagiri PS,Udayagiri Circle,PS,L&O,FALSE
+HOME,Varikunta Padu PS,2031076,Varikunta Padu PS,Udayagiri Circle,PS,L&O,FALSE
+HOME,Kodavalur PS,2031032,Kodavalur PS,Udayagiri Circle,PS,L&O,FALSE
+HOME,Vidavalur PS,2031072,Vidavalur PS,B. Palem Circle,PS,L&O,FALSE
+HOME,Indukurpet PS,2031026,Indukurpet PS,B. Palem Circle,PS,L&O,FALSE
+HOME,Kovur PS,2031034,Kovur PS,Kovur Circle,PS,L&O,FALSE
+HOME,Krishnapatnam Port PS,2031038,Krishnapatnam Port PS,Kovur Circle,PS,L&O,FALSE
+HOME,Muttukur PS,2031042,Muttukur PS,Krishnapatnam Port Circle,PS,L&O,FALSE
+HOME,Totapalli Gudur PS,2031065,Totapalli Gudur PS,Krishnapatnam Port Circle,PS,L&O,FALSE
+HOME,Chejerla PS,2031011,Chejerla PS,Krishnapatnam Port Circle,PS,L&O,FALSE
+HOME,Manubolu PS,2031043,Manubolu PS,Sangam Circle,PS,L&O,FALSE
+HOME,Podalakur PS,2031053,Podalakur PS,Podalakur Circle,PS,L&O,FALSE
+HOME,Bathalapalli PS,2012011,Bathalapalli PS,Podalakur Circle,PS,L&O,FALSE
+HOME,Patnam PS,2012052,Patnam PS,Dharmavaram Rural Circle,PS,L&O,FALSE
+HOME,Dharmavaram Rural PS,2012072,Dharmavaram Rural PS,Mudigubba Circle,PS,L&O,FALSE
+HOME,Tadimarri PS,2012065,Tadimarri PS,Dharmavaram Rural Circle,PS,L&O,FALSE
+HOME,Chennekothapalli PS,2012012,Chennekothapalli PS,Mudigubba Circle,PS,L&O,FALSE
+HOME,Kanaganapalli PS,2012071,Kanaganapalli PS,Ramagiri Circle,PS,L&O,FALSE
+HOME,Ramagiri PS,2012060,Ramagiri PS,Ramagiri Circle,PS,L&O,FALSE
+HOME,Chilmathur PS,2012013,Chilmathur PS,Ramagiri Circle,PS,L&O,FALSE
+HOME,Hindupuram Traffic PS,2064003,Hindupuram Traffic PS,Hindupur Rural Circle,PS,L&O,FALSE
+HOME,Lepakshi PS,2012036,Lepakshi PS,Hindupur Rural Circle,PS,L&O,FALSE
+HOME,Gandlapenta PS,2012017,Gandlapenta PS,Hindupur Rural Circle,PS,L&O,FALSE
+HOME,N.P.Kunta PS,2012044,N.P.Kunta PS,Kadiri Rural Circle,PS,L&O,FALSE
+HOME,Nallacheruvu PS,2012043,Nallacheruvu PS,Kadiri Rural Circle,PS,L&O,FALSE
+HOME,Talupula PS,2012068,Talupula PS,Kadiri Rural Circle,PS,L&O,FALSE
+HOME,Tanakal PS,2012069,Tanakal PS,Kadiri Rural Circle,PS,L&O,FALSE
+HOME,Agali PS,2012006,Agali PS,Kadiri Rural Circle,PS,L&O,FALSE
+HOME,Amarapuram PS,2012001,Amarapuram PS,Madakasira Circle,PS,L&O,FALSE
+HOME,Gudibanda PS,2012022,Gudibanda PS,Madakasira Circle,PS,L&O,FALSE
+HOME,Rolla PS,2012058,Rolla PS,Madakasira Circle,PS,L&O,FALSE
+HOME,KIA PS,2012094,KIA PS,Madakasira Circle,PS,L&O,FALSE
+HOME,Parigi PS,2012055,Parigi PS,Penukonda Circle,PS,L&O,FALSE
+HOME,Penukonda PS,2012053,Penukonda PS,Penukonda Circle,PS,L&O,FALSE
+HOME,Roddam PS,2012059,Roddam PS,Penukonda Circle,PS,L&O,FALSE
+HOME,Somandepalli PS,2012089,Somandepalli PS,Penukonda Circle,PS,L&O,FALSE
+HOME,Amadaguru PS,2012007,Amadaguru PS,Penukonda Circle,PS,L&O,FALSE
+HOME,Nallamada PS,2012042,Nallamada PS,Nallamada Circle,PS,L&O,FALSE
+HOME,O.D.Cheruvu PS,2012045,O.D.Cheruvu PS,Nallamada Circle,PS,L&O,FALSE
+HOME,Bukkapatnam PS,2012010,Bukkapatnam PS,Nallamada Circle,PS,L&O,FALSE
+HOME,Puttaparthy Rural PS,2012038,Puttaparthy Rural PS,Puttaparthi Rural Circle,PS,L&O,FALSE
+HOME,Itchapuram Rural PS,2034020,Itchapuram Rural PS,Puttaparthi Rural Circle,PS,L&O,FALSE
+HOME,Itchapuram Town PS,2034019,Itchapuram Town PS,Itchapuram Circle,PS,L&O,FALSE
+HOME,Kaviti PS,2034027,Kaviti PS,Itchapuram Circle,PS,L&O,FALSE
+HOME,Mandasa PS,2034030,Mandasa PS,Itchapuram Circle,PS,L&O,FALSE
+HOME,Vajrapukothuru PS,2034058,Vajrapukothuru PS,Kasibugga Rural Circle,PS,L&O,FALSE
+HOME,Baruva PS,2034004,Baruva PS,Kasibugga Rural Circle,PS,L&O,FALSE
+HOME,Kanchili PS,2034026,Kanchili PS,Sompeta Circle,PS,L&O,FALSE
+HOME,Sompeta PS,2034047,Sompeta PS,Sompeta Circle,PS,L&O,FALSE
+HOME,Amadalavalasa PS,2034001,Amadalavalasa PS,Sompeta Circle,PS,L&O,FALSE
+HOME,Burja PS,2034008,Burja PS,Amadalavalasa Circle,PS,L&O,FALSE
+HOME,Ponduru PS,2034040,Ponduru PS,Amadalavalasa Circle,PS,L&O,FALSE
+HOME,Sarubujjili PS,2034050,Sarubujjili PS,Amadalavalasa Circle,PS,L&O,FALSE
+HOME,Etcherla PS,2034013,Etcherla PS,Amadalavalasa Circle,PS,L&O,FALSE
+HOME,G. Sigadam PS,2034015,G. Sigadam PS,J.R.Puram Circle,PS,L&O,FALSE
+HOME,J.R.Puram PS,2034021,J.R.Puram PS,J.R.Puram Circle,PS,L&O,FALSE
+HOME,Laveru PS,2034028,Laveru PS,J.R.Puram Circle,PS,L&O,FALSE
+HOME,Gara PS,2034044,Gara PS,J.R.Puram Circle,PS,L&O,FALSE
+HOME,Srikakulam I Town PS,2034049,Srikakulam I Town PS,Srikakulam Rural Circle,PS,L&O,FALSE
+HOME,Srikakulam Rural PS,2034048,Srikakulam Rural PS,Srikakulam Rural Circle,PS,L&O,FALSE
+HOME,Hiramandalam PS,2034017,Hiramandalam PS,Srikakulam Rural Circle,PS,L&O,FALSE
+HOME,Kothuru PS,2034025,Kothuru PS,Kothuru Circle,PS,L&O,FALSE
+HOME,Jalumuru PS,2034022,Jalumuru PS,Kothuru Circle,PS,L&O,FALSE
+HOME,Narasannapeta PS,2034032,Narasannapeta PS,Narasannapeta Circle,PS,L&O,FALSE
+HOME,Polaki PS,2034041,Polaki PS,Narasannapeta Circle,PS,L&O,FALSE
+HOME,Saravakota PS,2034045,Saravakota PS,Narasannapeta Circle,PS,L&O,FALSE
+HOME,Meliaputti PS,2034029,Meliaputti PS,Narasannapeta Circle,PS,L&O,FALSE
+HOME,Pathapatnam PS,2034039,Pathapatnam PS,Pathapatnam Circle,PS,L&O,FALSE
+HOME,Kotabommali PS,2034024,Kotabommali PS,Pathapatnam Circle,PS,L&O,FALSE
+HOME,Nandigam PS,2034033,Nandigam PS,Tekkali Circle,PS,L&O,FALSE
+HOME,Naupada PS,2034035,Naupada PS,Tekkali Circle,PS,L&O,FALSE
+HOME,Santhabommali PS,2034037,Santhabommali PS,Tekkali Circle,PS,L&O,FALSE
+HOME,Doravari Satram PS,2031007,Doravari Satram PS,Tekkali Circle,PS,L&O,FALSE
+HOME,Ozili PS,2031050,Ozili PS,Naidupet Rural Circle,PS,L&O,FALSE
+HOME,Pellakur PS,2031054,Pellakur PS,Naidupet Rural Circle,PS,L&O,FALSE
+HOME,Sriharikota PS,2031059,Sriharikota PS,Naidupet Rural Circle,PS,L&O,FALSE
+HOME,Sullurpet PS,2031061,Sullurpet PS,Sullurpet Circle,PS,L&O,FALSE
+HOME,Tada PS,2031064,Tada PS,Sullurpet Circle,PS,L&O,FALSE
+HOME,Chillakur PS,2031012,Chillakur PS,Sullurpet Circle,PS,L&O,FALSE
+HOME,Gudur Rural PS,2031021,Gudur Rural PS,Gudur Rural Circle,PS,L&O,FALSE
+HOME,Chittamuru PS,2031013,Chittamuru PS,Gudur Rural Circle,PS,L&O,FALSE
+HOME,Kota PS,2031033,Kota PS,Vakadu Circle,PS,L&O,FALSE
+HOME,Vakadu PS,2031075,Vakadu PS,Gudur Rural Circle,PS,L&O,FALSE
+HOME,Balayapalli PS,2031004,Balayapalli PS,Vakadu Circle,PS,L&O,FALSE
+HOME,Dakkili PS,2031018,Dakkili PS,Venkatagiri Circle,PS,L&O,FALSE
+HOME,Venkatagiri PS,2031071,Venkatagiri PS,Venkatagiri Circle,PS,L&O,FALSE
+HOME,Gajula mandyam PS,2045088,Gajula mandyam PS,Venkatagiri Circle,PS,L&O,FALSE
+HOME,Vadamalpet PS,2045062,Vadamalpet PS,Renigunta  Rural Circle,PS,L&O,FALSE
+HOME,B.N.Kandriga PS,2045074,B.N.Kandriga PS,Puttur Rural Circle,PS,L&O,FALSE
+HOME,Thottambedu PS,2045079,Thottambedu PS,Bn Kandriga Circle,PS,L&O,FALSE
+HOME,K.V.B.Puram PS,2014022,K.V.B.Puram PS,Bn Kandriga Circle,PS,L&O,FALSE
+HOME,Narayanavanam PS,2014034,Narayanavanam PS,Puttur Rural Circle,PS,L&O,FALSE
+HOME,Pitchatoor PS,2014073,Pitchatoor PS,Puttur Rural Circle,PS,L&O,FALSE
+HOME,Nagalapuram PS,2014029,Nagalapuram PS,Puttur Rural Circle,PS,L&O,FALSE
+HOME,Satyavedu PS,2014049,Satyavedu PS,Satyavedu Circle,PS,L&O,FALSE
+HOME,Vardaiahpalem PS,2014063,Vardaiahpalem PS,Satyavedu Circle,PS,L&O,FALSE
+HOME,Chandragiri UPS,2045010,Chandragiri UPS,Satyavedu Circle,PS,L&O,FALSE
+HOME,Bhakarapet PS,2014005,Bhakarapet PS,Chandragiri SDPO,PS,L&O,FALSE
+HOME,Yerravaripalem PS,2014083,Yerravaripalem PS,Bhakrapet Circle,PS,L&O,FALSE
+HOME,RC Puram PS,2045054,RC Puram PS,Bhakrapet Circle,PS,L&O,FALSE
+HOME,Badangi PS,2037065,Badangi PS,Chandragiri UPS,PS,L&O,FALSE
+HOME,Ramabhadrapuram PS,2037041,Ramabhadrapuram PS,Bobbili Rural Circle,PS,L&O,FALSE
+HOME,Therlam PS,2037004,Therlam PS,Bobbili Rural Circle,PS,L&O,FALSE
+HOME,Bobbili Traffic PS,2037075,Bobbili Traffic PS,Bobbili Rural Circle,PS,L&O,FALSE
+HOME,Andra PS,2037003,Andra PS,Bobbili Town UPS Circle,PS,L&O,FALSE
+HOME,Burjavalasa PS,2037008,Burjavalasa PS,Gajapathinagaram Circle,PS,L&O,FALSE
+HOME,Bondapalli PS,2037067,Bondapalli PS,Gajapathinagaram Circle,PS,L&O,FALSE
+HOME,Gajapathinagaram PS,2037019,Gajapathinagaram PS,Gajapathinagaram Circle,PS,L&O,FALSE
+HOME,Pedamanapuram PS,2037033,Pedamanapuram PS,Gajapathinagaram Circle,PS,L&O,FALSE
+HOME,Budarayavalasa PS,2037007,Budarayavalasa PS,Gajapathinagaram Circle,PS,L&O,FALSE
+HOME,Cheepurupalli PS,2037009,Cheepurupalli PS,Cheepurupalli Circle,PS,L&O,FALSE
+HOME,Garividi PS,2037022,Garividi PS,Cheepurupalli Circle,PS,L&O,FALSE
+HOME,Gurla PS,2037014,Gurla PS,Cheepurupalli Circle,PS,L&O,FALSE
+HOME,Regidi Amudalavalsa PS,2034043,Regidi Amudalavalsa PS,Cheepurupalli Circle,PS,L&O,FALSE
+HOME,Santhakaviti PS,2034051,Santhakaviti PS,Rajam Rural Circle,PS,L&O,FALSE
+HOME,Vangara PS,2034057,Vangara PS,Rajam Rural Circle,PS,L&O,FALSE
+HOME,Denkada PS,2037010,Denkada PS,Rajam Rural Circle,PS,L&O,FALSE
+HOME,Nellimarla PS,2037039,Nellimarla PS,Bhogapuram Circle,PS,L&O,FALSE
+HOME,Pusapatirega PS,2037070,Pusapatirega PS,Bhogapuram Circle,PS,L&O,FALSE
+HOME,Jami PS,2037025,Jami PS,Bhogapuram Circle,PS,L&O,FALSE
+HOME,L Kota PS,2037029,L Kota PS,S.Kota Circle,PS,L&O,FALSE
+HOME,Vallampudi PS,2037055,Vallampudi PS,S.Kota Circle,PS,L&O,FALSE
+HOME,Gantyada PS,2037020,Gantyada PS,S.Kota Circle,PS,L&O,FALSE
+HOME,Vizianagaram Rural PS,2037063,Vizianagaram Rural PS,Vizianagaram Rural  Circle,PS,L&O,FALSE
+HOME,Akividu PS,2018002,Akividu PS,Vizianagaram Rural  Circle,PS,L&O,FALSE
+HOME,Kalla PS,2018026,Kalla PS,Akivedu Circle,PS,L&O,FALSE
+HOME,Undi PS,2018059,Undi PS,Akivedu Circle,PS,L&O,FALSE
+HOME,Bhimavaram Rural PS,2018007,Bhimavaram Rural PS,Akivedu Circle,PS,L&O,FALSE
+HOME,Palakoderu PS,2018039,Palakoderu PS,Bhimavaram Rural Circle,PS,L&O,FALSE
+HOME,Veeravasaram PS,2018048,Veeravasaram PS,Bhimavaram Rural Circle,PS,L&O,FALSE
+HOME,Pentapadu PS,2018040,Pentapadu PS,Bhimavaram Rural Circle,PS,L&O,FALSE
+HOME,Tadepalligudem Rural PS,2018047,Tadepalligudem Rural PS,Tadepalligudem Rural Circle,PS,L&O,FALSE
+HOME,Tadepalligudem Traffic PS,2018071,Tadepalligudem Traffic PS,Tadepalligudem Rural Circle,PS,L&O,FALSE
+HOME,Mogaltur PS,2018029,Mogaltur PS,Tadepalligudem Town UPS Circle,PS,L&O,FALSE
+HOME,Narasapuram Rural PS,2018033,Narasapuram Rural PS,Narasapuram Rural Circle,PS,L&O,FALSE
+HOME,Palakollu Rural PS,2018034,Palakollu Rural PS,Narasapuram Rural Circle,PS,L&O,FALSE
+HOME,Poduru PS,2018058,Poduru PS,Palakollu Rural Circle,PS,L&O,FALSE
+HOME,Yelamanchili PS,2018061,Yelamanchili PS,Palakollu Rural Circle,PS,L&O,FALSE
+HOME,Achanta PS,2018001,Achanta PS,Palakollu Rural Circle,PS,L&O,FALSE
+HOME,Penugonda PS,2018037,Penugonda PS,Penugonda Circle,PS,L&O,FALSE
+HOME,Penumantra PS,2018056,Penumantra PS,Penugonda Circle,PS,L&O,FALSE
+HOME,Attili PS,2018004,Attili PS,Penugonda Circle,PS,L&O,FALSE
+HOME,Iragavaram PS,2018053,Iragavaram PS,Tanuku Rural Circle,PS,L&O,FALSE
+HOME,Tanuku Rural PS,2018043,Tanuku Rural PS,Tanuku Rural Circle,PS,L&O,FALSE
+HOME,Tanuku Traffic PS,2018070,Tanuku Traffic PS,Tanuku Rural Circle,PS,L&O,FALSE
+HOME,Mylavaram PS,2016024,Mylavaram PS,Tanuku Town UPS Circle,PS,L&O,FALSE
+HOME,Peddamudium PS,2016038,Peddamudium PS,Jammalamadugu Rural Circle,PS,L&O,FALSE
+HOME,Talamanchipatnam PS,2016055,Talamanchipatnam PS,Jammalamadugu Rural Circle,PS,L&O,FALSE
+HOME,Kalamalla PS,2016021,Kalamalla PS,Jammalamadugu Rural Circle,PS,L&O,FALSE
+HOME,Tallaproddatur PS,2016056,Tallaproddatur PS,Yerraguntla UPS,PS,L&O,FALSE
+HOME,Chintakomma Dinne PS,2016013,Chintakomma Dinne PS,Kondapuram Circle,PS,L&O,FALSE
+HOME,Pendlimarri PS,2016039,Pendlimarri PS,Kadapa SDPO,PS,L&O,FALSE
+HOME,Vallur PS,2016061,Vallur PS,Kadapa Rural Circle,PS,L&O,FALSE
+HOME,Sidhout PS,2016052,Sidhout PS,Kamalapuram Circle,PS,L&O,FALSE
+HOME,Vontimitta PS,2016065,Vontimitta PS,Vontimitta Circle,PS,L&O,FALSE
+HOME,Chennur PS,2016006,Chennur PS,Vontimitta Circle,PS,L&O,FALSE
+HOME,Gangireddipalli (G.R.Palli) PS,2016016,Gangireddipalli (G.R.Palli) PS,Kadapa SDPO,PS,L&O,FALSE
+HOME,Kamalapuram PS,2016023,Kamalapuram PS,Kadapa Rural Circle,PS,L&O,FALSE
+HOME,Atlur PS,2016001,Atlur PS,Kamalapuram Circle,PS,L&O,FALSE
+HOME,B.Kodur PS,2016071,B.Kodur PS,Badvel Rural Circle,PS,L&O,FALSE
+HOME,Badvel Rural (Gopavaram) PS,2016003,Badvel Rural (Gopavaram) PS,Badvel Rural Circle,PS,L&O,FALSE
+HOME,B.Matam PS,2016004,B.Matam PS,Badvel Rural Circle,PS,L&O,FALSE
+HOME,Chapadu PS,2016010,Chapadu PS,Mydukur Rural Circle,PS,L&O,FALSE
+HOME,Duvvur PS,2016014,Duvvur PS,Mydukur Rural Circle,PS,L&O,FALSE
+HOME,Khajipet PS,2016025,Khajipet PS,Mydukur Rural Circle,PS,L&O,FALSE
+HOME,Kalasapadu PS,2016022,Kalasapadu PS,Mydukur SDPO,PS,L&O,FALSE
+HOME,Porumamilla PS,2016040,Porumamilla PS,Porumamilla Circle,PS,L&O,FALSE
+HOME,SAKN PS,2016080,SAKN PS,Porumamilla Circle,PS,L&O,FALSE
+HOME,Proddatur Rural PS,2016041,Proddatur Rural PS,Porumamilla Circle,PS,L&O,FALSE
+HOME,Lingala PS,2016029,Lingala PS,Proddatur Rural Circle,PS,L&O,FALSE
+HOME,Simhadripuram PS,2016053,Simhadripuram PS,Pulivendula Rural Circle,PS,L&O,FALSE
+HOME,Thondur PS,2016057,Thondur PS,Pulivendula Rural Circle,PS,L&O,FALSE
+HOME,Chekrayapet PS,2016005,Chekrayapet PS,Pulivendula Rural Circle,PS,L&O,FALSE
+HOME,RK Valley PS,2016074,RK Valley PS,RK Valley Circle,PS,L&O,FALSE
+HOME,Vemula PS,2016064,Vemula PS,RK Valley Circle,PS,L&O,FALSE
+HOME,Anakapalli Town PS,2035001,Anakapalli Town PS,RK Valley Circle,PS,L&O,FALSE
+HOME,Chodavaram PS,2035008,Chodavaram PS,Anakapalli SDPO,PS,L&O,FALSE
+HOME,Kasimkota PS,2035027,Kasimkota PS,Anakapalli SDPO,PS,L&O,FALSE
+HOME,Narsipatnam Town PS,2035037,Narsipatnam Town PS,Anakapalli SDPO,PS,L&O,FALSE
+HOME,Payakaraopeta PS,2035041,Payakaraopeta PS,Narsipatnam SDPO,PS,L&O,FALSE
+HOME,Nakkapalli PS,2035035,Nakkapalli PS,Narsipatnam SDPO,PS,L&O,FALSE
+HOME,Atchutapuram PS,2035067,Atchutapuram PS,Narsipatnam SDPO,PS,L&O,FALSE
+HOME,Parawada PS,2038041,Parawada PS,Parawada SDPO,PS,L&O,FALSE
+HOME,Sabbavaram PS,2035012,Sabbavaram PS,Parawada SDPO,PS,L&O,FALSE
+HOME,Rambilli PS,2035044,Rambilli PS,Parawada SDPO,PS,L&O,FALSE
+HOME,Anantapur I Town PS,2012003,Anantapur I Town PS,Parawada SDPO,PS,L&O,FALSE
+HOME,Anantapur II Town PS,2012004,Anantapur II Town PS,Anantapuram Town SDPO,PS,L&O,FALSE
+HOME,Anantapur III Town PS,2012046,Anantapur III Town PS,Anantapuram Town SDPO,PS,L&O,FALSE
+HOME,Anantapur IV Town PS,2012093,Anantapur IV Town PS,Anantapuram Town SDPO,PS,L&O,FALSE
+HOME,Anantapur Rural PS,2012002,Anantapur Rural PS,Anantapuram Town SDPO,PS,L&O,FALSE
+HOME,Bukkaraya Samudram PS,2012085,Bukkaraya Samudram PS,Anantapuram Rural SDPO,PS,L&O,FALSE
+HOME,Guntakal I Town PS,2012020,Guntakal I Town PS,Anantapuram Rural SDPO,PS,L&O,FALSE
+HOME,Guntakal II Town PS,2012021,Guntakal II Town PS,Guntakal SDPO,PS,L&O,FALSE
+HOME,Uravakonda PS,2012075,Uravakonda PS,Guntakal SDPO,PS,L&O,FALSE
+HOME,Kalyandurg Town PS,2012031,Kalyandurg Town PS,Guntakal SDPO,PS,L&O,FALSE
+HOME,Rayadurg PS,2012057,Rayadurg PS,Kalyanadurg SDPO,PS,L&O,FALSE
+HOME,Gooty PS,2012018,Gooty PS,Kalyanadurg SDPO,PS,L&O,FALSE
+HOME,Pamidi PS,2012051,Pamidi PS,Guntakal SDPO,PS,L&O,FALSE
+HOME,Tadipathri Rural PS,2012066,Tadipathri Rural PS,Guntakal SDPO,PS,L&O,FALSE
+HOME,Tadipathri Town PS,2012067,Tadipathri Town PS,Tadipatri SDPO,PS,L&O,FALSE
+HOME,Madanapalle I Town PS,2014025,Madanapalle I Town PS,Tadipatri SDPO,PS,L&O,FALSE
+HOME,Madanapalle II Town PS,2014023,Madanapalle II Town PS,Madanapalle SDPO,PS,L&O,FALSE
+HOME,Madanapalle Rural PS,2014024,Madanapalle Rural PS,Madanapalle SDPO,PS,L&O,FALSE
+HOME,B.Kothakota PS,2014006,B.Kothakota PS,Madanapalle SDPO,PS,L&O,FALSE
+HOME,Rajampet PS,2016048,Rajampet PS,Madanapalle SDPO,PS,L&O,FALSE
+HOME,Railway Kodur UPS,2016026,Railway Kodur UPS,Rajampet SDPO,PS,L&O,FALSE
+HOME,Mannur PS,2016033,Mannur PS,Renigunta SDPO,PS,L&O,FALSE
+HOME,Piler PS,2014041,Piler PS,Rajampet SDPO,PS,L&O,FALSE
+HOME,Rayachoty Traffic PS,2016079,Rayachoty Traffic PS,Rayachoty SDPO,PS,L&O,FALSE
+HOME,Rayachoty PS,2016050,Rayachoty PS,Rayachoty SDPO,PS,L&O,FALSE
+HOME,Kalikiri PS,2014018,Kalikiri PS,Rayachoty SDPO,PS,L&O,FALSE
+HOME,Bapatla Town PS,2019007,Bapatla Town PS,Rayachoty SDPO,PS,L&O,FALSE
+HOME,Bapatla Rural PS,2019006,Bapatla Rural PS,Bapatla SDPO,PS,L&O,FALSE
+HOME,Martur PS,2033042,Martur PS,Bapatla SDPO,PS,L&O,FALSE
+HOME,Addanki UPS,2033001,Addanki UPS,Bapatla SDPO,PS,L&O,FALSE
+HOME,Chirala I Town PS,2033009,Chirala I Town PS,Darsi SDPO,PS,L&O,FALSE
+HOME,Chirala II Town PS,2033014,Chirala II Town PS,Chirala SDPO,PS,L&O,FALSE
+HOME,Repalle PS,2019058,Repalle PS,Chirala SDPO,PS,L&O,FALSE
+HOME,Amalapuram Town PS,2017004,Amalapuram Town PS,Repalle SDPO,PS,L&O,FALSE
+HOME,Mandapeta Town PS,2017041,Mandapeta Town PS,Amalapuram SDPO,PS,L&O,FALSE
+HOME,Prakash Nagar PS,2042076,Prakash Nagar PS,East Zone,PS,L&O,FALSE
+HOME,Rajahmundry I Town PS,2042052,Rajahmundry I Town PS,Central Zone,PS,L&O,FALSE
+HOME,Rajahmundry III Town PS,2042054,Rajahmundry III Town PS,Central Zone,PS,L&O,FALSE
+HOME,Bommuru PS,2042013,Bommuru PS,Central Zone,PS,L&O,FALSE
+HOME,Kovvur Town PS,2018024,Kovvur Town PS,South Zone,PS,L&O,FALSE
+HOME,Nallajerla PS,2018067,Nallajerla PS,Kovvur SDPO,PS,L&O,FALSE
+HOME,Rajanagaram PS,2042055,Rajanagaram PS,Kovvur SDPO,PS,L&O,FALSE
+HOME,CCS - II PS,2042095,CCS - II PS,North Zone,PS,L&O,FALSE
+HOME,CCS - III PS,2042096,CCS - III PS,Rajahmundry Crimes,PS,L&O,FALSE
+HOME,CCS - IV PS,2042099,CCS - IV PS,Rajahmundry Crimes,PS,L&O,FALSE
+HOME,Dowaleswaram PS,2042020,Dowaleswaram PS,Rajahmundry Crimes,PS,L&O,FALSE
+HOME,Kadiam PS,2042038,Kadiam PS,South Zone,PS,L&O,FALSE
+HOME,Rajahmundry II Town PS,2042053,Rajahmundry II Town PS,South Zone,PS,L&O,FALSE
+HOME,Eluru I Town PS,2018016,Eluru I Town PS,South Zone,PS,L&O,FALSE
+HOME,Eluru II Town PS,2018017,Eluru II Town PS,Eluru SDPO,PS,L&O,FALSE
+HOME,Eluru III Town PS,2018018,Eluru III Town PS,Eluru SDPO,PS,L&O,FALSE
+HOME,Kaikaluru Town PS,2026020,Kaikaluru Town PS,Eluru SDPO,PS,L&O,FALSE
+HOME,Nuzvid Town PS,2026034,Nuzvid Town PS,Eluru SDPO,PS,L&O,FALSE
+HOME,Kothapet PS,2043030,Kothapet PS,Nuzvid SDPO,PS,L&O,FALSE
+HOME,Lalapet PS,2043032,Lalapet PS,East Sub Division,PS,L&O,FALSE
+HOME,Old guntur PS,2043044,Old guntur PS,East Sub Division,PS,L&O,FALSE
+HOME,Mangalagiri Town PS,2043035,Mangalagiri Town PS,East Sub Division,PS,L&O,FALSE
+HOME,Pedakakani PS,2043055,Pedakakani PS,North Sub Division,PS,L&O,FALSE
+HOME,Tadepalli PS,2043064,Tadepalli PS,North Sub Division,PS,L&O,FALSE
+HOME,Nallapadu PS,2043020,Nallapadu PS,North Sub Division,PS,L&O,FALSE
+HOME,Vatticherukuru PS,2043084,Vatticherukuru PS,South Sub Division,PS,L&O,FALSE
+HOME,Ponnur Town PS,2019053,Ponnur Town PS,South Sub Division,PS,L&O,FALSE
+HOME,Tenali I Town PS,2019067,Tenali I Town PS,Tenali SDPO,PS,L&O,FALSE
+HOME,Tenali II Town PS,2019068,Tenali II Town PS,Tenali SDPO,PS,L&O,FALSE
+HOME,Tenali III Town PS,2019087,Tenali III Town PS,Tenali SDPO,PS,L&O,FALSE
+HOME,Medikonduru PS,2043037,Medikonduru PS,Tenali SDPO,PS,L&O,FALSE
+HOME,Tadikonda PS,2043065,Tadikonda PS,Thulluru SDPO,PS,L&O,FALSE
+HOME,Thulluru Traffic PS,2019096,Thulluru Traffic PS,Thulluru SDPO,PS,L&O,FALSE
+HOME,Thulluru PS,2019072,Thulluru PS,Thulluru SDPO,PS,L&O,FALSE
+HOME,Phirangipuram PS,2019051,Phirangipuram PS,Thulluru SDPO,PS,L&O,FALSE
+HOME,Arundalpet PS,2043003,Arundalpet PS,Thulluru SDPO,PS,L&O,FALSE
+HOME,Nagarampalem PS,2043038,Nagarampalem PS,West Sub Division,PS,L&O,FALSE
+HOME,Pattabhipuram PS,2043048,Pattabhipuram PS,West Sub Division,PS,L&O,FALSE
+HOME,Kakinada I Town CCS PS,2017081,Kakinada I Town CCS PS,West Sub Division,PS,L&O,FALSE
+HOME,Kakinada II Town CCS PS,2017088,Kakinada II Town CCS PS,Kakinada Crimes,PS,L&O,FALSE
+HOME,Kakinada III Town CCS PS,2017093,Kakinada III Town CCS PS,Kakinada Crimes,PS,L&O,FALSE
+HOME,Kakinada I Town PS,2017033,Kakinada I Town PS,Kakinada Crimes,PS,L&O,FALSE
+HOME,Kakinada II Town PS,2017034,Kakinada II Town PS,Kakinada SDPO,PS,L&O,FALSE
+HOME,Kakinada III Town PS,2017035,Kakinada III Town PS,Kakinada SDPO,PS,L&O,FALSE
+HOME,Kakinada Port PS,2017031,Kakinada Port PS,Kakinada SDPO,PS,L&O,FALSE
+HOME,Sarpavaram PS,2017065,Sarpavaram PS,Kakinada SDPO,PS,L&O,FALSE
+HOME,Samalkot PS,2017064,Samalkot PS,Kakinada SDPO,PS,L&O,FALSE
+HOME,Tuni Town PS,2017070,Tuni Town PS,Peddapuram SDPO,PS,L&O,FALSE
+HOME,Kakinada CCS PS,2017094,Kakinada CCS PS,Peddapuram SDPO,PS,L&O,FALSE
+HOME,Chilakalapudi UPS,2026008,Chilakalapudi UPS,Kakinada Crimes,PS,L&O,FALSE
+HOME,Inaguduru UPS,2026015,Inaguduru UPS,Bandar SDPO,PS,L&O,FALSE
+HOME,Robertsonpet PS,2026040,Robertsonpet PS,Bandar SDPO,PS,L&O,FALSE
+HOME,Gannavaram Traffic UPS,2039093,Gannavaram Traffic UPS,Bandar SDPO,PS,L&O,FALSE
+HOME,Gannavaram UPS,2039010,Gannavaram UPS,Gannavaram SDPO,PS,L&O,FALSE
+HOME,Penamaluru UPS,2039033,Penamaluru UPS,Gannavaram SDPO,PS,L&O,FALSE
+HOME,Vuyyuru Town UPS,2039060,Vuyyuru Town UPS,Gannavaram SDPO,PS,L&O,FALSE
+HOME,Gudivada I Town UPS,2026012,Gudivada I Town UPS,Gannavaram SDPO,PS,L&O,FALSE
+HOME,Gudivada II Town UPS,2026014,Gudivada II Town UPS,Gudivada SDPO,PS,L&O,FALSE
+HOME,Adoni I Town PS,2027002,Adoni I Town PS,Gudivada SDPO,PS,L&O,FALSE
+HOME,Adoni II Town PS,2027003,Adoni II Town PS,Adoni SDPO,PS,L&O,FALSE
+HOME,Adoni III Town PS,2027077,Adoni III Town PS,Adoni SDPO,PS,L&O,FALSE
+HOME,Adoni Traffic PS,2027078,Adoni Traffic PS,Adoni SDPO,PS,L&O,FALSE
+HOME,Kurnool I Town PS,2027039,Kurnool I Town PS,Adoni SDPO,PS,L&O,FALSE
+HOME,Kurnool II Town PS,2027040,Kurnool II Town PS,Kurnool SDPO,PS,L&O,FALSE
+HOME,Kurnool III Town PS,2027041,Kurnool III Town PS,Kurnool SDPO,PS,L&O,FALSE
+HOME,Kurnool IV Town PS,2027034,Kurnool IV Town PS,Kurnool SDPO,PS,L&O,FALSE
+HOME,Kurnool Taluk PS,2027038,Kurnool Taluk PS,Kurnool SDPO,PS,L&O,FALSE
+HOME,Pathikonda PS,2027061,Pathikonda PS,Kurnool SDPO,PS,L&O,FALSE
+HOME,Aspari PS,2027006,Aspari PS,Pathikonda SDPO,PS,L&O,FALSE
+HOME,Devanakonda PS,2027018,Devanakonda PS,Pathikonda SDPO,PS,L&O,FALSE
+HOME,Yemmiganur Town PS,2027086,Yemmiganur Town PS,Pathikonda SDPO,PS,L&O,FALSE
+HOME,Kowthalam PS,2027036,Kowthalam PS,Yemmiganur SDPO,PS,L&O,FALSE
+HOME,Gonegandla PS,2027023,Gonegandla PS,Yemmiganur SDPO,PS,L&O,FALSE
+HOME,Allagadda Town PS,2027004,Allagadda Town PS,Yemmiganur SDPO,PS,L&O,FALSE
+HOME,Nandikotkur PS,2027051,Nandikotkur PS,Allagadda SDPO,PS,L&O,FALSE
+HOME,Bethamcherla PS,2027011,Bethamcherla PS,Atmakur SDPO(NDL),PS,L&O,FALSE
+HOME,Dhone Rural PS,2027092,Dhone Rural PS,Dhone SDPO,PS,L&O,FALSE
+HOME,Dhone Town PS,2027019,Dhone Town PS,Dhone SDPO,PS,L&O,FALSE
+HOME,Nandyal I Town PS,2027054,Nandyal I Town PS,Dhone SDPO,PS,L&O,FALSE
+HOME,Nandyal II Town PS,2027055,Nandyal II Town PS,Nandyal SDPO,PS,L&O,FALSE
+HOME,Nandyal III Town PS,2027066,Nandyal III Town PS,Nandyal SDPO,PS,L&O,FALSE
+HOME,Nandyal Taluk PS,2027053,Nandyal Taluk PS,Nandyal SDPO,PS,L&O,FALSE
+HOME,Nandyal Traffic PS,2027047,Nandyal Traffic PS,Nandyal SDPO,PS,L&O,FALSE
+HOME,Dachepalli PS,2019017,Dachepalli PS,Nandyal SDPO,PS,L&O,FALSE
+HOME,Gurazala Town PS,2019021,Gurazala Town PS,Gurazala SDPO,PS,L&O,FALSE
+HOME,Macherla Town PS,2019034,Macherla Town PS,Gurazala SDPO,PS,L&O,FALSE
+HOME,Piduguralla PS,2019052,Piduguralla PS,Gurazala SDPO,PS,L&O,FALSE
+HOME,Chilakaluripet Town PS,2019013,Chilakaluripet Town PS,Gurazala SDPO,PS,L&O,FALSE
+HOME,Narsaraopet I Town PS,2019042,Narsaraopet I Town PS,Narsaraopet SDPO,PS,L&O,FALSE
+HOME,Narsaraopet II Town PS,2019045,Narsaraopet II Town PS,Narsaraopet SDPO,PS,L&O,FALSE
+HOME,Vinukonda PS,2019075,Vinukonda PS,Narsaraopet SDPO,PS,L&O,FALSE
+HOME,Amaravathi PS,2019002,Amaravathi PS,Narsaraopet SDPO,PS,L&O,FALSE
+HOME,Sattenapalli Town PS,2019061,Sattenapalli Town PS,Sattenapalli SDPO,PS,L&O,FALSE
+HOME,Kotiya PS,2037026,Kotiya PS,Sattenapalli SDPO,PS,L&O,FALSE
+HOME,Parvathipuram Town PS,2037038,Parvathipuram Town PS,Parvathipuram SDPO,PS,L&O,FALSE
+HOME,Salur Town PS,2037044,Salur Town PS,Parvathipuram SDPO,PS,L&O,FALSE
+HOME,Giddalur UPS,2033022,Giddalur UPS,Parvathipuram SDPO,PS,L&O,FALSE
+HOME,Ongole I Town PS,2033054,Ongole I Town PS,Markapur SDPO,PS,L&O,FALSE
+HOME,Ongole II Town PS,2033055,Ongole II Town PS,Ongole SDPO,PS,L&O,FALSE
+HOME,Ongole Taluk PS,2033053,Ongole Taluk PS,Ongole SDPO,PS,L&O,FALSE
+HOME,Chimakurthy PS,2033008,Chimakurthy PS,Ongole SDPO,PS,L&O,FALSE
+HOME,Kavali I Town PS,2031031,Kavali I Town PS,Ongole SDPO,PS,L&O,FALSE
+HOME,Kavali II Town PS,2031037,Kavali II Town PS,Kavali SDPO,PS,L&O,FALSE
+HOME,Kavali Rural PS,2031030,Kavali Rural PS,Kavali SDPO,PS,L&O,FALSE
+HOME,Nellore Rural PS,2031045,Nellore Rural PS,Kavali SDPO,PS,L&O,FALSE
+HOME,Buchireddypalem PS,2031006,Buchireddypalem PS,Nellore Rural SDPO,PS,L&O,FALSE
+HOME,V. Sataram PS,2031070,V. Sataram PS,Nellore Rural SDPO,PS,L&O,FALSE
+HOME,Balajinagar PS,2031052,Balajinagar PS,Nellore Rural SDPO,PS,L&O,FALSE
+HOME,Chinna Bazar PS,2031046,Chinna Bazar PS,Nellore Town SDPO,PS,L&O,FALSE
+HOME,Dargamitta PS,2031049,Dargamitta PS,Nellore Town SDPO,PS,L&O,FALSE
+HOME,Nawabpet PS,2031047,Nawabpet PS,Nellore Town SDPO,PS,L&O,FALSE
+HOME,Santhapet PS,2031048,Santhapet PS,Nellore Town SDPO,PS,L&O,FALSE
+HOME,Vedayapalem PS,2031051,Vedayapalem PS,Nellore Town SDPO,PS,L&O,FALSE
+HOME,Dharmavaram I Town PS,2012015,Dharmavaram I Town PS,Nellore Town SDPO,PS,L&O,FALSE
+HOME,Mudigubba PS,2012039,Mudigubba PS,Dharmavaram SDPO,PS,L&O,FALSE
+HOME,Hindupur I Town PS,2012025,Hindupur I Town PS,Dharmavaram SDPO,PS,L&O,FALSE
+HOME,Hindupur II Town PS,2012027,Hindupur II Town PS,Hindupur SDPO,PS,L&O,FALSE
+HOME,Hindupur Rural PS,2012024,Hindupur Rural PS,Hindupur SDPO,PS,L&O,FALSE
+HOME,Kadiri Rural PS,2012029,Kadiri Rural PS,Hindupur SDPO,PS,L&O,FALSE
+HOME,Kadiri Town PS,2012030,Kadiri Town PS,Kadiri SDPO,PS,L&O,FALSE
+HOME,Gorantla PS,2012019,Gorantla PS,Kadiri SDPO,PS,L&O,FALSE
+HOME,Madakasira ups,2012037,Madakasira ups,Penukonda SDPO,PS,L&O,FALSE
+HOME,Puttaparthi Town PS,2012054,Puttaparthi Town PS,Penukonda SDPO,PS,L&O,FALSE
+HOME,Puttaparthi Airport PS,2012091,Puttaparthi Airport PS,Puttaparthi SDPO,PS,L&O,FALSE
+HOME,Puttaparthi Security Wing PS,2012090,Puttaparthi Security Wing PS,Puttaparthi SDPO,PS,L&O,FALSE
+HOME,kothacheruvu ups,2012086,kothacheruvu ups,Puttaparthi SDPO,PS,L&O,FALSE
+HOME,Dharmavaram II Town PS,2064004,Dharmavaram II Town PS,Puttaparthi SDPO,PS,L&O,FALSE
+HOME,Kasibugga PS,2034023,Kasibugga PS,Dharmavaram SDPO,PS,L&O,FALSE
+HOME,Srikakulam II Town PS,2034052,Srikakulam II Town PS,Kasibugga SDPO,PS,L&O,FALSE
+HOME,Tekkali PS,2034054,Tekkali PS,Srikakulam SDPO,PS,L&O,FALSE
+HOME,Naidupet PS,2031044,Naidupet PS,Tekkali SDPO,PS,L&O,FALSE
+HOME,Gudur I Town PS,2031022,Gudur I Town PS,Naidupet SDPO,PS,L&O,FALSE
+HOME,Gudur II Town PS,2031023,Gudur II Town PS,Gudur SDPO,PS,L&O,FALSE
+HOME,Puttur PS,2014044,Puttur PS,Gudur SDPO,PS,L&O,FALSE
+HOME,Renigunta PS,2045047,Renigunta PS,Puttur SDPO,PS,L&O,FALSE
+HOME,Yerpedu PS,2045037,Yerpedu PS,Renigunta SDPO,PS,L&O,FALSE
+HOME,Sri City PS,2014098,Sri City PS,Renigunta SDPO,PS,L&O,FALSE
+HOME,Srikalahasthi I Town PS,2045016,Srikalahasthi I Town PS,Sri City SDPO,PS,L&O,FALSE
+HOME,Srikalahasti II Town PS,2045096,Srikalahasti II Town PS,Srikalahasti SDPO,PS,L&O,FALSE
+HOME,Srikalahasthi Rural PS,2045015,Srikalahasthi Rural PS,Srikalahasti SDPO,PS,L&O,FALSE
+HOME,Tirumala I Town PS,2045057,Tirumala I Town PS,Srikalahasti SDPO,PS,L&O,FALSE
+HOME,Tirumala II Town PS,2045058,Tirumala II Town PS,Tirumala SDPO,PS,L&O,FALSE
+HOME,Alipiri PS,2045001,Alipiri PS,Tirumala SDPO,PS,L&O,FALSE
+HOME,Tirchanur PS,2045056,Tirchanur PS,Tirupati SDPO,PS,L&O,FALSE
+HOME,Tirupathi East PS,2045059,Tirupathi East PS,Chandragiri SDPO,PS,L&O,FALSE
+HOME,Tirupati Rural PS,2045089,Tirupati Rural PS,Tirupati SDPO,PS,L&O,FALSE
+HOME,Pakala PS,2014035,Pakala PS,Chandragiri SDPO,PS,L&O,FALSE
+HOME,S.V.U.Campus PS,2045053,S.V.U.Campus PS,Chandragiri SDPO,PS,L&O,FALSE
+HOME,Tirupathi West PS,2045061,Tirupathi West PS,Tirupati SDPO,PS,L&O,FALSE
+HOME,Bobbili Town PS,2037006,Bobbili Town PS,Tirupati SDPO,PS,L&O,FALSE
+HOME,Rajam Town PS,2034042,Rajam Town PS,Bobbili SDPO,PS,L&O,FALSE
+HOME,Kothavalasa PS,2037031,Kothavalasa PS,Cheepurupalli SDPO,PS,L&O,FALSE
+HOME,Vizianagaram I Town PS,2037061,Vizianagaram I Town PS,Vizianagaram SDPO,PS,L&O,FALSE
+HOME,Vizianagaram II Town PS,2037062,Vizianagaram II Town PS,Vizianagaram SDPO,PS,L&O,FALSE
+HOME,Bhogapuram PS,2037005,Bhogapuram PS,Vizianagaram SDPO,PS,L&O,FALSE
+HOME,S.Kota PS,2037048,S.Kota PS,Vizianagaram SDPO,PS,L&O,FALSE
+HOME,Bhimavaram Traffic PS,2018072,Bhimavaram Traffic PS,Vizianagaram SDPO,PS,L&O,FALSE
+HOME,Bhimavaram I Town PS,2018008,Bhimavaram I Town PS,Bhimavaram SDPO,PS,L&O,FALSE
+HOME,Bhimavaram II Town PS,2018009,Bhimavaram II Town PS,Bhimavaram SDPO,PS,L&O,FALSE
+HOME,Tadepalligudem Town PS,2018041,Tadepalligudem Town PS,Bhimavaram SDPO,PS,L&O,FALSE
+HOME,Narasapuram Town PS,2018031,Narasapuram Town PS,Tadepalligudem SDPO,PS,L&O,FALSE
+HOME,Palakollu Town PS,2018035,Palakollu Town PS,Narasapuram SDPO,PS,L&O,FALSE
+HOME,Tanuku Town PS,2018044,Tanuku Town PS,Narasapuram SDPO,PS,L&O,FALSE
+HOME,Jammalamadugu PS,2016020,Jammalamadugu PS,Tadepalligudem SDPO,PS,L&O,FALSE
+HOME,Muddanur PS,2016031,Muddanur PS,Jammalamadugu SDPO,PS,L&O,FALSE
+HOME,Yerraguntla PS,2016070,Yerraguntla PS,Jammalamadugu SDPO,PS,L&O,FALSE
+HOME,Chinna Chowk PS,2016072,Chinna Chowk PS,Jammalamadugu SDPO,PS,L&O,FALSE
+HOME,Kadapa I Town PS,2016011,Kadapa I Town PS,Kadapa SDPO,PS,L&O,FALSE
+HOME,Kadapa II Town PS,2016012,Kadapa II Town PS,Kadapa SDPO,PS,L&O,FALSE
+HOME,Kadapa Rural PS,2016009,Kadapa Rural PS,Kadapa SDPO,PS,L&O,FALSE
+HOME,RIMS PS,2016073,RIMS PS,Kadapa SDPO,PS,L&O,FALSE
+HOME,Badvel PS,2016002,Badvel PS,Kadapa SDPO,PS,L&O,FALSE
+HOME,Mydukur PS,2016032,Mydukur PS,Mydukur SDPO,PS,L&O,FALSE
+HOME,Proddatur I Town PS,2016042,Proddatur I Town PS,Mydukur SDPO,PS,L&O,FALSE
+HOME,Proddatur II Town PS,2016043,Proddatur II Town PS,Proddatur SDPO,PS,L&O,FALSE
+HOME,Proddatur III Town PS,2016047,Proddatur III Town PS,Proddatur SDPO,PS,L&O,FALSE
+HOME,Proddatur Traffic PS,2016075,Proddatur Traffic PS,Proddatur SDPO,PS,L&O,FALSE
+HOME,Pulivendula Traffic PS,2016076,Pulivendula Traffic PS,Proddatur SDPO,PS,L&O,FALSE
+HOME,Pulivendula PS,2016044,Pulivendula PS,Pulivendula SDPO,PS,L&O,FALSE
+HOME,Vempalli PS,2016063,Vempalli PS,Pulivendula SDPO,PS,L&O,FALSE
+HOME,Nagaram(ELR) PS,2017044,Nagaram(ELR) PS,Pulivendula SDPO,PS,L&O,FALSE
+HOME,Devarapalli(ANK) PS,2018051,Devarapalli(ANK) PS,P.Gannavaram Circle,PS,L&O,FALSE
+HOME,Annavaram(ELR) PS,2017008,Annavaram(ELR) PS,Devarapalli Circle,PS,L&O,FALSE
+HOME,Prathipadu(ELR) PS,2017049,Prathipadu(ELR) PS,Prathipadu Circle,PS,L&O,FALSE
+HOME,Pamarru(ELR) PS,2026036,Pamarru(ELR) PS,Prathipadu Circle,PS,L&O,FALSE
+HOME,Atmakur(NDL) PS,2027007,Atmakur(NDL) PS,Pamarru Circle,PS,L&O,FALSE
+HOME,Rompicherla(Palnadu) PS,2019059,Rompicherla(Palnadu) PS,Atmakur Circle(NDL),PS,L&O,FALSE
+HOME,Seethanagaram(Parvathipuram) PS,2037045,Seethanagaram(Parvathipuram) PS,Narsaraopet Rural  Circle,PS,L&O,FALSE
+HOME,Atmakur(NLR) PS,2031002,Atmakur(NLR) PS,Parvathipuram Rural Circle,PS,L&O,FALSE
+HOME,S.R.Puram(NLR) PS,2031060,S.R.Puram(NLR) PS,Atmakur Circle(NLR),PS,L&O,FALSE
+HOME,Airport(TPTY) PS,2045097,Airport(TPTY) PS,Udayagiri Circle,PS,L&O,FALSE
+HOME,Kondapuram(KDP) PS,2016027,Kondapuram(KDP) PS,Renigunta  Rural Circle,PS,L&O,FALSE
+HOME,Rajupalem(KDP) PS,2016049,Rajupalem(KDP) PS,Kondapuram Circle,PS,L&O,FALSE
+HOME,Kurnool Traffic PS,2027042,Kurnool Traffic PS,Proddatur Rural Circle,PS,L&O,FALSE
+HOME,Guntur Traffic PS,2043021,Guntur Traffic PS,Kurnool Dist,PS,L&O,FALSE
+HOME,NTR Commissionerate,2039,NTR Commissionerate,Guntur Dist,CPO,L&O,FALSE
+HOME,DCP EAST ZONE-NTR,2039402,DCP EAST ZONE-NTR,DGP(HOPF),DCPO,L&O,FALSE
+HOME,DCP RURAL ZONE-NTR,,DCP RURAL ZONE-NTR,NTR Commissionerate,DCPO,L&O,FALSE
+HOME,DCP CRIMES-NTR,2039401,DCP CRIMES-NTR,NTR Commissionerate,DCPO,CRIMES,FALSE
+HOME,DCP CYBERCRIMES-NTR,,DCP CYBERCRIMES-NTR,NTR Commissionerate,DCPO,CRIMES,FALSE
+HOME,DCP CAR-NTR,,DCP CAR-NTR,NTR Commissionerate,DCPO,ADMIN,FALSE
+HOME,ACP NORTH DIVISION-NTR,2039305,ACP NORTH DIVISION-NTR,NTR Commissionerate,ACPO,L&O,FALSE
+HOME,ACP CITY TASK FORCE-NTR,,ACP CITY TASK FORCE-NTR,ADDL DCP WEST ZONE-NTR,ACPO,CRIMES,FALSE
+HOME,ACP CENTRAL CRIME STATION-NTR,,ACP CENTRAL CRIME STATION-NTR,DCP CRIMES-NTR,ACPO,CRIMES,FALSE
+HOME,ACP CYBER CRIME POLICE STATION-NTR,,ACP CYBER CRIME POLICE STATION-NTR,DCP CRIMES-NTR,ACPO,CRIMES,FALSE
+HOME,ACP CITY CRIME RECORD BUREAU-NTR,,ACP CITY CRIME RECORD BUREAU-NTR,DCP CYBERCRIMES-NTR,ACPO,CCRB,FALSE
+HOME,ACP 1 CITY SPECIAL BRANCH-NTR,,ACP 1 CITY SPECIAL BRANCH-NTR,DCP ADMIN-NTR,ACPO,SB,FALSE
+HOME,ADDL DCP CITY AREMED RESERVE-NTR,,ADDL DCP CITY AREMED RESERVE-NTR,DCP ADMIN-NTR,ACPO,ADMIN,FALSE
+HOME,ACP CITY SECURITY WING 2-NTR,,ACP CITY SECURITY WING 2-NTR,DCP CAR-NTR,ACPO,ADMIN,FALSE
+HOME,GUNADALA PS,2039095,GUNADALA PS,DCP CAR-NTR,PS,L&O,FALSE
+HOME,PATAMATA PS,2039058,PATAMATA PS,ACP CENTRAL DIVISION-NTR,PS,L&O,FALSE
+HOME,KRISHNALANKA PS,2039056,KRISHNALANKA PS,ACP CENTRAL DIVISION-NTR,PS,L&O,FALSE
+HOME,SURYARAOPETPS,2039054,SURYARAOPETPS,ACP SOUTH DIVISION-NTR,PS,L&O,FALSE
+HOME,MYLAVARAM PS,2026031,MYLAVARAM PS,ACP SOUTH DIVISION-NTR,PS,L&O,FALSE
+HOME,A.KONDURU PS,2026002,A.KONDURU PS,MYLAVARAM CIRCLE-NTR,PS,L&O,FALSE
+HOME,TIRIVURU PS,2026045,TIRIVURU PS,TIRUVURU CIRCLE-NTR,PS,L&O,FALSE
+HOME,JAGGAIAHPET CIRCLE-NTR,2026208,JAGGAIAHPET CIRCLE-NTR,TIRUVURU CIRCLE-NTR,Circle,L&O,FALSE
+HOME,PENUGANCHIPROLU PS,2026038,PENUGANCHIPROLU PS,ACP NANDIGAMA DIVISION-NTR,PS,L&O,FALSE
+HOME,NANDIGAMA RURAL CIRCLE-NTR,2026209,NANDIGAMA RURAL CIRCLE-NTR,JAGGAIAHPET CIRCLE-NTR,Circle,L&O,FALSE
+HOME,NANDIGAMA PS,2026033,NANDIGAMA PS,ACP NANDIGAMA DIVISION-NTR,PS,L&O,FALSE
+HOME,IBRAHIMPATNAM PS,2039016,IBRAHIMPATNAM PS,ACP NANDIGAMA DIVISION-NTR,PS,L&O,FALSE
+HOME,VIJAYAWADA I TOWN PS,2039051,VIJAYAWADA I TOWN PS,ACP WEST DIVISION-NTR,PS,L&O,FALSE
+HOME,VIJAYAWADA II TOWN PS,2039052,VIJAYAWADA II TOWN PS,ACP WEST DIVISION-NTR,PS,L&O,FALSE
+HOME,NUNNA PS,2039036,NUNNA PS,ACP WEST DIVISION-NTR,PS,L&O,FALSE
+HOME,SATYANARAYANAPURAM PS,2039055,SATYANARAYANAPURAM PS,ACP NORTH DIVISION-NTR,PS,L&O,FALSE
+HOME,TRAFFIC II PS,,TRAFFIC II PS,ACP NORTH DIVISION-NTR,PS,L&O,FALSE
+HOME,TRAFFIC V PS,,TRAFFIC V PS,ACP TRAFFIC ZONE-NTR,PS,L&O,FALSE
+HOME,ACP TRAFFIC ZONE-NTR,2039303,ACP TRAFFIC ZONE-NTR,ACP TRAFFIC ZONE-NTR,ACPO,L&O,FALSE
+HOME,ADDL DCP WEST ZONE-NTR,2039403,ADDL DCP WEST ZONE-NTR,DCP TRAFFIC ZONE-NTR,ADCPO,L&O,FALSE
+HOME,DCP TRAFFIC ZONE-NTR,,DCP TRAFFIC ZONE-NTR,NTR Commissionerate,DCPO,TRAFFIC,FALSE
+HOME,DCP ADMIN-NTR,,DCP ADMIN-NTR,NTR Commissionerate,DCPO,ADMIN,FALSE
+HOME,ACP CENTRAL DIVISION-NTR,,ACP CENTRAL DIVISION-NTR,NTR Commissionerate,ACPO,L&O,FALSE
+HOME,ACP SOUTH DIVISION-NTR,,ACP SOUTH DIVISION-NTR,DCP EAST ZONE-NTR,ACPO,L&O,FALSE
+HOME,ACP MYLAVARAM DIVISION-NTR,2039405,ACP MYLAVARAM DIVISION-NTR,DCP EAST ZONE-NTR,ACPO,L&O,FALSE
+HOME,ACP NANDIGAMA DIVISION-NTR,2026403,ACP NANDIGAMA DIVISION-NTR,DCP RURAL ZONE-NTR,ACPO,L&O,FALSE
+HOME,ACP WEST DIVISION-NTR,2039301,ACP WEST DIVISION-NTR,DCP RURAL ZONE-NTR,ACPO,L&O,FALSE
+HOME,ACP CITY TRAINING CENTRE,,ACP CITY TRAINING CENTRE,ADDL DCP WEST ZONE-NTR,ACPO,ADMIN,FALSE
+HOME,ACP MAHILA PS,2039059,ACP MAHILA PS,DCP ADMIN-NTR,ACPO,ADMIN,FALSE
+HOME,ACP 2 CITY SPECIAL BRANCH-NTR,,ACP 2 CITY SPECIAL BRANCH-NTR,DCP ADMIN-NTR,ACPO,SB,FALSE
+HOME,ACP CITY SECURITY WING 1-NTR,,ACP CITY SECURITY WING 1-NTR,DCP ADMIN-NTR,ACPO,ADMIN,FALSE
+HOME,MACHAVARAM PS,2039057,MACHAVARAM PS,DCP CAR-NTR,PS,L&O,FALSE
+HOME,GOVERNORPET PS,2039053,GOVERNORPET PS,ACP CENTRAL DIVISION-NTR,PS,L&O,FALSE
+HOME,MYLAVARAM CIRCLE-NTR,2026211,MYLAVARAM CIRCLE-NTR,ACP SOUTH DIVISION-NTR,Circle,L&O,FALSE
+HOME,G.KODURU PS,2026010,G.KODURU PS,ACP MYLAVARAM DIVISION-NTR,PS,L&O,FALSE
+HOME,REDDIGUDEM PS,2026041,REDDIGUDEM PS,MYLAVARAM CIRCLE-NTR,PS,L&O,FALSE
+HOME,TIRUVURU CIRCLE-NTR,2026213,TIRUVURU CIRCLE-NTR,MYLAVARAM CIRCLE-NTR,Circle,L&O,FALSE
+HOME,GAMPALAGUDEM PS,2026061,GAMPALAGUDEM PS,ACP MYLAVARAM DIVISION-NTR,PS,L&O,FALSE
+HOME,VISSANNAPET PS,2026059,VISSANNAPET PS,TIRUVURU CIRCLE-NTR,PS,L&O,FALSE
+HOME,CHILLAKALLU PS,2026018,CHILLAKALLU PS,TIRUVURU CIRCLE-NTR,PS,L&O,FALSE
+HOME,JAGGAIAHPET PS,2026017,JAGGAIAHPET PS,JAGGAIAHPET CIRCLE-NTR,PS,L&O,FALSE
+HOME,VATSAVAI PS,2026050,VATSAVAI PS,JAGGAIAHPET CIRCLE-NTR,PS,L&O,FALSE
+HOME,CHANDARLAPADU PS,2026069,CHANDARLAPADU PS,JAGGAIAHPET CIRCLE-NTR,PS,L&O,FALSE
+HOME,KANCHIKACHERLA PS,2026022,KANCHIKACHERLA PS,NANDIGAMA RURAL CIRCLE-NTR,PS,L&O,FALSE
+HOME,VEERULAPADU PS,2026049,VEERULAPADU PS,NANDIGAMA RURAL CIRCLE-NTR,PS,L&O,FALSE
+HOME,BHAVINIPURAM PS,2039008,BHAVINIPURAM PS,NANDIGAMA RURAL CIRCLE-NTR,PS,L&O,FALSE
+HOME,AJITH SINGH NAGAR PS,2039005,AJITH SINGH NAGAR PS,ACP WEST DIVISION-NTR,PS,L&O,FALSE
+HOME,TRAFFIC I PS,,TRAFFIC I PS,ACP NORTH DIVISION-NTR,PS,L&O,FALSE
+HOME,TRAFFIC III PS,,TRAFFIC III PS,ACP TRAFFIC ZONE-NTR,PS,L&O,FALSE
+HOME,TRAFFIC IV PS,,TRAFFIC IV PS,ACP TRAFFIC ZONE-NTR,PS,L&O,FALSE
+HOME,Visakhapatnam Commissionerate,2038,Visakhapatnam Commissionerate,ACP TRAFFIC ZONE-NTR,CPO,L&O,FALSE
+HOME,DCP1-VSP,2038403,DCP1-VSP(L&O),DGP(HOPF),DCPO,L&O,FALSE
+HOME,DCP2-VSP,2038404,DCP2-VSP(L&O),Visakhapatnam Commissionerate,DCPO,L&O,FALSE
+HOME,DCP CRIMES-VSP,2038406,DCP CRIMES-VSP,Visakhapatnam Commissionerate,DCPO,CRIMES,FALSE
+HOME,ADCP ADMIN-CSP,,ADCP ADMIN-CSP,Visakhapatnam Commissionerate,ADCPO,ADMIN,FALSE
+HOME,ADCP CSB-VSP,,ADCP CSB-VSP,Visakhapatnam Commissionerate,ADCPO,ADMIN,FALSE
+HOME,ADCP TRAFFIC-VSP,2038405,ADCP TRAFFIC-VSP,Visakhapatnam Commissionerate,ADCPO,TRAFFIC,FALSE
+HOME,ACP CITY TASK FORCE-VSP,,ACP CITY TASK FORCE-VSP,Visakhapatnam Commissionerate,ACPO,L&O,FALSE
+HOME,ACP WOMEN PS-VSP,,ACP WOMEN PS-VSP,Visakhapatnam Commissionerate,ACPO,L&O,FALSE
+HOME,ACP EAST-VSP,2038303,ACP EAST-VSP,Visakhapatnam Commissionerate,ACPO,L&O,FALSE
+HOME,ACP WEST-VSP,2038300,ACP WEST-VSP,DCP1-VSP,ACPO,L&O,FALSE
+HOME,ADCP CRIMES-VSP,,ADCP CRIMES-VSP,DCP2-VSP,ADCPO,CRIMES,FALSE
+HOME,ACP CSB-VSP,,ACP CSB-VSP,DCP CRIMES-VSP,ACPO,ADMIN,FALSE
+HOME,ACP TRAFFIC-VSP,2038304,ACP TRAFFIC-VSP,ADCP CSB-VSP,ACPO,TRAFFIC,FALSE
+HOME,ACP TRAFFIC2-VSP,,ACP TRAFFIC2-VSP,ADCP TRAFFIC-VSP,ACPO,TRAFFIC,FALSE
+HOME,ACP DWARAKA-VSP,2038308,ACP DWARAKA-VSP,ADCP TRAFFIC-VSP,ACPO,L&O,FALSE
+HOME,ACP HARBOUR-VSP,2038307,ACP HARBOUR-VSP,DCP1-VSP,ACPO,L&O,FALSE
+HOME,ACP NORTH-VSP,2038305,ACP NORTH-VSP,DCP2-VSP,ACPO,L&O,FALSE
+HOME,ACP SOUTH-VSP,2038301,ACP SOUTH-VSP,DCP1-VSP,ACPO,L&O,FALSE
+HOME,ACP CRIMES-VSP,2038306,ACP CRIMES-VSP,DCP2-VSP,ACPO,CRIMES,FALSE
+HOME,ADCP CAR-VSP,,ADCP CAR-VSP,DCP CRIMES-VSP,ADCPO,ADMIN,FALSE
+HOME,ACP CAR1-VSP,,ACP CAR1-VSP,Visakhapatnam Commissionerate,ACPO,ADMIN,FALSE
+HOME,ACP CAR2-VSP,,ACP CAR2-VSP,ADCP CAR-VSP,ACPO,ADMIN,FALSE
+HOME,ACP CCS-VSP,2038005,ACP CCS-VSP,ADCP CAR-VSP,ACPO,CRIMES,FALSE
+HOME,CPO-VSP,,CPO-VSP,DCP CRIMES-VSP,CPO,ADMIN,FALSE
+HOME,CCBR-VSP,,CCBR-VSP,ADCP ADMIN-CSP,CCBR,ADMIN,FALSE
+HOME,PCR-VSP,,PCR-VSP,ADCP ADMIN-CSP,PCR,ADMIN,FALSE
+HOME,II TOWN PS,2038002,II TOWN PS,ADCP ADMIN-CSP,PS,L&O,FALSE
+HOME,MR PETA PS,2038091,MR PETA PS,ACP EAST-VSP,PS,L&O,FALSE
+HOME,III TOWN PS,2038003,III TOWN PS,ACP EAST-VSP,PS,L&O,FALSE
+HOME,IV TOWN PS,2038004,IV TOWN PS,ACP EAST-VSP,PS,L&O,FALSE
+HOME,MVP PS,2038092,MVP PS,ACP EAST-VSP,PS,L&O,FALSE
+HOME,DWARAKA PS,2038076,DWARAKA PS,ACP DWARAKA-VSP,PS,L&O,FALSE
+HOME,ARILOVA PS,2038080,ARILOVA PS,ACP DWARAKA-VSP,PS,L&O,FALSE
+HOME,PM PALEM PS,2038017,PM PALEM PS,ACP DWARAKA-VSP,PS,L&O,FALSE
+HOME,ANANDAPURAM PS,2038006,ANANDAPURAM PS,ACP NORTH-VSP,PS,L&O,FALSE
+HOME,BHEEMUNIPATNAM PS,2038009,BHEEMUNIPATNAM PS,ACP NORTH-VSP,PS,L&O,FALSE
+HOME,PADMANABHAM PS,2038040,PADMANABHAM PS,ACP NORTH-VSP,PS,L&O,FALSE
+HOME,KANCHARAPALEM PS,2038042,KANCHARAPALEM PS,ACP NORTH-VSP,PS,L&O,FALSE
+HOME,AIRPORT PS,2038072,AIRPORT PS,ACP WEST-VSP,PS,L&O,FALSE
+HOME,GOPALAPATNAM PS,2038018,GOPALAPATNAM PS,ACP WEST-VSP,PS,L&O,FALSE
+HOME,PENDURTHI PS,2038035,PENDURTHI PS,ACP WEST-VSP,PS,L&O,FALSE
+HOME,I TOWN PS,2038001,I TOWN PS,ACP WEST-VSP,PS,L&O,FALSE
+HOME,HARBOUR PS,2038007,HARBOUR PS,ACP HARBOUR-VSP,PS,L&O,FALSE
+HOME,MALKAPURAM PS,2038008,MALKAPURAM PS,ACP HARBOUR-VSP,PS,L&O,FALSE
+HOME,NEWPORT PS,2038014,NEWPORT PS,ACP HARBOUR-VSP,PS,L&O,FALSE
+HOME,GAJUWAKA PS,2038010,GAJUWAKA PS,ACP HARBOUR-VSP,PS,L&O,FALSE
+HOME,PARAWADA PS,,PARAWADA PS,ACP SOUTH-VSP,PS,L&O,FALSE
+HOME,STEELPLANT PS,2038011,STEELPLANT PS,ACP SOUTH-VSP,PS,L&O,FALSE
+HOME,DUVVADA PS,2038075,DUVVADA PS,ACP SOUTH-VSP,PS,L&O,FALSE
+HOME,CRIMES EAST PS,,CRIMES EAST PS-VSP,ACP SOUTH-VSP,PS,L&O,FALSE
+HOME,CRIMES DWARAKA PS,,CRIMES DWARAKA PS,ACP CRIMES-VSP,PS,L&O,FALSE
+HOME,CRIMES NORTH PS,,CRIMES NORTH PS-VSP,ACP CRIMES-VSP,PS,L&O,FALSE
+HOME,CRIMES WEST PS,,CRIMES WEST PS-VSP,ACP CRIMES-VSP,PS,L&O,FALSE
+HOME,CRIMES HARBOUR PS,,CRIMES HARBOUR PS,ACP CRIMES-VSP,PS,L&O,FALSE
+HOME,ICRIMES SOUTH PS,,CRIMES SOUTH PS-VSP,ACP CRIMES-VSP,PS,L&O,FALSE
+HOME,CYBER CRIMES PS,2038073,CYBER CRIMES PS,ACP CRIMES-VSP,PS,L&O,FALSE
+HOME,TASK FORCE-VSP PS,,Insp.TASK FORCE-VSP,ACP CRIMES-VSP,PS,L&O,FALSE
+HOME,WOMEN PS,2038070,WOMEN PS-VSP,ACP CITY TASK FORCE-VSP,PS,L&O,FALSE
+HOME,TRAFFIC I PS,2038068,TRAFFIC I PS-VSP,ACP WOMEN PS-VSP,PS,L&O,FALSE
+HOME,TRAFFIC II PS,2038060,TRAFFIC II PS-VSP,ACP TRAFFIC-VSP,PS,L&O,FALSE
+HOME,TRAFFIC III PS,2038061,TRAFFIC III PS-VSP,ACP TRAFFIC-VSP,PS,L&O,FALSE
+HOME,TRAFFIC IV PS,2038062,TRAFFIC IV PS-VSP,ACP TRAFFIC-VSP,PS,L&O,FALSE
+HOME,TRAFFIC V PS,2038063,TRAFFIC V PS-VSP,ACP TRAFFIC-VSP,PS,L&O,FALSE
+HOME,TRAFFIC VI PS,2038064,TRAFFIC VI PS-VSP,ACP TRAFFIC-VSP,PS,L&O,FALSE
+HOME,TRAFFIC VII PS,2038015,TRAFFIC VII PS-VSP,ACP TRAFFIC-VSP,PS,L&O,FALSE
+HOME,TRAFFIC IX PS,,TRAFFIC IX PS-VSP,ACP TRAFFIC-VSP,PS,L&O,FALSE
+HOME,TRAFFIC-II VIII PS,,TRAFFIC-II VII PS-VSP,ACP TRAFFIC-VSP,PS,L&O,FALSE
+HOME,CSB I PS,,CSB I PS-VSP,ACP TRAFFIC2-VSP,PS,L&O,FALSE
+HOME,CSB II PS,,CSB II PS-VSP,ACP CSB-VSP,PS,L&O,FALSE
+HOME,CSB III PS,,CSB III PS-VSP,ACP CSB-VSP,PS,L&O,FALSE
+HOME,CSB IV PS,,CSB IV PS-VSP,ACP CSB-VSP,PS,L&O,FALSE
+HOME,CCS I PS,,CCS I PS-VSP,ACP CSB-VSP,PS,L&O,FALSE
+HOME,CCS II PS,,CCS II PS-VSP,ACP CCS-VSP,PS,L&O,FALSE
+HOME,Markapuram Dist,2957,Markapuram District,ACP CCS-VSP,District,L&O,FALSE
+HOME,Polavaram Dist,2958,Polavaram District,Guntur Range,District,L&O,FALSE
+HOME,Kadapa Traffic PS,2016059,Kadapa Traffic PS,VSP Range,PS,L&O,FALSE
+HOME,"CCS  , Kadapa PS",2016066,"CCS  , Kadapa PS",Kadapa SDPO,PS,L&O,FALSE
+HOME,CCS - I PS,2042094,CCS - I PS,Kadapa SDPO,PS,L&O,FALSE
+HOME,T.Sundupalli Circle,NEW_TSUNDUPALLI,T.Sundupalli Circle,East Godavari Dist,Circle,L&O,FALSE
+HOME,Chowdepalli Circle,NEW_CHOWDEPALLI,Chowdepalli Circle,Rajampet SDPO,Circle,L&O,FALSE
+HOME,Yerraguntla UPS,NEW_YERRAGUNTLA,Yerraguntla UPS,Madanapalle SDPO,Circle,L&O,FALSE
+HOME,T.Sundupalli Circle,NEW_TSUNDUPALLI,T.Sundupalli Circle,Jammalamadugu SDPO,Circle,L&O,FALSE
+HOME,Chowdepalli Circle,NEW_CHOWDEPALLI,Chowdepalli Circle,Rajampet SDPO,Circle,L&O,FALSE
+HOME,Yerraguntla UPS,NEW_YERRAGUNTLA,Yerraguntla UPS,Madanapalle SDPO,Circle,L&O,FALSE
+HOME,T.Sundupalli Circle,NEW_TSUNDUPALLI,T.Sundupalli Circle,Jammalamadugu SDPO,Circle,L&O,FALSE
+HOME,Chowdepalli Circle,NEW_CHOWDEPALLI,Chowdepalli Circle,Rajampet SDPO,Circle,L&O,FALSE
+HOME,Yerraguntla UPS,NEW_YERRAGUNTLA,Yerraguntla UPS,Madanapalle SDPO,Circle,L&O,FALSE
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
