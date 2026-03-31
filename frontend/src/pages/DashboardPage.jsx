@@ -4,7 +4,8 @@ import {
 } from 'react-icons/hi';
 import { 
   HiOutlineGlobeAlt, HiOutlineMap, HiOutlineBuildingOffice2, 
-  HiOutlineMapPin, HiOutlineShieldCheck, HiOutlineSquares2X2
+  HiOutlineMapPin, HiOutlineShieldCheck, HiOutlineSquares2X2,
+  HiOutlineBuildingLibrary
 } from 'react-icons/hi2';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer, Cell,
@@ -16,7 +17,7 @@ import useUiStore from '../store/uiStore';
 import { useAuth } from '../hooks/useAuth';
 import { Link } from 'react-router-dom';
 
-const COLORS = ['#38bdf8', '#818cf8', '#a78bfa', '#f472b6', '#fbbf24', '#34d399'];
+const COLORS = ['#1e3a8a', '#2563eb', '#3b82f6', '#4f46e5', '#6366f1', '#8b5cf6', '#a855f7', '#64748b'];
 
 export default function DashboardPage() {
   const { stats, loading, fetchTree, fetchAllUnits } = useUnitStore();
@@ -29,20 +30,24 @@ export default function DashboardPage() {
   }, []);
 
   const statCards = [
-    { label: 'Total Units', value: stats.total || '0', icon: <HiOutlineBuildingOffice2 />, accent: '#3b82f6' },
-    { label: 'Districts', value: stats.districts || '0', icon: <HiOutlineMap />, accent: '#ef4444' },
-    { label: 'Active Personnel', value: '4,283', icon: <HiOutlineUserGroup />, accent: '#10b981' },
-    { label: 'System Accesses', value: '12.4k', icon: <HiOutlinePlusCircle />, accent: '#f59e0b' },
+    { label: 'Total Force Units', value: stats.total || 0, icon: <HiOutlineBuildingLibrary />, accent: '#1e3a8a' },
+    { label: 'Zones (IG Offices)', value: stats.zones || 0, icon: <HiOutlineGlobeAlt />, accent: '#2563eb' },
+    { label: 'Ranges (DIG Offices)', value: stats.ranges || 0, icon: <HiOutlineMap />, accent: '#3b82f6' },
+    { label: 'Districts (CP/DPO)', value: stats.districts || 0, icon: <HiOutlineBuildingOffice2 />, accent: '#4f46e5' },
+    { label: 'Divisions (SDPOs)', value: stats.divisions || 0, icon: <HiOutlineSquares2X2 />, accent: '#6366f1' },
+    { label: 'Circles (CIs)', value: stats.circles || 0, icon: <HiOutlineMapPin />, accent: '#8b5cf6' },
+    { label: 'Stations (PS)', value: stats.stations || 0, icon: <HiOutlineShieldCheck />, accent: '#10b981' },
+    { label: 'Active Personnel', value: '4,283', icon: <HiOutlineUserGroup />, accent: '#64748b' },
   ];
 
   const distributionData = [
-    { name: 'Stations', value: 850 },
-    { name: 'Circles', value: 240 },
-    { name: 'Divisions', value: 120 },
-    { name: 'Districts', value: 30 },
-    { name: 'Ranges', value: 12 },
-    { name: 'Zones', value: 6 },
-  ];
+    { name: 'Stations', value: stats.stations || 0 },
+    { name: 'Circles', value: stats.circles || 0 },
+    { name: 'Divisions', value: stats.divisions || 0 },
+    { name: 'Districts', value: stats.districts || 0 },
+    { name: 'Ranges', value: stats.ranges || 0 },
+    { name: 'Zones', value: stats.zones || 0 },
+  ].filter(d => d.value > 0); // Only show relevant slices
 
   const recentActivity = [
     { action: 'New Unit Created', target: 'Visakhapatnam Airport PS', time: '12 mins ago', icon: <HiOutlinePlusCircle /> },
@@ -121,16 +126,16 @@ export default function DashboardPage() {
         {/* Activity Feed */}
         <div className="activity-feed-card">
           <div className="chart-header">
-            <h3 style={{ color: 'white' }}>Mission Timeline</h3>
-            <HiOutlineBell style={{ color: '#38bdf8' }} />
+            <h3 style={{ color: '#1e293b' }}>Mission Timeline</h3>
+            <HiOutlineBell style={{ color: '#1e3a8a' }} />
           </div>
           <div className="activity-list">
             {recentActivity.map((act, i) => (
               <div className="activity-item" key={i}>
-                <div className="activity-icon">{act.icon}</div>
+                <div className="activity-icon" style={{ background: '#f1f5f9', border: '1px solid #e2e8f0', color: '#1e3a8a' }}>{act.icon}</div>
                 <div className="activity-content">
-                  <p style={{ fontWeight: 600, color: 'white' }}>{act.action}</p>
-                  <p style={{ color: '#94a3b8' }}>{act.target}</p>
+                  <p style={{ fontWeight: 600, color: '#1e293b' }}>{act.action}</p>
+                  <p style={{ color: '#64748b' }}>{act.target}</p>
                   <div className="activity-time">{act.time}</div>
                 </div>
               </div>

@@ -9,9 +9,9 @@ export default function UploadPage() {
   const { addToast } = useUiStore();
   const { isAdmin } = useAuth();
 
-  const handleUpload = async (file, onProgress) => {
+  const handleUpload = async (file, onProgress, clearExisting) => {
     try {
-      const result = await uploadExcel(file, onProgress);
+      const result = await uploadExcel(file, onProgress, clearExisting);
       addToast({ type: 'success', message: 'Excel file processed successfully!' });
       return result;
     } catch (err) {

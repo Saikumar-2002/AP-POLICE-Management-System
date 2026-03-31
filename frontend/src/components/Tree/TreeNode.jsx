@@ -54,7 +54,9 @@ export default function TreeNode({ node, level = 0, onEdit, onDelete, onAdd, can
           <span className={`badge badge-${unitType}`} style={{ minWidth: '80px', justifyContent: 'center' }}>
             {unitType}
           </span>
-          <span className="tree-meta" style={{ minWidth: '150px' }}>{node.name}</span>
+          <span className="tree-meta" style={{ minWidth: '150px', color: 'var(--text-accent)', fontFamily: 'monospace' }}>
+            {node.unitCode}
+          </span>
 
           {canEdit && (
             <div className="tree-actions">

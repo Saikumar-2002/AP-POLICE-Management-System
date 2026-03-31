@@ -6,6 +6,7 @@ export default function ExcelUpload({ onUpload, loading }) {
   const [dragOver, setDragOver] = useState(false);
   const [progress, setProgress] = useState(0);
   const [result, setResult] = useState(null);
+  const [clearExisting, setClearExisting] = useState(false);
   const inputRef = useRef(null);
 
   const handleFile = (selectedFile) => {
@@ -37,7 +38,7 @@ export default function ExcelUpload({ onUpload, loading }) {
     if (!file || !onUpload) return;
     setResult(null);
     try {
-      const res = await onUpload(file, (p) => setProgress(p));
+      const res = await onUpload(file, (p) => setProgress(p), clearExisting);
       setResult({
         success: true,
         message: `Successfully imported ${res.imported || res.count || 'all'} units.`,
@@ -89,7 +90,29 @@ export default function ExcelUpload({ onUpload, loading }) {
       </div>
 
       {file && (
-        <div style={{ marginTop: '20px', textAlign: 'center' }}>
+        <div style={{ marginTop: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px' }}>
+          <label style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            gap: '10px', 
+            cursor: 'pointer',
+            padding: '10px 16px',
+            background: 'rgba(239, 68, 68, 0.05)',
+            border: '1px solid rgba(239, 68, 68, 0.1)',
+            borderRadius: '10px',
+            fontSize: '0.875rem'
+          }}>
+            <input 
+              type="checkbox" 
+              checked={clearExisting} 
+              onChange={(e) => setClearExisting(e.target.checked)}
+              style={{ width: '18px', height: '18px', cursor: 'pointer' }}
+            />
+            <span style={{ color: 'var(--danger)', fontWeight: 600 }}>
+              Replace existing hierarchy with this file
+            </span>
+          </label>
+
           <button
             className="btn btn-primary btn-lg"
             onClick={handleUpload}

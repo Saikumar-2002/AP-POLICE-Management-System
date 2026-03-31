@@ -82,6 +82,7 @@ router.post('/excel', authenticate, requireAdmin, upload.single('file'), (req, r
     const workbook = xlsx.readFile(req.file.path);
     const sheetName = workbook.SheetNames[0];
     const data = xlsx.utils.sheet_to_json(workbook.Sheets[sheetName]);
+    const clearExisting = req.body.clearExisting === 'true' || req.body.clearExisting === true;
 
     if (data.length === 0) {
       return res.status(400).json({ success: false, message: 'Excel file is empty' });
@@ -92,6 +93,11 @@ router.post('/excel', authenticate, requireAdmin, upload.single('file'), (req, r
 
     // Begin single transaction
     const insertMany = db.transaction((rows) => {
+      // Clear existing data if requested
+      if (clearExisting) {
+        db.prepare('DELETE FROM police_units').run();
+      }
+
       // Pass 1: Insert all nodes
       for (let i = 0; i < rows.length; i++) {
         const row = rows[i];

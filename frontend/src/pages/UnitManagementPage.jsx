@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { HiPlus, HiPencil, HiTrash, HiSearch } from 'react-icons/hi';
+import { HiPlus, HiPencil, HiTrash, HiSearch, HiOutlineRefresh } from 'react-icons/hi';
 import Modal from '../components/common/Modal';
 import UnitForm from '../components/Units/UnitForm';
 import Loader from '../components/common/Loader';
@@ -9,14 +9,15 @@ import { useAuth } from '../hooks/useAuth';
 import HierarchyTree from '../components/Tree/HierarchyTree';
 
 export default function UnitManagementPage() {
-  const { units, tree, loading, fetchAllUnits, fetchTree, createUnit, updateUnit, deleteUnit } = useUnitStore();
+  const { units, tree, loading, fetchAllUnits, fetchTree, createUnit, updateUnit, deleteUnit, clearAllUnits } = useUnitStore();
   const { addToast } = useUiStore();
-  const { canEdit } = useAuth();
+  const { canEdit, isAdmin } = useAuth();
   const [search, setSearch] = useState('');
   const [typeFilter, setTypeFilter] = useState('');
   const [showForm, setShowForm] = useState(false);
   const [editUnit, setEditUnit] = useState(null);
   const [deleteConfirm, setDeleteConfirm] = useState(null);
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
 
   // New State for Tabs
   const [activeTab, setActiveTab] = useState('Units');
@@ -61,6 +62,16 @@ export default function UnitManagementPage() {
     }
   };
 
+  const handleGlobalReset = async () => {
+    try {
+      await clearAllUnits();
+      addToast({ type: 'success', message: 'All hierarchy data cleared successfully' });
+      setShowResetConfirm(false);
+    } catch {
+      addToast({ type: 'error', message: 'Failed to clear hierarchy' });
+    }
+  };
+
   return (
     <div>
       <div className="page-header" style={{ paddingBottom: '0' }}>
@@ -78,7 +89,7 @@ export default function UnitManagementPage() {
 
         {/* Unit Management Tabs */}
         <div className="dash-main-tabs" style={{ marginBottom: 0, borderBottom: 'none' }}>
-          {['Units', 'Organisation Hierarchy'].map(tab => (
+          {['Units', 'Hierarchy System'].map(tab => (
             <button
               key={tab}
               className={`dash-main-tab ${activeTab === tab ? 'active' : ''}`}
@@ -227,8 +238,33 @@ export default function UnitManagementPage() {
             </div>
           </>
         ) : (
-          /* Organisation Hierarchy Tab */
+          /* Hierarchy System Tab */
           <div className="dash-tree-section">
+            <div className="flex justify-between items-center" style={{ marginBottom: '24px' }}>
+              <div>
+                <h3 style={{ fontSize: '1.125rem', fontWeight: 700, color: 'var(--text-primary)' }}>Visual Hierarchy</h3>
+                <p style={{ fontSize: '0.8125rem', color: 'var(--text-muted)' }}>Interactive tree representation</p>
+              </div>
+              <div className="flex gap-sm">
+                <button 
+                  className="btn btn-ghost" 
+                  onClick={fetchTree} 
+                  disabled={loading}
+                  style={{ gap: '8px' }}
+                >
+                  <HiOutlineRefresh className={loading ? 'spin-animation' : ''} /> Refresh
+                </button>
+                {isAdmin && (
+                  <button 
+                    className="btn btn-danger" 
+                    onClick={() => setShowResetConfirm(true)}
+                    style={{ gap: '8px' }}
+                  >
+                    <HiTrash /> Clear All Data
+                  </button>
+                )}
+              </div>
+            </div>
             <div className="tree-container-card" style={{ border: 'none', background: 'transparent', padding: '0' }}>
               {loading && tree.length === 0 ? (
                 <Loader inline text="Loading hierarchy..." />
@@ -279,6 +315,30 @@ export default function UnitManagementPage() {
           Delete <strong style={{ color: 'var(--text-primary)' }}>"{deleteConfirm?.name}"</strong>?
           This action cannot be undone.
         </p>
+      </Modal>
+
+      {/* Global Reset Confirmation */}
+      <Modal
+        isOpen={showResetConfirm}
+        onClose={() => setShowResetConfirm(false)}
+        title="CRITICAL: Global Hierarchy Reset"
+        footer={
+          <>
+            <button className="btn btn-secondary" onClick={() => setShowResetConfirm(false)}>Cancel</button>
+            <button className="btn btn-danger" onClick={handleGlobalReset} disabled={loading}>
+              {loading ? 'Clearing...' : 'Yes, Delete Everything'}
+            </button>
+          </>
+        }
+      >
+        <div style={{ padding: '4px' }}>
+          <p style={{ color: 'var(--text-primary)', fontWeight: 600, marginBottom: '12px' }}>
+            Warning: This will permanently delete ALL police units and hierarchy data from the system.
+          </p>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>
+            This action is intended for performing a clean re-import or resetting the entire state. There is no undo.
+          </p>
+        </div>
       </Modal>
     </div>
   );

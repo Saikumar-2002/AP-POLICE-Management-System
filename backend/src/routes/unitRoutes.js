@@ -5,26 +5,75 @@ import { authenticate, requireManager } from '../middleware/auth.js';
 const router = express.Router();
 const db = dbConfig.db;
 
+// Define logical hierarchy priority
+const UNIT_PRIORITY = {
+  'ministry': 1,    // DGP
+  'zone': 2,        // Zone
+  'range': 3,       // Range
+  'district': 4,    // District
+  'division': 5,    // SDPO
+  'circle': 6,      // Circle
+  'station': 7,     // PS
+  'other': 8
+};
+
 // Build hierarchical tree
 const buildTree = (flatUnits) => {
   const map = new Map();
   const roots = [];
 
-  // Initialize nodes
+  // Create a code-to-node map for easy lookup
+  // and transform data to requested format
   flatUnits.forEach(unit => {
-    map.set(unit.id, { ...unit, children: [] });
+    map.set(unit.unit_code, {
+      name: unit.name,
+      unitCode: unit.unit_code,
+      unitType: unit.unit_type,
+      parentUnitCode: null, // Will be set in next pass
+      id: unit.id, // Keep ID for internal reference if needed
+      children: []
+    });
   });
 
-  // Assign children to parents
+  // Assign children to parents and set parentUnitCode
   flatUnits.forEach(unit => {
-    const node = map.get(unit.id);
-    if (unit.parent_id && map.has(unit.parent_id)) {
-      map.get(unit.parent_id).children.push(node);
+    const node = map.get(unit.unit_code);
+    
+    // Find parent unit code if parent_id exists
+    let parentCode = null;
+    if (unit.parent_id) {
+       const parentUnit = flatUnits.find(u => u.id === unit.parent_id);
+       if (parentUnit) parentCode = parentUnit.unit_code;
+    }
+    
+    node.parentUnitCode = parentCode;
+
+    if (parentCode && map.has(parentCode)) {
+      map.get(parentCode).children.push(node);
     } else {
+      // If no parent or parent not found in the set, it's a root (e.g. DGP)
       roots.push(node);
     }
   });
 
+  // Recursive sort function
+  const sortHierarchy = (nodes) => {
+    nodes.sort((a, b) => {
+      const prioA = UNIT_PRIORITY[a.unitType] || 99;
+      const prioB = UNIT_PRIORITY[b.unitType] || 99;
+      
+      if (prioA !== prioB) return prioA - prioB;
+      return a.name.localeCompare(b.name);
+    });
+    
+    nodes.forEach(node => {
+      if (node.children.length > 0) {
+        sortHierarchy(node.children);
+      }
+    });
+  };
+
+  sortHierarchy(roots);
   return roots;
 };
 
@@ -144,15 +193,16 @@ router.put('/:id', authenticate, requireManager, (req, res, next) => {
   }
 });
 
-// DELETE unit
-router.delete('/:id', authenticate, requireManager, (req, res, next) => {
+// DELETE all units (Admin reset)
+router.delete('/all', authenticate, (req, res, next) => {
   try {
-    const { id } = req.params;
-    
-    // SQLite ON DELETE SET NULL handles children orphaned by this deletion.
-    db.prepare('DELETE FROM police_units WHERE id = ?').run(id);
-    
-    res.json({ success: true, message: 'Unit deleted successfully' });
+    // We check admin role here explicitly or via middleware
+    if (req.user.role !== 'admin') {
+      return res.status(403).json({ success: false, message: 'Super Admin access required for global reset.' });
+    }
+
+    db.prepare('DELETE FROM police_units').run();
+    res.json({ success: true, message: 'All hierarchy data has been cleared.' });
   } catch (err) {
     next(err);
   }

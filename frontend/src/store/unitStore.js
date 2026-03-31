@@ -69,11 +69,23 @@ const useUnitStore = create((set, get) => ({
     }
   },
 
-  uploadExcel: async (file, onProgress) => {
+  clearAllUnits: async () => {
+    set({ loading: true, error: null });
+    try {
+      await api.delete('/units/all');
+      set({ units: [], tree: [], stats: { total: 0, zones: 0, ranges: 0, districts: 0, divisions: 0, circles: 0, stations: 0 }, loading: false });
+    } catch (err) {
+      set({ error: err.response?.data?.message || 'Failed to clear units', loading: false });
+      throw err;
+    }
+  },
+
+  uploadExcel: async (file, onProgress, clearExisting = false) => {
     set({ loading: true, error: null });
     try {
       const formData = new FormData();
       formData.append('file', file);
+      formData.append('clearExisting', clearExisting);
       const res = await api.post('/upload/excel', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
         onUploadProgress: (e) => {
