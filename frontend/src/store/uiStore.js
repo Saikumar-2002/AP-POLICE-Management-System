@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 
 const useUiStore = create((set) => ({
-  sidebarOpen: true,
+  sidebarOpen: window.innerWidth > 768,
   toasts: [],
   globalLoading: false,
 

@@ -2,6 +2,7 @@ import express from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import dbConfig from '../config/database.js';
+import { authenticate } from '../middleware/auth.js';
 
 const router = express.Router();
 const db = dbConfig.db;
@@ -46,10 +47,27 @@ router.post('/login', (req, res, next) => {
         username: user.username,
         name: user.name,
         role: user.role,
-        unit_id: user.unit_id
+        unit_id: user.unit_id,
+        avatar_url: user.avatar_url
       }
     });
 
+  } catch (err) {
+    next(err);
+  }
+});
+
+// Update profile (currently just avatar)
+router.put('/profile', authenticate, (req, res, next) => {
+  try {
+    const { avatar_url } = req.body;
+    const userId = req.user.id;
+
+    db.prepare('UPDATE users SET avatar_url = ? WHERE id = ?').run(avatar_url, userId);
+    
+    const updatedUser = db.prepare('SELECT id, username, name, role, unit_id, avatar_url FROM users WHERE id = ?').get(userId);
+    
+    res.json({ success: true, user: updatedUser });
   } catch (err) {
     next(err);
   }

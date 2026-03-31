@@ -12,8 +12,14 @@ const navItems = [
 
 export default function Sidebar() {
   const { user, logout, isAdmin } = useAuth();
-  const { sidebarOpen, toggleSidebar } = useUiStore();
+  const { sidebarOpen, setSidebarOpen } = useUiStore();
   const navigate = useNavigate();
+
+  const handleNavClick = () => {
+    if (window.innerWidth <= 768) {
+      setSidebarOpen(false);
+    }
+  };
 
   const handleLogout = () => {
     logout();
@@ -26,12 +32,8 @@ export default function Sidebar() {
 
   return (
     <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
-      <div className="sidebar-header">
-        <div className="sidebar-logo">🏛</div>
-        <div>
-          <div className="sidebar-title">Police Station Hierarchy</div>
-          <div className="sidebar-subtitle">Management System</div>
-        </div>
+      <div className="sidebar-search" style={{ padding: '16px' }}>
+        <input type="text" className="input-field" placeholder="Search menu..." />
       </div>
 
       <nav className="sidebar-nav">
@@ -41,6 +43,7 @@ export default function Sidebar() {
             <NavLink
               key={item.to}
               to={item.to}
+              onClick={handleNavClick}
               className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
             >
               <span className="nav-link-icon">{item.icon}</span>
@@ -50,18 +53,6 @@ export default function Sidebar() {
         })}
       </nav>
 
-      <div className="sidebar-footer">
-        <div className="sidebar-user">
-          <div className="sidebar-avatar">{initials}</div>
-          <div className="sidebar-user-info">
-            <div className="sidebar-user-name">{user?.name || 'User'}</div>
-            <div className="sidebar-user-role">{user?.role || 'viewer'}</div>
-          </div>
-          <button className="btn-ghost btn-icon" onClick={handleLogout} title="Logout" style={{ marginLeft: 'auto' }}>
-            <HiOutlineLogout />
-          </button>
-        </div>
-      </div>
     </aside>
   );
 }

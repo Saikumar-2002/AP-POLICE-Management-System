@@ -30,6 +30,49 @@ const upload = multer({
   }
 });
 
+// Helper to normalize unit types based on common police terminology
+const normalizeUnitType = (type) => {
+  if (!type) return "";
+  const t = String(type).toLowerCase().trim();
+  const mappings = {
+    "sdpo": "division",
+    "ci": "circle",
+    "sho": "station",
+    "ps": "station",
+    "police station": "station",
+    "dpo": "district",
+    "ig office": "zone",
+    "cp office": "zone",
+    "dig office": "range",
+    "sub-division": "division",
+    "division": "division",
+    "circle": "circle",
+    "district": "district",
+    "zone": "zone",
+    "range": "range",
+    "ministry": "ministry",
+    "station": "station"
+  };
+  
+  const normalized = mappings[t] || t;
+  const allowedTypes = ["ministry", "zone", "range", "district", "division", "circle", "station", "other"];
+  
+  return allowedTypes.includes(normalized) ? normalized : "other";
+};
+
+// Helper to find value in row by multiple possible keys (case-insensitive & space-insensitive)
+const getVal = (row, possibleKeys) => {
+  const rowKeys = Object.keys(row);
+  for (const pk of possibleKeys) {
+    const pkNorm = pk.toLowerCase().replace(/[\s_]/g, "");
+    for (const rk of rowKeys) {
+      const rkNorm = rk.toLowerCase().replace(/[\s_]/g, "");
+      if (rkNorm === pkNorm) return row[rk];
+    }
+  }
+  return null;
+};
+
 router.post('/excel', authenticate, requireAdmin, upload.single('file'), (req, res, next) => {
   if (!req.file) {
     return res.status(400).json({ success: false, message: 'No file uploaded' });
@@ -49,26 +92,34 @@ router.post('/excel', authenticate, requireAdmin, upload.single('file'), (req, r
 
     // Begin single transaction
     const insertMany = db.transaction((rows) => {
-      // Pass 1: Insert all nodes, handling unit_code uniqueness
+      // Pass 1: Insert all nodes
       for (let i = 0; i < rows.length; i++) {
         const row = rows[i];
         
-        // required fields mapping logic
-        const code = String(row.unitCode || row.unit_code || '').trim();
-        const name = String(row.name || '').trim();
-        const type = String(row.unitType || row.unit_type || '').trim().toLowerCase();
-        const ministry = row.ministry ? String(row.ministry).trim() : null;
-        const department = row.department ? String(row.department).trim() : null;
-        const legacyRef = row.legacyReference || row.legacy_reference ? String(row.legacyReference || row.legacy_reference).trim() : null;
-        const isVirtual = row.isVirtual || row.is_virtual ? 1 : 0;
+        const rawCode = getVal(row, ["unitCode", "unit_code", "code"]);
+        const code = rawCode ? String(rawCode).trim() : "";
+        
+        const rawName = getVal(row, ["name", "unitName", "unit_name"]);
+        const name = rawName ? String(rawName).trim() : "";
+        
+        const rawType = getVal(row, ["unitType", "unit_type", "type"]);
+        const type = normalizeUnitType(rawType);
+        
+        const ministry = getVal(row, ["ministry", "dept"]);
+        const department = getVal(row, ["department", "dept_name"]);
+        const legacyRef = getVal(row, ["legacyReference", "legacy_reference", "legacy"]);
+        const isVirtual = getVal(row, ["isVirtual", "is_virtual", "virtual"]) ? 1 : 0;
         
         if (!code || !name || !type) {
-           errors.push(`Row ${i + 2}: Missing required fields (unitCode, name, or unitType)`);
+           const missing = [];
+           if (!code) missing.push("unitCode");
+           if (!name) missing.push("name");
+           if (!type) missing.push("unitType");
+           errors.push(`Row ${i + 2}: Missing required fields (${missing.join(", ")})`);
            continue;
         }
 
         try {
-            // Upsert basic info
             db.prepare(`
                INSERT INTO police_units (unit_code, name, unit_type, ministry, department, legacy_reference, is_virtual)
                VALUES (?, ?, ?, ?, ?, ?, ?)
@@ -86,11 +137,14 @@ router.post('/excel', authenticate, requireAdmin, upload.single('file'), (req, r
         }
       }
 
-      // Pass 2: Update parent references after all units exist
+      // Pass 2: Update parent references
       for (let i = 0; i < rows.length; i++) {
         const row = rows[i];
-        const code = String(row.unitCode || row.unit_code || '').trim();
-        const parentCode = row.parentUnitCode || row.parent_unit_code ? String(row.parentUnitCode || row.parent_unit_code).trim() : null;
+        const rawCode = getVal(row, ["unitCode", "unit_code", "code"]);
+        const code = rawCode ? String(rawCode).trim() : "";
+        
+        const rawParentCode = getVal(row, ["parentUnitCode", "parent_unit_code", "parent_code", "parent"]);
+        const parentCode = rawParentCode ? String(rawParentCode).trim() : null;
         
         if (code && parentCode) {
            try {
@@ -98,7 +152,7 @@ router.post('/excel', authenticate, requireAdmin, upload.single('file'), (req, r
                if (parentNode) {
                    db.prepare('UPDATE police_units SET parent_id = ? WHERE unit_code = ?').run(parentNode.id, code);
                } else {
-                   errors.push(`Row ${i + 2} (${code}): Parent unit code '${parentCode}' not found in file or DB`);
+                   errors.push(`Row ${i + 2} (${code}): Parent unit code '${parentCode}' not found`);
                }
            } catch(e) {
                errors.push(`Row ${i + 2} (${code}): Failed to set parent - ${e.message}`);
@@ -120,6 +174,28 @@ router.post('/excel', authenticate, requireAdmin, upload.single('file'), (req, r
   } catch (err) {
     next(err);
   }
+});
+
+// Single image upload for avatars
+const imageUpload = multer({
+  storage: storage,
+  fileFilter: (req, file, cb) => {
+    const ext = path.extname(file.originalname).toLowerCase();
+    if (ext !== '.png' && ext !== '.jpg' && ext !== '.jpeg' && ext !== '.webp') {
+      return cb(new Error('Only images are allowed (png, jpg, jpeg, webp)'));
+    }
+    cb(null, true);
+  },
+  limits: { fileSize: 2 * 1024 * 1024 } // 2MB limit
+});
+
+router.post('/image', authenticate, imageUpload.single('image'), (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ success: false, message: 'No image uploaded' });
+  }
+  
+  const imageUrl = `/uploads/${req.file.filename}`;
+  res.json({ success: true, url: imageUrl });
 });
 
 export default router;

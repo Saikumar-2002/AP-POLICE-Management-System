@@ -6,15 +6,19 @@ import { searchTree } from '../../utils/treeUtils';
 export default function HierarchyTree({ tree, onEdit, onDelete, onAdd, canEdit, loading, onRefresh }) {
   const [query, setQuery] = useState('');
   const [selectedId, setSelectedId] = useState(null);
+  const [globalExpandState, setGlobalExpandState] = useState(null);
 
   const filteredTree = useMemo(() => {
     return searchTree(tree, query);
   }, [tree, query]);
 
+  const handleExpandAll = () => setGlobalExpandState({ type: 'EXPAND_ALL', ts: Date.now() });
+  const handleCollapseAll = () => setGlobalExpandState({ type: 'COLLAPSE_ALL', ts: Date.now() });
+
   return (
     <div>
-      <div className="flex gap-sm" style={{ marginBottom: '16px' }}>
-        <div style={{ position: 'relative', flex: 1 }}>
+      <div className="flex gap-sm" style={{ marginBottom: '16px', flexWrap: 'wrap', alignItems: 'center' }}>
+        <div style={{ position: 'relative', flex: 1, minWidth: '200px' }}>
           <HiSearch style={{
             position: 'absolute',
             left: '12px',
@@ -26,13 +30,23 @@ export default function HierarchyTree({ tree, onEdit, onDelete, onAdd, canEdit, 
           <input
             type="text"
             className="input-field"
-            placeholder="Search units by name, code, or type..."
+            placeholder="Select a unit to filter..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             style={{ paddingLeft: '36px' }}
             id="tree-search-input"
           />
         </div>
+        
+        <div className="flex gap-sm">
+          <button className="btn btn-secondary btn-icon-text" onClick={handleExpandAll} style={{ fontSize: '0.8125rem' }}>
+            <span style={{ fontSize: '1rem' }}>⊕</span> Expand All
+          </button>
+          <button className="btn btn-secondary btn-icon-text" onClick={handleCollapseAll} style={{ fontSize: '0.8125rem' }}>
+            <span style={{ fontSize: '1rem' }}>⊖</span> Collapse All
+          </button>
+        </div>
+
         {onRefresh && (
           <button className="btn btn-secondary btn-icon" onClick={onRefresh} title="Refresh" id="refresh-tree-btn">
             <HiOutlineRefresh className={loading ? 'spin-animation' : ''} />
@@ -64,6 +78,7 @@ export default function HierarchyTree({ tree, onEdit, onDelete, onAdd, canEdit, 
               canEdit={canEdit}
               selectedId={selectedId}
               onSelect={(n) => setSelectedId(n.id === selectedId ? null : n.id)}
+              globalExpandState={globalExpandState}
             />
           ))
         )}

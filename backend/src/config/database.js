@@ -37,10 +37,19 @@ function init() {
       name TEXT NOT NULL,
       role TEXT DEFAULT 'viewer' CHECK (role IN ('admin','manager','viewer')),
       unit_id INTEGER,
+      avatar_url TEXT,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       FOREIGN KEY (unit_id) REFERENCES police_units(id) ON DELETE SET NULL
     );
   `);
+
+  // Migration: Add avatar_url column to users table if it doesn't exist
+  try {
+    db.exec('ALTER TABLE users ADD COLUMN avatar_url TEXT');
+  } catch (e) {
+    // Column already exists or table is blank
+  }
+
 
   // Create indexes if they don't exist
   db.exec(`
